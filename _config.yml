@@ -3,6 +3,6 @@ email: thanhho1356@gmail.com
 description: Web đọc truyện đam mỹ tuyển chọn
 url: "https://trieulm-2.github.io"
 baseurl: "/goctruyencuatui"
-remote_theme: adamrehn/jekyll-theme-gitbook@v0.0.1
+remote_theme: pages-themes/midnight
 plugins: ["jekyll-remote-theme"]
 markdown: kramdown
