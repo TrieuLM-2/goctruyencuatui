@@ -7,7 +7,7 @@ description: Một trang web tui up mấy thứ linh tinh về truyện
 
 # QUAN TRỌNG: Link web (Không sửa lung tung nha)
 url: "https://trieulm-2.github.io"
-baseurl: "/goctruyennho"
+baseurl: "/goctruyencuatui"
 
 # Múi giờ (Ông ở Úc hả? Nếu ở VN thì sửa thành Asia/Ho_Chi_Minh)
 timezone: Australia/Brisbane
