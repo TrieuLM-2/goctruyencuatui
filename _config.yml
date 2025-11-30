@@ -8,3 +8,23 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 markdown: kramdown
+# Thêm vào cuối file _config.yml
+# CSS tùy chỉnh căn lề, thụt dòng
+header_pages:
+  - index.md
+
+scss:
+  sass_dir: _sass
+
+# Code chèn CSS trực tiếp (Cách này bao chạy)
+head_scripts: |
+  <style>
+    .wrapper { max-width: 900px !important; }
+    p { 
+      text-align: justify; 
+      text-indent: 30px; 
+      font-size: 18px; 
+      line-height: 1.8;
+    }
+    img { margin: 0 auto; display: block; border-radius: 10px; }
+  </style>
