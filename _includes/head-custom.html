@@ -1,38 +1,39 @@
 <style>
-  /* 1. Ẩn nút View on GitHub */
-  header a.btn {
-    display: none !important;
+  /* 1. Ẩn nút "View on GitHub" và "Download" trên đầu trang */
+  .project-name, .project-tagline { margin-bottom: 10px; }
+  .btn { display: none !important; } /* Lệnh hủy diệt nút */
+
+  /* 2. Chỉnh khung bài viết (Căn giữa, độ rộng vừa phải) */
+  .main-content {
+    max-width: 900px !important; /* Rộng 900px đọc cho sướng */
+    margin: 0 auto !important;   /* Tự động căn giữa màn hình */
+    padding: 2rem 1rem !important;
+    font-size: 1.1rem;           /* Chữ to hơn mặc định xíu */
   }
 
-  /* 2. Căn lề và thụt đầu dòng cho truyện */
-  div.wrapper {
-    width: 900px !important;    /* Nới rộng khung đọc */
-    max-width: 95% !important;
-  }
-
-  /* Cấu hình văn bản (QUAN TRỌNG) */
+  /* 3. Căn chỉnh văn bản truyện (Chuẩn sách giáo khoa) */
   p {
-    font-size: 18px !important;       /* Chữ to 18px */
-    line-height: 1.8 !important;      /* Dãn dòng 1.8 */
-    text-align: justify !important;   /* Căn đều 2 bên */
-    text-indent: 30px !important;     /* Thụt đầu dòng 30px */
-    margin-bottom: 25px !important;   /* Khoảng cách đoạn */
-    color: #e6e6e6 !important;        /* Màu chữ trắng xám cho dễ đọc nền đen */
+    text-align: justify !important; /* Căn đều 2 bên */
+    text-indent: 30px !important;   /* Thụt đầu dòng */
+    line-height: 1.8 !important;    /* Dãn dòng thoáng */
+    margin-bottom: 25px !important;
+    color: #1a1a1a !important;      /* Màu chữ đen xám dịu mắt (không đen sì) */
   }
 
-  /* 3. Tiêu đề màu trắng */
-  h1, h2, h3, h4 {
-    color: #ffffff !important;
-    text-shadow: none !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  /* 4. Tiêu đề bài viết */
+  h1, h2, h3 {
+    color: #159957 !important; /* Màu xanh lá mạ của theme cho đồng bộ */
+    margin-top: 40px !important;
   }
+
+  /* 5. Link */
+  a { color: #1e6bb8 !important; }
   
-  /* 4. Link màu xanh sáng cho dễ nhìn */
-  a {
-    color: #64b5f6 !important;
-    text-decoration: none !important;
-  }
-  a:hover {
-    text-decoration: underline !important;
+  /* 6. Ảnh */
+  img { 
+    display: block; 
+    margin: 20px auto; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Đổ bóng nhẹ cho ảnh nổi */
   }
 </style>
