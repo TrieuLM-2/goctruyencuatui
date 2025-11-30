@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Trang Chủ
 nav_order: 1
 ---

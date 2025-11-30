@@ -8,7 +8,9 @@ tags: [MM Romance, Mystery, Fantasy]
 # 🐺 The Wolf at the Door
 
 **Tác giả:** Charlie Adhara
+
 **Thể loại:** [MM Romance](/tags/#mm-romance), [Mystery](/tags/#mystery), [Fantasy](/tags/#fantasy)
+
 **Số chương:** 19
 
 ### 📖 Tóm tắt nội dung
