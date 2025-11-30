@@ -1,8 +1,10 @@
-title: Góc Truyện Của Tui
+title: Góc Truyện Nhỏ
 email: thanhho1356@gmail.com
-description: *So many books, so little time.*
+description: Web đọc truyện đam mỹ tuyển chọn - The Wolf at the Door
 url: "https://trieulm-2.github.io"
 baseurl: "/goctruyencuatui"
 remote_theme: pages-themes/midnight
-plugins: ["jekyll-remote-theme"]
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 markdown: kramdown
