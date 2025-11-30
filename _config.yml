@@ -1,40 +1,10 @@
----
----
-/* Dòng này BẮT BUỘC để gọi theme Sói Đêm về (Không có là trắng trang ráng chịu nha) */
-@import "jekyll-theme-midnight";
-
-/* --- BẮT ĐẦU CUSTOM --- */
-
-/* 1. THỦ TIÊU cái nút "View on GitHub" vô duyên */
-header a.btn {
-  display: none !important;
-}
-
-/* 2. Căn chỉnh khung web cho rộng rãi thoáng mát */
-div.wrapper {
-  width: 900px;         /* Mặc định nó hơi hẹp, nới ra 900px đọc cho sướng */
-  max-width: 95%;       /* Để xem trên điện thoại không bị tràn */
-}
-
-/* 3. Làm đẹp văn bản truyện (Chuẩn sách in) */
-p {
-  font-size: 18px;      /* Chữ to rõ, người già cũng đọc được */
-  line-height: 1.8;     /* Dãn dòng thoáng */
-  text-align: justify;  /* Căn đều 2 bên lề trái phải */
-  text-indent: 30px;    /* Thụt đầu dòng mỗi đoạn */
-  margin-bottom: 20px;
-}
-
-/* 4. Chỉnh lại màu tiêu đề cho nổi */
-h1, h2, h3 {
-  text-shadow: none;    /* Bỏ cái bóng mờ mặc định nhìn hơi quê */
-  color: #ffffff;       /* Màu trắng tinh khôi */
-}
-
-/* 5. Chỉnh ảnh (nếu có) */
-img {
-  display: block;
-  margin: 20px auto;    /* Căn giữa ảnh */
-  border-radius: 8px;   /* Bo góc ảnh */
-  max-width: 100%;
-}
+title: Góc Truyện Nhỏ
+email: thanhho1356@gmail.com
+description: Web đọc truyện đam mỹ tuyển chọn - The Wolf at the Door
+url: "https://trieulm-2.github.io"
+baseurl: "/goctruyencuatui"
+remote_theme: pages-themes/midnight
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+markdown: kramdown

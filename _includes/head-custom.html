@@ -1,35 +1,38 @@
 <style>
-  /* 1. Ẩn cái nút "View on GitHub" vô duyên */
+  /* 1. Ẩn nút View on GitHub */
   header a.btn {
     display: none !important;
   }
 
-  /* 2. Căn chỉnh khung web cho rộng rãi (900px) */
+  /* 2. Căn lề và thụt đầu dòng cho truyện */
   div.wrapper {
-    width: 900px !important;
+    width: 900px !important;    /* Nới rộng khung đọc */
     max-width: 95% !important;
   }
 
-  /* 3. Cấu hình văn bản truyện (Thụt dòng, căn đều) */
+  /* Cấu hình văn bản (QUAN TRỌNG) */
   p {
-    font-size: 18px !important;       /* Chữ to */
-    line-height: 1.8 !important;      /* Dãn dòng */
+    font-size: 18px !important;       /* Chữ to 18px */
+    line-height: 1.8 !important;      /* Dãn dòng 1.8 */
     text-align: justify !important;   /* Căn đều 2 bên */
     text-indent: 30px !important;     /* Thụt đầu dòng 30px */
-    margin-bottom: 25px !important;
+    margin-bottom: 25px !important;   /* Khoảng cách đoạn */
+    color: #e6e6e6 !important;        /* Màu chữ trắng xám cho dễ đọc nền đen */
   }
 
-  /* 4. Chỉnh ảnh (nếu có) */
-  img {
-    display: block;
-    margin: 20px auto;
-    border-radius: 8px;
-    max-width: 100%;
+  /* 3. Tiêu đề màu trắng */
+  h1, h2, h3, h4 {
+    color: #ffffff !important;
+    text-shadow: none !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
   }
   
-  /* 5. Màu tiêu đề */
-  h1, h2, h3 {
-    color: #fff !important;
-    text-shadow: none !important;
+  /* 4. Link màu xanh sáng cho dễ nhìn */
+  a {
+    color: #64b5f6 !important;
+    text-decoration: none !important;
+  }
+  a:hover {
+    text-decoration: underline !important;
   }
 </style>
