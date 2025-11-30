@@ -29,7 +29,7 @@ Khi danh sách nạn nhân dài thêm mỗi ngày, cả hai nhận ra: *Nếu kh
 
 ## 📑 Mục Lục
 
-* **[Chương 1: Kẻ Chạy Trốn & Cái Ruột Thừa (Của BSI)](./chap-01)**
+* **[Chương 1: Kẻ Chạy Trốn & Cái Ruột Thừa (Của BSI)](./Chương-01)**
 
 * Chương 2: (Sắp ra mắt) 🔒
 * Chương 3: (Chờ đê...) 🔒

@@ -207,4 +207,4 @@ Chẳng mấy chốc Jefferson thả anh trước cửa chung cư với lời nh
 
 "Một tí thôi hả? Chuyện nhỏ!" Cooper nói với theo.
 
-[Bấm để qua chương sau](./chap-02)
+[*Chương 2](./chap-02)
