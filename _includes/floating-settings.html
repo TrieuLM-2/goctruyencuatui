@@ -30,9 +30,9 @@
         <span class="setting-title">Cỡ chữ: <span id="font-size-val">100%</span></span>
       </div>
       <div class="range-control">
-        <button class="control-btn" onclick="adjustSize(-5)">-</button>
-        <input type="range" id="font-size-range" min="80" max="150" value="100" step="5">
-        <button class="control-btn" onclick="adjustSize(5)">+</button>
+        <button class="control-btn" onclick="adjustSize(-10)">-</button>
+        <input type="range" id="font-size-range" min="80" max="200" value="100" step="10">
+        <button class="control-btn" onclick="adjustSize(10)">+</button>
       </div>
     </div>
 
@@ -61,10 +61,8 @@
 </div>
 
 <style>
-  /* Import thêm font cho phong phú */
   @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Lora:wght@400;600&family=Roboto:wght@300;400;500&family=Open+Sans:wght@400;600&family=Patrick+Hand&display=swap');
 
-  /* Container chính */
   .floating-settings {
     position: fixed;
     bottom: 30px;
@@ -73,7 +71,6 @@
     font-family: 'Nunito Sans', sans-serif;
   }
 
-  /* Nút tròn bật tắt */
   .settings-toggle {
     width: 50px;
     height: 50px;
@@ -93,7 +90,6 @@
     background: #128249;
   }
 
-  /* Bảng cài đặt */
   .settings-panel {
     position: absolute;
     bottom: 65px;
@@ -103,7 +99,7 @@
     border-radius: 12px;
     padding: 20px;
     box-shadow: 0 5px 25px rgba(0,0,0,0.2);
-    display: none; /* Mặc định ẩn */
+    display: none;
     opacity: 0;
     transform: translateY(10px);
     transition: opacity 0.3s, transform 0.3s;
@@ -114,7 +110,6 @@
     transform: translateY(0);
   }
 
-  /* Từng nhóm cài đặt */
   .setting-group { margin-bottom: 15px; }
   
   .setting-header {
@@ -128,7 +123,6 @@
   }
   .setting-icon { color: #159957; font-size: 1.1rem; }
 
-  /* Dropdown & Range */
   .setting-input {
     width: 100%;
     padding: 8px;
@@ -155,7 +149,6 @@
   }
   .control-btn:hover { background: #ddd; }
 
-  /* Theme Buttons */
   .theme-options { display: flex; gap: 8px; }
   .theme-btn {
     flex: 1;
@@ -169,7 +162,6 @@
   }
   .theme-btn.active { border-color: #159957; color: #159957; background: #e8f5e9; }
 
-  /* Reset Button */
   .reset-btn {
     width: 100%;
     margin-top: 10px;
@@ -183,38 +175,17 @@
   }
   .reset-btn:hover { border-color: #d9534f; color: #d9534f; }
 
-  /* === GIAO DIỆN SEPIA & DARK (Áp dụng vào body) === */
-  
-  /* Sepia (Giấy cũ) */
-  body.sepia-mode {
-    background-color: #f4ecd8 !important;
-    color: #5b4636 !important;
-  }
-  body.sepia-mode .card-wrapper, 
-  body.sepia-mode .site-header {
-    background-color: #fdf6e3 !important;
-    border-color: #d3cbbd !important;
-  }
-  body.sepia-mode h1, body.sepia-mode h2, body.sepia-mode h3, body.sepia-mode a {
-    color: #463325 !important;
-  }
-
-  /* Dark (Tối) - Ghi đè lên dark mode cũ nếu có */
-  body.dark-mode {
-    background-color: #1a1a1a !important;
-    color: #ccc !important;
-  }
-  body.dark-mode .card-wrapper, 
-  body.dark-mode .site-header,
+  /* Dark mode support for settings panel */
   body.dark-mode .settings-panel {
-    background-color: #2d2d2d !important;
-    border-color: #444 !important;
+    background-color: #2d2d2d;
+    border: 1px solid #444;
     color: #eee;
   }
   body.dark-mode .setting-header { color: #eee; }
-  body.dark-mode .setting-input, body.dark-mode .control-btn { 
+  body.dark-mode .setting-input, body.dark-mode .control-btn, body.dark-mode .theme-btn { 
     background: #444; color: white; border: none; 
   }
+  body.dark-mode .reset-btn { color: #aaa; border-color: #666; }
 </style>
 
 <script>
@@ -228,7 +199,6 @@ document.addEventListener("DOMContentLoaded", function() {
     panel.classList.toggle("show");
   });
 
-  // Đóng panel khi click ra ngoài
   document.addEventListener("click", (e) => {
     if (!panel.contains(e.target) && e.target !== toggleBtn) {
       panel.classList.remove("show");
@@ -247,66 +217,50 @@ document.addEventListener("DOMContentLoaded", function() {
   if(savedTheme) setTheme(savedTheme);
 
   // 3. Event Listeners
-  
-  // Font Family
-  document.getElementById("font-selector").addEventListener("change", function() {
-    applyFont(this.value);
-  });
+  document.getElementById("font-selector").addEventListener("change", function() { applyFont(this.value); });
+  document.getElementById("font-size-range").addEventListener("input", function() { applySize(this.value); });
+  document.getElementById("line-height-range").addEventListener("input", function() { applyLine(this.value); });
 
-  // Font Size Slider
-  document.getElementById("font-size-range").addEventListener("input", function() {
-    applySize(this.value);
-  });
-
-  // Line Height Slider
-  document.getElementById("line-height-range").addEventListener("input", function() {
-    applyLine(this.value);
-  });
-
-  // Reset
   document.getElementById("reset-btn").addEventListener("click", function() {
     applyFont("'Nunito Sans', sans-serif");
     applySize(100);
     applyLine(1.8);
     setTheme('light');
     
-    // Reset inputs
     document.getElementById("font-selector").value = "'Nunito Sans', sans-serif";
     document.getElementById("font-size-range").value = 100;
     document.getElementById("line-height-range").value = 1.8;
   });
 });
 
-// === FUNCTIONS ===
+// === CHỈNH SỬA QUAN TRỌNG Ở ĐÂY ===
 
 function applyFont(font) {
-  document.body.style.fontFamily = font;
-  document.getElementById("font-selector").value = font; // Sync select box
+  // Chỉ đổi font cho nội dung truyện, không đổi toàn trang
+  const content = document.querySelector('.chapter-content');
+  if (content) {
+      content.style.fontFamily = font;
+  }
+  document.getElementById("font-selector").value = font; 
   localStorage.setItem("reader_font", font);
 }
 
 function applySize(size) {
-  // Chỉ chỉnh size cho phần nội dung truyện (.chapter-content hoặc p)
-  const content = document.querySelector('.card-wrapper'); 
+  // Chỉ chọn đúng class .chapter-content để chỉnh cỡ chữ
+  const content = document.querySelector('.chapter-content'); 
   if(content) {
-    content.style.fontSize = size + "%";
+    // size là %, nhưng vì base đang là 1.1rem, ta tính toán xíu cho mượt
+    // Hoặc đơn giản gán % đè lên
+    content.style.fontSize = size + "%"; 
   }
   document.getElementById("font-size-val").innerText = size + "%";
   document.getElementById("font-size-range").value = size;
   localStorage.setItem("reader_size", size);
 }
 
-// Hàm hỗ trợ nút +/-
-function adjustSize(amount) {
-  let current = parseInt(document.getElementById("font-size-range").value);
-  let newSize = current + amount;
-  if(newSize >= 80 && newSize <= 150) {
-    applySize(newSize);
-  }
-}
-
 function applyLine(height) {
-  const content = document.querySelector('.card-wrapper');
+  // Chỉ chỉnh dãn dòng cho nội dung truyện
+  const content = document.querySelector('.chapter-content');
   if(content) {
     content.style.lineHeight = height;
   }
@@ -316,10 +270,8 @@ function applyLine(height) {
 }
 
 function setTheme(theme) {
-  // Reset classes
+  // Theme thì vẫn phải áp dụng toàn trang (body)
   document.body.classList.remove("sepia-mode", "dark-mode");
-  
-  // Remove active from buttons
   document.querySelectorAll(".theme-btn").forEach(btn => btn.classList.remove("active"));
   
   if (theme === 'sepia') {
@@ -329,10 +281,18 @@ function setTheme(theme) {
     document.body.classList.add("dark-mode");
     document.querySelector(".theme-btn.dark").classList.add("active");
   } else {
-    // Light (default)
     document.querySelector(".theme-btn.light").classList.add("active");
   }
   
   localStorage.setItem("reader_theme", theme);
+}
+
+// Hàm hỗ trợ nút +/-
+function adjustSize(amount) {
+  let current = parseInt(document.getElementById("font-size-range").value);
+  let newSize = current + amount;
+  if(newSize >= 80 && newSize <= 200) {
+    applySize(newSize);
+  }
 }
 </script>
