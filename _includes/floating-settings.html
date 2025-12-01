@@ -1,0 +1,338 @@
+<div id="settings-bar" class="floating-settings">
+  <button id="settings-toggle" class="settings-toggle" title="Cài đặt đọc">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+      <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1Z"/>
+    </svg>
+  </button>
+  
+  <div id="settings-panel" class="settings-panel">
+    
+    <div class="setting-group">
+      <div class="setting-header">
+        <span class="setting-icon">Aa</span>
+        <span class="setting-title">Kiểu chữ</span>
+      </div>
+      <select id="font-selector" class="setting-input">
+        <option value="'Nunito Sans', sans-serif">Mặc định (Nunito)</option>
+        <option value="'Merriweather', serif">Merriweather (Sách báo)</option>
+        <option value="'Lora', serif">Lora (Thơ mộng)</option>
+        <option value="'Roboto', sans-serif">Roboto (Hiện đại)</option>
+        <option value="'Open Sans', sans-serif">Open Sans (Dễ đọc)</option>
+        <option value="'Patrick Hand', cursive">Patrick Hand (Viết tay)</option>
+        <option value="'Courier New', monospace">Courier New (Máy đánh chữ)</option>
+      </select>
+    </div>
+
+    <div class="setting-group">
+      <div class="setting-header">
+        <span class="setting-icon">T</span>
+        <span class="setting-title">Cỡ chữ: <span id="font-size-val">100%</span></span>
+      </div>
+      <div class="range-control">
+        <button class="control-btn" onclick="adjustSize(-5)">-</button>
+        <input type="range" id="font-size-range" min="80" max="150" value="100" step="5">
+        <button class="control-btn" onclick="adjustSize(5)">+</button>
+      </div>
+    </div>
+
+    <div class="setting-group">
+      <div class="setting-header">
+        <span class="setting-icon">↕</span>
+        <span class="setting-title">Dãn dòng: <span id="line-height-val">1.8</span></span>
+      </div>
+      <input type="range" id="line-height-range" class="full-range" min="1.4" max="2.4" value="1.8" step="0.1">
+    </div>
+
+    <div class="setting-group">
+      <div class="setting-header">
+        <span class="setting-icon">🎨</span>
+        <span class="setting-title">Giao diện</span>
+      </div>
+      <div class="theme-options">
+        <button class="theme-btn light active" onclick="setTheme('light')">☀️ Sáng</button>
+        <button class="theme-btn sepia" onclick="setTheme('sepia')">🍂 Sepia</button>
+        <button class="theme-btn dark" onclick="setTheme('dark')">🌙 Tối</button>
+      </div>
+    </div>
+
+    <button id="reset-btn" class="reset-btn">🔄 Đặt lại mặc định</button>
+  </div>
+</div>
+
+<style>
+  /* Import thêm font cho phong phú */
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Lora:wght@400;600&family=Roboto:wght@300;400;500&family=Open+Sans:wght@400;600&family=Patrick+Hand&display=swap');
+
+  /* Container chính */
+  .floating-settings {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  /* Nút tròn bật tắt */
+  .settings-toggle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #159957;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 15px rgba(21, 153, 87, 0.4);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, background 0.2s;
+  }
+  .settings-toggle:hover {
+    transform: rotate(45deg);
+    background: #128249;
+  }
+
+  /* Bảng cài đặt */
+  .settings-panel {
+    position: absolute;
+    bottom: 65px;
+    right: 0;
+    width: 280px;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+    display: none; /* Mặc định ẩn */
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  .settings-panel.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Từng nhóm cài đặt */
+  .setting-group { margin-bottom: 15px; }
+  
+  .setting-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  .setting-icon { color: #159957; font-size: 1.1rem; }
+
+  /* Dropdown & Range */
+  .setting-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+  }
+  
+  .range-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .full-range { width: 100%; }
+  
+  .control-btn {
+    background: #eee;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .control-btn:hover { background: #ddd; }
+
+  /* Theme Buttons */
+  .theme-options { display: flex; gap: 8px; }
+  .theme-btn {
+    flex: 1;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .theme-btn.active { border-color: #159957; color: #159957; background: #e8f5e9; }
+
+  /* Reset Button */
+  .reset-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    background: none;
+    border: 1px dashed #aaa;
+    color: #666;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+  .reset-btn:hover { border-color: #d9534f; color: #d9534f; }
+
+  /* === GIAO DIỆN SEPIA & DARK (Áp dụng vào body) === */
+  
+  /* Sepia (Giấy cũ) */
+  body.sepia-mode {
+    background-color: #f4ecd8 !important;
+    color: #5b4636 !important;
+  }
+  body.sepia-mode .card-wrapper, 
+  body.sepia-mode .site-header {
+    background-color: #fdf6e3 !important;
+    border-color: #d3cbbd !important;
+  }
+  body.sepia-mode h1, body.sepia-mode h2, body.sepia-mode h3, body.sepia-mode a {
+    color: #463325 !important;
+  }
+
+  /* Dark (Tối) - Ghi đè lên dark mode cũ nếu có */
+  body.dark-mode {
+    background-color: #1a1a1a !important;
+    color: #ccc !important;
+  }
+  body.dark-mode .card-wrapper, 
+  body.dark-mode .site-header,
+  body.dark-mode .settings-panel {
+    background-color: #2d2d2d !important;
+    border-color: #444 !important;
+    color: #eee;
+  }
+  body.dark-mode .setting-header { color: #eee; }
+  body.dark-mode .setting-input, body.dark-mode .control-btn { 
+    background: #444; color: white; border: none; 
+  }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const panel = document.getElementById("settings-panel");
+  const toggleBtn = document.getElementById("settings-toggle");
+  
+  // 1. Toggle Panel
+  toggleBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    panel.classList.toggle("show");
+  });
+
+  // Đóng panel khi click ra ngoài
+  document.addEventListener("click", (e) => {
+    if (!panel.contains(e.target) && e.target !== toggleBtn) {
+      panel.classList.remove("show");
+    }
+  });
+
+  // 2. Load Preferences
+  const savedFont = localStorage.getItem("reader_font");
+  const savedSize = localStorage.getItem("reader_size");
+  const savedLine = localStorage.getItem("reader_line");
+  const savedTheme = localStorage.getItem("reader_theme");
+
+  if(savedFont) applyFont(savedFont);
+  if(savedSize) applySize(savedSize);
+  if(savedLine) applyLine(savedLine);
+  if(savedTheme) setTheme(savedTheme);
+
+  // 3. Event Listeners
+  
+  // Font Family
+  document.getElementById("font-selector").addEventListener("change", function() {
+    applyFont(this.value);
+  });
+
+  // Font Size Slider
+  document.getElementById("font-size-range").addEventListener("input", function() {
+    applySize(this.value);
+  });
+
+  // Line Height Slider
+  document.getElementById("line-height-range").addEventListener("input", function() {
+    applyLine(this.value);
+  });
+
+  // Reset
+  document.getElementById("reset-btn").addEventListener("click", function() {
+    applyFont("'Nunito Sans', sans-serif");
+    applySize(100);
+    applyLine(1.8);
+    setTheme('light');
+    
+    // Reset inputs
+    document.getElementById("font-selector").value = "'Nunito Sans', sans-serif";
+    document.getElementById("font-size-range").value = 100;
+    document.getElementById("line-height-range").value = 1.8;
+  });
+});
+
+// === FUNCTIONS ===
+
+function applyFont(font) {
+  document.body.style.fontFamily = font;
+  document.getElementById("font-selector").value = font; // Sync select box
+  localStorage.setItem("reader_font", font);
+}
+
+function applySize(size) {
+  // Chỉ chỉnh size cho phần nội dung truyện (.chapter-content hoặc p)
+  const content = document.querySelector('.card-wrapper'); 
+  if(content) {
+    content.style.fontSize = size + "%";
+  }
+  document.getElementById("font-size-val").innerText = size + "%";
+  document.getElementById("font-size-range").value = size;
+  localStorage.setItem("reader_size", size);
+}
+
+// Hàm hỗ trợ nút +/-
+function adjustSize(amount) {
+  let current = parseInt(document.getElementById("font-size-range").value);
+  let newSize = current + amount;
+  if(newSize >= 80 && newSize <= 150) {
+    applySize(newSize);
+  }
+}
+
+function applyLine(height) {
+  const content = document.querySelector('.card-wrapper');
+  if(content) {
+    content.style.lineHeight = height;
+  }
+  document.getElementById("line-height-val").innerText = height;
+  document.getElementById("line-height-range").value = height;
+  localStorage.setItem("reader_line", height);
+}
+
+function setTheme(theme) {
+  // Reset classes
+  document.body.classList.remove("sepia-mode", "dark-mode");
+  
+  // Remove active from buttons
+  document.querySelectorAll(".theme-btn").forEach(btn => btn.classList.remove("active"));
+  
+  if (theme === 'sepia') {
+    document.body.classList.add("sepia-mode");
+    document.querySelector(".theme-btn.sepia").classList.add("active");
+  } else if (theme === 'dark') {
+    document.body.classList.add("dark-mode");
+    document.querySelector(".theme-btn.dark").classList.add("active");
+  } else {
+    // Light (default)
+    document.querySelector(".theme-btn.light").classList.add("active");
+  }
+  
+  localStorage.setItem("reader_theme", theme);
+}
+</script>

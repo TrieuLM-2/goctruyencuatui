@@ -19,7 +19,7 @@ nav_order: 2
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
 
-<div class="text-block">
+<div style="line-height: 1.8; font-size: 1.1rem; text-align: justify; color: #333;">
 
 Đáng lẽ giờ này Cooper Dayton phải đang ung dung lái xe về D.C., chứ không phải cắm đầu chạy thục mạng qua mấy con hẻm ở Bethesda thế này. Rõ ràng là bố anh đã sai bét.
 
