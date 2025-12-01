@@ -175,6 +175,33 @@
   }
   .reset-btn:hover { border-color: #d9534f; color: #d9534f; }
 
+  /* Theme styles - Áp dụng toàn trang */
+  body.dark-mode {
+    background-color: #1a1a1a !important;
+    color: #e0e0e0 !important;
+  }
+
+  body.sepia-mode {
+    background-color: #f4ecd8 !important;
+    color: #5c4b37 !important;
+  }
+
+  body.dark-mode .main-content,
+  body.dark-mode article,
+  body.dark-mode .content-container,
+  body.dark-mode p {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+  }
+
+  body.sepia-mode .main-content,
+  body.sepia-mode article,
+  body.sepia-mode .content-container,
+  body.sepia-mode p {
+    background-color: #f9f5e7 !important;
+    color: #5c4b37 !important;
+  }
+
   /* Dark mode support for settings panel */
   body.dark-mode .settings-panel {
     background-color: #2d2d2d;
@@ -193,7 +220,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const panel = document.getElementById("settings-panel");
   const toggleBtn = document.getElementById("settings-toggle");
   
-  // 1. Toggle Panel
+  // Toggle Panel
   toggleBtn.addEventListener("click", (e) => {
     e.stopPropagation();
     panel.classList.toggle("show");
@@ -205,7 +232,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
-  // 2. Load Preferences
+  // Load Preferences
   const savedFont = localStorage.getItem("reader_font");
   const savedSize = localStorage.getItem("reader_size");
   const savedLine = localStorage.getItem("reader_line");
@@ -216,7 +243,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if(savedLine) applyLine(savedLine);
   if(savedTheme) setTheme(savedTheme);
 
-  // 3. Event Listeners
+  // Event Listeners
   document.getElementById("font-selector").addEventListener("change", function() { applyFont(this.value); });
   document.getElementById("font-size-range").addEventListener("input", function() { applySize(this.value); });
   document.getElementById("line-height-range").addEventListener("input", function() { applyLine(this.value); });
@@ -233,55 +260,57 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-// === CHỈNH SỬA QUAN TRỌNG Ở ĐÂY ===
+// ÁP DỤNG TOÀN TRANG
 
 function applyFont(font) {
-  // Chỉ đổi font cho nội dung truyện, không đổi toàn trang
-  const content = document.querySelector('.chapter-content');
-  if (content) {
-      content.style.fontFamily = font;
-  }
+  // Áp dụng cho toàn bộ body
+  document.body.style.fontFamily = font;
   document.getElementById("font-selector").value = font; 
   localStorage.setItem("reader_font", font);
 }
 
 function applySize(size) {
-  // Chỉ chọn đúng class .chapter-content để chỉnh cỡ chữ
-  const content = document.querySelector('.chapter-content'); 
-  if(content) {
-    // size là %, nhưng vì base đang là 1.1rem, ta tính toán xíu cho mượt
-    // Hoặc đơn giản gán % đè lên
-    content.style.fontSize = size + "%"; 
-  }
+  // Áp dụng fontSize cho html root để tất cả element kế thừa
+  const baseSize = 16; // px mặc định của browser
+  const newSize = (baseSize * size / 100) + 'px';
+  document.documentElement.style.fontSize = newSize;
+  
   document.getElementById("font-size-val").innerText = size + "%";
   document.getElementById("font-size-range").value = size;
   localStorage.setItem("reader_size", size);
 }
 
 function applyLine(height) {
-  // Chỉ chỉnh dãn dòng cho nội dung truyện
-  const content = document.querySelector('.chapter-content');
-  if(content) {
-    content.style.lineHeight = height;
-  }
+  // Áp dụng line-height cho body và các element chứa text
+  document.body.style.lineHeight = height;
+  
+  // Cũng áp dụng cho các element cụ thể
+  const textElements = document.querySelectorAll('p, div, article, section, li');
+  textElements.forEach(el => {
+    el.style.lineHeight = height;
+  });
+  
   document.getElementById("line-height-val").innerText = height;
   document.getElementById("line-height-range").value = height;
   localStorage.setItem("reader_line", height);
 }
 
 function setTheme(theme) {
-  // Theme thì vẫn phải áp dụng toàn trang (body)
+  // Theme áp dụng toàn trang (body)
   document.body.classList.remove("sepia-mode", "dark-mode");
   document.querySelectorAll(".theme-btn").forEach(btn => btn.classList.remove("active"));
   
   if (theme === 'sepia') {
     document.body.classList.add("sepia-mode");
-    document.querySelector(".theme-btn.sepia").classList.add("active");
+    const sepiaBtn = document.querySelector(".theme-btn.sepia");
+    if(sepiaBtn) sepiaBtn.classList.add("active");
   } else if (theme === 'dark') {
     document.body.classList.add("dark-mode");
-    document.querySelector(".theme-btn.dark").classList.add("active");
+    const darkBtn = document.querySelector(".theme-btn.dark");
+    if(darkBtn) darkBtn.classList.add("active");
   } else {
-    document.querySelector(".theme-btn.light").classList.add("active");
+    const lightBtn = document.querySelector(".theme-btn.light");
+    if(lightBtn) lightBtn.classList.add("active");
   }
   
   localStorage.setItem("reader_theme", theme);
