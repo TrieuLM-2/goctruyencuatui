@@ -1,261 +1,224 @@
 <style>
-  /* 1. Ẩn nút "View on GitHub" và "Download" trên đầu trang */
-  .project-name, .project-tagline { margin-bottom: 10px; }
-  .btn { display: none !important; } /* Lệnh hủy diệt nút */
-
-  /* 2. Chỉnh khung bài viết (Căn giữa, độ rộng vừa phải) */
-  .main-content {
-    max-width: 900px !important; /* Rộng 900px đọc cho sướng */
-    margin: 0 auto !important;   /* Tự động căn giữa màn hình */
-    padding: 2rem 1rem !important;
-    font-size: 1.1rem;           /* Chữ to hơn mặc định xíu */
-  }
-
-  /* 3. Căn chỉnh văn bản truyện (Chuẩn sách giáo khoa) */
-  p {
-    text-align: justify !important; /* Căn đều 2 bên */
-    text-indent: 30px !important;   /* Thụt đầu dòng */
-    line-height: 1.8 !important;    /* Dãn dòng thoáng */
-    margin-bottom: 25px !important;
-    color: #1a1a1a !important;      /* Màu chữ đen xám dịu mắt (không đen sì) */
-  }
-
-  /* 4. Tiêu đề bài viết */
-  h1, h2, h3 {
-    color: #159957 !important; /* Màu xanh lá mạ của theme cho đồng bộ */
-    margin-top: 40px !important;
-  }
-
-  /* 5. Link */
-  a { color: #1e6bb8 !important; }
-  
-  /* 6. Ảnh */
-  img { 
-    display: block; 
-    margin: 20px auto; 
-    border-radius: 5px; 
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Đổ bóng nhẹ cho ảnh nổi */
-  }
-</style>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    // 1. Tạo chìa khóa riêng cho từng trang (Chap 1 khác Chap 2)
-    var storageKey = 'scrollPos-' + window.location.pathname;
-
-    // 2. Kiểm tra xem có vị trí cũ không
-    var savedPos = localStorage.getItem(storageKey);
-    
-    if (savedPos > 0) {
-        // Nếu có thì trượt nhẹ xuống chỗ cũ
-        setTimeout(function() {
-            window.scrollTo({ top: savedPos, behavior: 'smooth' });
-            
-            // Hiện thông báo nhỏ xíu góc màn hình cho ngầu
-            showNotification("📍 Đã quay lại chỗ đọc cũ nha bồ!");
-        }, 500); // Đợi 0.5s cho web load xong ảnh ọt rồi mới trượt
+    /* === 1. RESET & BASIC SETUP === */
+    :root {
+        --bg-body: #f2f4f6; /* Màu xám nền web giống ảnh */
+        --bg-card: #ffffff; /* Màu trắng của hộp nội dung */
+        --text-main: #2c3e50;
+        --primary-color: #159957; /* Xanh lá chủ đạo */
+        --border-color: #e1e4e8;
     }
 
-    // 3. Lưu vị trí mỗi khi cuộn chuột (Delay 1 xíu cho đỡ lag máy)
-    var timeout;
-    window.addEventListener('scroll', function() {
-        clearTimeout(timeout);
-        timeout = setTimeout(function() {
-            localStorage.setItem(storageKey, window.scrollY);
-        }, 200);
-    });
-
-    // Hàm tạo thông báo cute
-    function showNotification(message) {
-        var note = document.createElement('div');
-        note.innerHTML = message;
-        note.style.position = 'fixed';
-        note.style.bottom = '20px';
-        note.style.right = '20px';
-        note.style.backgroundColor = '#159957'; // Màu xanh của theme
-        note.style.color = 'white';
-        note.style.padding = '10px 20px';
-        note.style.borderRadius = '5px';
-        note.style.boxShadow = '0 2px 10px rgba(0,0,0,0.2)';
-        note.style.zIndex = '9999';
-        note.style.fontSize = '14px';
-        note.style.animation = 'fadeInOut 3s forwards';
-        
-        // Thêm CSS animation trực tiếp
-        var style = document.createElement('style');
-        style.innerHTML = `
-            @keyframes fadeInOut {
-                0% { opacity: 0; transform: translateY(20px); }
-                10% { opacity: 1; transform: translateY(0); }
-                80% { opacity: 1; transform: translateY(0); }
-                100% { opacity: 0; transform: translateY(20px); }
-            }
-        `;
-        document.head.appendChild(style);
-        document.body.appendChild(note);
-
-        // Tự biến mất sau 3s
-        setTimeout(function() {
-            note.remove();
-        }, 3000);
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Nunito Sans', sans-serif; /* Font hiện đại */
+        background-color: var(--bg-body);
+        color: var(--text-main);
     }
-});
-</script>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    // 1. Định nghĩa các mục trong Menu
-    // Ông muốn đổi tên hay thêm mục thì sửa ở đây nha
-    const menuItems = [
-        { name: "🏠 Trang Chủ", link: "{{ site.baseurl }}/" },
-        { name: "🔥 Truyện Đang Ra", link: "{{ site.baseurl }}/tags/#dang-ra" },
-        { name: "✅ Hoàn Thành", link: "{{ site.baseurl }}/tags/#hoan-thanh" },
-        { name: "🍂 Drop", link: "{{ site.baseurl }}/tags/#drop" }
-    ];
-
-    // 2. Tạo khung HTML cho Menu
-    const navBar = document.createElement('div');
-    navBar.className = 'custom-nav';
-    
-    let navHTML = '';
-    menuItems.forEach(item => {
-        navHTML += `<a href="${item.link}">${item.name}</a>`;
-    });
-    navBar.innerHTML = navHTML;
-
-    // 3. Chèn vào dưới cái tên web (trong thẻ header)
-    const header = document.querySelector('.page-header');
-    if (header) {
-        header.appendChild(navBar);
+    /* === 2. HEADER STYLE === */
+    .site-header {
+        background: #fff;
+        border-bottom: 1px solid var(--border-color);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.03);
     }
-});
-</script>
 
-<style>
-    /* Khung chứa menu */
-    .custom-nav {
+    .header-inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 15px 20px;
         display: flex;
-        justify-content: center; /* Căn giữa */
-        flex-wrap: wrap;         /* Tự xuống dòng nếu màn hình nhỏ */
-        margin-top: 20px;        /* Cách cái tên web ra xíu */
-        gap: 20px;               /* Khoảng cách giữa các mục */
-        font-family: 'Segoe UI', sans-serif;
+        justify-content: space-between; /* Đẩy 2 bên ra xa nhau */
+        align-items: center;
     }
 
-    /* Từng cái link trong menu */
-    .custom-nav a {
-        color: rgba(255, 255, 255, 0.8) !important; /* Màu trắng mờ cho sang */
+    .header-left {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .site-logo {
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: #333;
         text-decoration: none !important;
-        font-size: 16px;
-        font-weight: bold;
-        padding-bottom: 5px;
-        border-bottom: 2px solid transparent; /* Gạch chân tàng hình */
-        transition: all 0.3s ease;
+        letter-spacing: -0.5px;
     }
 
-    /* Khi di chuột vào */
-    .custom-nav a:hover {
-        color: #fff !important; /* Sáng lên */
-        border-bottom: 2px solid #fff; /* Hiện gạch chân */
+    .desktop-nav {
+        display: flex;
+        gap: 15px;
+        margin-left: 20px;
     }
-</style>
 
-<style>
-  /* 1. Cái nút bật tắt lơ lửng */
-  #darkModeBtn {
-    position: fixed;
-    bottom: 20px;
-    left: 20px; /* Để bên trái cho đỡ đụng cái thông báo bên phải */
-    width: 50px;
-    height: 50px;
-    background-color: #2d3436;
-    color: #dfe6e9;
-    border: 2px solid #dfe6e9;
-    border-radius: 50%;
-    cursor: pointer;
-    z-index: 10000;
-    font-size: 24px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    .nav-item {
+        text-decoration: none !important;
+        color: #666;
+        font-weight: 600;
+        font-size: 0.95rem;
+        transition: color 0.2s;
+    }
+    .nav-item:hover { color: var(--primary-color); }
 
-  #darkModeBtn:hover {
-    transform: scale(1.1); /* Phóng to nhẹ khi di chuột vào */
-    background-color: #000;
-  }
+    .header-right {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
 
-  /* 2. Giao diện Dark Mode (Khi body có class 'dark-mode') */
-  body.dark-mode {
-    background-color: #121212 !important; /* Nền đen thẫm */
-    color: #e0e0e0 !important; /* Chữ trắng xám */
-  }
+    .search-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #666;
+        padding: 5px;
+    }
 
-  /* Fix lại cái khung bài viết */
-  body.dark-mode .main-content {
-    background-color: #121212 !important;
-  }
+    .login-btn {
+        background-color: var(--primary-color);
+        color: white !important;
+        padding: 6px 16px;
+        border-radius: 4px;
+        text-decoration: none !important;
+        font-weight: 700;
+        font-size: 0.9rem;
+    }
 
-  /* Chữ trong bài */
-  body.dark-mode p {
-    color: #b0b3b8 !important; /* Xám nhẹ cho đỡ chói */
-  }
+    .mobile-menu-btn { display: none; border: none; background: none; font-size: 1.5rem; }
 
-  /* Tiêu đề */
-  body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
-    color: #55efc4 !important; /* Xanh mint sáng dạ quang bao nổi */
-  }
+    /* === 3. CARD LAYOUT (Cái hộp nổi giữa màn hình) === */
+    .page-content {
+        padding: 40px 20px;
+        min-height: 80vh; /* Đảm bảo web đủ dài */
+    }
 
-  /* Đường link */
-  body.dark-mode a {
-    color: #74b9ff !important; /* Xanh dương baby */
-  }
+    .card-wrapper {
+        background-color: var(--bg-card);
+        max-width: 950px; /* Độ rộng vừa phải đọc cho sướng */
+        margin: 0 auto;   /* Căn giữa */
+        padding: 40px;
+        border-radius: 12px; /* Bo góc mềm mại */
+        box-shadow: 0 5px 20px rgba(0,0,0,0.05); /* Đổ bóng nhẹ tạo độ nổi */
+    }
 
-  /* Cái header trên cùng (chỗ tên web) cho tối lại luôn */
-  body.dark-mode .page-header {
-    background-image: linear-gradient(120deg, #2d3436, #000000) !important;
-    color: #fff !important;
-  }
+    /* === 4. BOOK DETAIL LAYOUT (Layout truyện giống ảnh) === */
+    .epub-layout {
+        display: flex;
+        gap: 40px;
+        margin-bottom: 30px;
+    }
 
-  /* Blockquote (trích dẫn) */
-  body.dark-mode blockquote {
-    color: #dfe6e9 !important;
-    border-left-color: #55efc4 !important;
-  }
+    .epub-cover {
+        flex: 0 0 260px; /* Cột ảnh cố định 260px */
+    }
+    
+    .epub-cover img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+        display: block;
+    }
+
+    .epub-info {
+        flex: 1; /* Cột chữ chiếm hết phần còn lại */
+    }
+
+    .epub-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 10px;
+        line-height: 1.1;
+        color: #2c3e50;
+    }
+
+    .epub-meta {
+        color: #7f8c8d;
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+
+    .epub-rating {
+        color: #f1c40f;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    .epub-desc {
+        font-size: 1.05rem;
+        line-height: 1.7;
+        color: #444;
+        text-align: justify;
+    }
+
+    /* Tab Switcher (Book Details / Table of Contents) */
+    .tab-container {
+        display: flex;
+        border-bottom: 2px solid #eee;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .tab-btn {
+        flex: 1;
+        text-align: center;
+        padding: 15px;
+        font-weight: 700;
+        color: #888;
+        cursor: pointer;
+        background: none;
+        border: none;
+        border-bottom: 3px solid transparent;
+        font-size: 1rem;
+    }
+
+    .tab-btn.active {
+        color: var(--primary-color);
+        border-bottom: 3px solid var(--primary-color);
+    }
+
+    /* Footer */
+    .site-footer {
+        text-align: center;
+        padding: 20px;
+        color: #888;
+        font-size: 0.9rem;
+    }
+
+    /* Dark Mode (Giữ lại tính năng này cho ông) */
+    body.dark-mode { --bg-body: #121212; --bg-card: #1e1e1e; --text-main: #ecf0f1; --border-color: #333; }
+    body.dark-mode .site-header { background: #1e1e1e; border-bottom-color: #333; }
+    body.dark-mode .site-logo { color: #fff; }
+    body.dark-mode .epub-title { color: #55efc4; }
+    body.dark-mode .nav-item { color: #aaa; }
+    body.dark-mode .search-btn { color: #aaa; }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .epub-layout { flex-direction: column; align-items: center; }
+        .epub-cover { width: 180px; margin-bottom: 20px; }
+        .epub-title { text-align: center; font-size: 1.8rem; }
+        .desktop-nav { display: none; } /* Ẩn menu ngang trên đt */
+        .mobile-menu-btn { display: block; }
+        .card-wrapper { padding: 20px; }
+    }
 </style>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    // 1. Tạo cái nút bấm
-    const btn = document.createElement("button");
-    btn.id = "darkModeBtn";
-    btn.innerHTML = "🌙"; // Mặc định là hình mặt trăng
-    btn.title = "Bật/Tắt chế độ ban đêm";
-    document.body.appendChild(btn);
+    function openTab(tabName) {
+        // Ẩn hết nội dung tab
+        document.getElementById('tab-content-details').style.display = 'none';
+        document.getElementById('tab-content-toc').style.display = 'none';
+        
+        // Bỏ active nút cũ
+        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
 
-    // 2. Check xem trước đó ông có bật chưa (Lưu trong bộ nhớ máy)
-    const currentTheme = localStorage.getItem("theme");
-    if (currentTheme === "dark") {
-        document.body.classList.add("dark-mode");
-        btn.innerHTML = "☀️"; // Nếu đang tối thì hiện mặt trời
+        // Hiện tab mới
+        document.getElementById('tab-content-' + tabName).style.display = 'block';
+        event.currentTarget.classList.add('active');
     }
-
-    // 3. Sự kiện click nút
-    btn.addEventListener("click", function() {
-        document.body.classList.toggle("dark-mode");
-        
-        let theme = "light";
-        if (document.body.classList.contains("dark-mode")) {
-            theme = "dark";
-            btn.innerHTML = "☀️"; // Chuyển sang icon sáng
-        } else {
-            btn.innerHTML = "🌙"; // Chuyển về icon tối
-        }
-        
-        // Lưu lại lựa chọn để lần sau vào web nó tự nhớ
-        localStorage.setItem("theme", theme);
-    });
-});
 </script>

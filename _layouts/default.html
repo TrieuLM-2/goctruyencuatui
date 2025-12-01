@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "vi" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: "Góc Truyện" }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | default: "Web đọc truyện đam mỹ nhà làm" }}">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    {% include head-custom.html %}
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="header-left">
+                <button class="mobile-menu-btn">☰</button>
+                
+                <a href="{{ site.baseurl }}/" class="site-logo">
+                    GócTruyện<span style="color: #159957;">CủaTui</span>
+                </a>
+
+                <nav class="desktop-nav">
+                    <a href="{{ site.baseurl }}/tags/#dang-ra" class="nav-item">🔥 Đang Ra</a>
+                    <a href="{{ site.baseurl }}/tags/#hoan-thanh" class="nav-item">✅ Hoàn Thành</a>
+                    <a href="{{ site.baseurl }}/tags/#drop" class="nav-item">🍂 Drop</a>
+                </nav>
+            </div>
+
+            <div class="header-right">
+                <button class="search-btn" onclick="alert('Tính năng tìm kiếm đang được code thêm nha mấy bồ!')">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="#" class="login-btn">Log in</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="card-wrapper">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 TrieuLM. Web chạy bằng cơm & đam mê.</p>
+    </footer>
+
+</body>
+</html>

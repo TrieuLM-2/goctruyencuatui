@@ -2,10 +2,24 @@
 layout: default
 title: Chương 1
 description: "Kẻ Chạy Trốn & Cái Ruột Thừa (Của BSI)"
-parent: Giới thiệu: The Wolf at the Door
+parent: The Wolf at the Door
 nav_order: 2
 ---
 
+<div style="font-size: 0.9rem; color: #888; margin-bottom: 30px;">
+  <a href="{{ site.baseurl }}/" style="text-decoration:none; color:#888;">Home</a> / 
+  <a href="./" style="text-decoration:none; color:#888;">The Wolf at the Door</a> / 
+  <span style="color:#159957;">Chương 1</span>
+</div>
+
+<div style="text-align: center; margin-bottom: 40px;">
+    <h1 style="color: #2c3e50; margin-bottom: 10px; font-size: 2rem;">CHƯƠNG 1</h1>
+    <h2 style="font-size: 1.2rem; color: #7f8c8d; font-weight: normal; margin-top: 0;">Kẻ Chạy Trốn & Cái Ruột Thừa (Của BSI)</h2>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+
+<div class="text-block">
 
 Đáng lẽ giờ này Cooper Dayton phải đang ung dung lái xe về D.C., chứ không phải cắm đầu chạy thục mạng qua mấy con hẻm ở Bethesda thế này. Rõ ràng là bố anh đã sai bét.
 
@@ -207,4 +221,13 @@ Chẳng mấy chốc Jefferson thả anh trước cửa chung cư với lời nh
 
 "Một tí thôi hả? Chuyện nhỏ!" Cooper nói với theo.
 
-[*Chương 2](./chap-02)
+</div>
+
+<nav style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; margin-top: 2rem; border-top: 1px solid #eee;">
+  <a href="./" style="text-decoration: none; padding: 0.5rem 1rem; background: #f5f5f5; border-radius: 4px; color: #333;">
+    ← Mục Lục
+  </a>
+  <a href="./chap-02" style="text-decoration: none; padding: 0.5rem 1rem; background: #f5f5f5; border-radius: 4px; color: #333;">
+    Chương tiếp →
+  </a>
+</nav>
