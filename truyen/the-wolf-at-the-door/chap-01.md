@@ -13,7 +13,7 @@ nav_order: 2
 </div>
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <h1 style="margin-bottom: 10px; font-size: 2rem;" class="chapter-title">CHƯƠNG 1</h1>
+    <h1 style="margin-bottom: 10px; font-size: 2rem; color: inherit;">CHƯƠNG 1</h1>
     <h2 style="font-size: 1.2rem; color: #7f8c8d; font-weight: normal; margin-top: 0;">Kẻ Chạy Trốn & Cái Ruột Thừa (Của BSI)</h2>
 </div>
 
