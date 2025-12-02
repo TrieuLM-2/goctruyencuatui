@@ -97,18 +97,59 @@ nav_order: 1
     </div>
     
     <div class="bookshelf-grid">
+        
         <a href="./truyen/in-memoriam/" class="book-card" style="opacity: 0.9; border: 1px dashed #5d4037;">
             <div style="position: absolute; top: 10px; right: 10px; background: #5d4037; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; z-index: 10;">COMING SOON</div>
             <img src="./truyen/in-memoriam/cover.jpg" alt="Cover" class="card-cover" onerror="this.src='https://placehold.co/200x300/5d4037/white?text=In+Memoriam'">
             <div class="card-body">
-                <h3 class="card-title" style="color: #5d4037;">In Memoriam (Khúc Tưởng Niệm)</h3>
+                <h3 class="card-title" style="color: #5d4037;">In Memoriam</h3>
                 <div class="card-author">Tác giả: Alice Winn</div>
                 <div class="card-desc" style="font-size: 0.9rem; color: #666; margin-bottom: 15px; flex-grow: 1; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
-                    Chuyện tình bi tráng giữa Gaunt và Ellwood từ trường nội trú yên bình đến địa ngục chiến hào Thế chiến thứ nhất. Đẹp đẽ nhưng đau đớn đến nghẹt thở.
+                    (Khúc Tưởng Niệm) Chuyện tình bi tráng giữa Gaunt và Ellwood từ trường nội trú yên bình đến địa ngục chiến hào Thế chiến thứ nhất.
                 </div>
                 <span class="card-tag" style="background: #efebe9; color: #5d4037;">Lịch sử, Chiến tranh, Bi kịch</span>
             </div>
         </a>
+
+        <a href="./truyen/swimming-in-the-dark/" class="book-card" style="opacity: 0.9; border: 1px dashed #2c3e50;">
+            <div style="position: absolute; top: 10px; right: 10px; background: #2c3e50; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; z-index: 10;">COMING SOON</div>
+            <img src="./truyen/swimming-in-the-dark/cover.jpg" alt="Cover" class="card-cover" onerror="this.src='https://placehold.co/200x300/2c3e50/white?text=Swimming+in+the+Dark'">
+            <div class="card-body">
+                <h3 class="card-title" style="color: #2c3e50;">Swimming in the Dark</h3>
+                <div class="card-author">Tác giả: Tomasz Jedrowski</div>
+                <div class="card-desc" style="font-size: 0.9rem; color: #666; margin-bottom: 15px; flex-grow: 1; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+                    (Dòng Chảy Ngược Chiều) Bản tình ca buồn của Đông Âu những năm 80. Ludwik và Janusz yêu nhau giữa dòng xoáy của thể chế và lý tưởng.
+                </div>
+                <span class="card-tag" style="background: #ecf0f1; color: #2c3e50;">Lịch sử, Chính trị, Day dứt</span>
+            </div>
+        </a>
+
+        <a href="./truyen/to-catch-a-firefly/" class="book-card" style="opacity: 0.9; border: 1px dashed #f39c12;">
+            <div style="position: absolute; top: 10px; right: 10px; background: #f39c12; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; z-index: 10;">COMING SOON</div>
+            <img src="./truyen/to-catch-a-firefly/cover.jpg" alt="Cover" class="card-cover" onerror="this.src='https://placehold.co/200x300/f39c12/white?text=To+Catch+a+Firefly'">
+            <div class="card-body">
+                <h3 class="card-title" style="color: #f39c12;">To Catch a Firefly</h3>
+                <div class="card-author">Tác giả: Emmy Sanders</div>
+                <div class="card-desc" style="font-size: 0.9rem; color: #666; margin-bottom: 15px; flex-grow: 1; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+                    (Bắt Lấy Đom Đóm) 12 năm yêu thầm. Lucky là gió, Ellis là người giữ lửa. Một câu chuyện đẹp đến nao lòng về sự hy sinh và lòng kiên nhẫn.
+                </div>
+                <span class="card-tag" style="background: #fffcf5; color: #f39c12;">Friends-to-Lovers, Yêu thầm</span>
+            </div>
+        </a>
+
+        <a href="./truyen/cut-and-run/" class="book-card" style="opacity: 0.9; border: 1px dashed #1f2f5c;">
+            <div style="position: absolute; top: 10px; right: 10px; background: #1f2f5c; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; z-index: 10;">COMING SOON</div>
+            <img src="./truyen/cut-and-run/cover.jpg" alt="Cover" class="card-cover" onerror="this.src='https://placehold.co/200x300/1f2f5c/white?text=Cut+&+Run'">
+            <div class="card-body">
+                <h3 class="card-title" style="color: #1f2f5c;">Cut & Run</h3>
+                <div class="card-author">Tác giả: Abigail Roux</div>
+                <div class="card-desc" style="font-size: 0.9rem; color: #666; margin-bottom: 15px; flex-grow: 1; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+                    (Đặc Vụ Oan Gia) Ty Grady (lầy lội) và Zane Garrett (khó ở) phải hợp tác bắt tội phạm giết người hàng loạt. Hành động kịch tính và chemistry bùng nổ.
+                </div>
+                <span class="card-tag" style="background: #f4f6f7; color: #1f2f5c;">Hành động, Trinh thám, Oan gia</span>
+            </div>
+        </a>
+
     </div>
 </div>
 
