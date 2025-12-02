@@ -6,7 +6,7 @@ tags: [MM Romance, Comedy, DangRa]
 
 # --- DỮ LIỆU CHO TRANG CHỦ ---
 type: story
-last_updated: 2025-12-02 20:00
+last_updated: 2025-12-02 22:00
 author: Alexis Hall
 summary: "Luc (con trai huyền thoại rock, chuyên gặp rắc rối) cần tuyển gấp bạn trai FAKE để cứu vãn hình tượng. Đối tượng: Oliver (luật sư, ăn chay, hoàn hảo đến mức đáng ghét)."
 cover_image: /truyen/boyfriend-material/cover.jpg
@@ -48,7 +48,7 @@ genres: "Hài hước, Fake Dating, Oan gia ngõ hẹp"
 
 <div class="tab-container">
     <button class="tab-btn active" onclick="openTab('details', this)">Giới Thiệu</button>
-    <button class="tab-btn" onclick="openTab('toc', this)">Mục Lục (Đang cập nhật)</button>
+    <button class="tab-btn" onclick="openTab('toc', this)">Mục Lục (8 Chương)</button>
 </div>
 
 <div id="tab-content-details" class="tab-content" style="display: block;">
@@ -72,14 +72,41 @@ genres: "Hài hước, Fake Dating, Oan gia ngõ hẹp"
     <ul style="list-style: none; padding: 0;">
         <li style="padding: 10px; border-bottom: 1px solid #eee;">
             <a href="./chap-01" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
-                Chương 1: (Sắp ra mắt) 🔒
+                Chương 1: Bữa Tiệc Hóa Trang & Sự Cố Rãnh Nước
+            </a>
+        </li>
+        <li style="padding: 10px; border-bottom: 1px solid #eee;">
+            <a href="./chap-02" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
+                Chương 2: Rắc Rối Ở Sở Làm & Kế Hoạch Hẹn Hò Giả
+            </a>
+        </li>
+        <li style="padding: 10px; border-bottom: 1px solid #eee;">
+            <a href="./chap-03" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
+                Chương 3: Hội Nghị Bàn Tròn & Buổi Hẹn Đầu Tiên
+            </a>
+        </li>
+        <li style="padding: 10px; border-bottom: 1px solid #eee;">
+            <a href="./chap-04" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
+                Chương 4: Luật Sư Biện Hộ & Hợp Đồng Hẹn Hò
+            </a>
+        </li>
+        <li style="padding: 10px; border-bottom: 1px solid #eee;">
+            <a href="./chap-05" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
+                Chương 5: Câu Chuyện Cười Nhạt Nhẽo & Cuộc Gặp Gỡ Bất Ngờ
+            </a>
+        </li>
+        <li style="padding: 10px; border-bottom: 1px solid #eee;">
+            <a href="./chap-06" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
+                Chương 6: Lời Thú Nhận & Bữa Tối Tại Nhà Oliver
+            </a>
+        </li>
+        <li style="padding: 10px; border-bottom: 1px solid #eee;">
+            <a href="./chap-07" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
+                Chương 7: Luật Lệ Mới & Đêm Ngủ Chung Đầu Tiên <span style="float: right; color: #e74c3c; font-size: 0.8rem; border: 1px solid #e74c3c; padding: 2px 6px; border-radius: 4px;">Mới</span>
             </a>
         </li>
         <li style="padding: 10px; border-bottom: 1px solid #eee; color: #aaa;">
-            Chương 2: (Đang dịch...) 🔒
-        </li>
-         <li style="padding: 10px; border-bottom: 1px solid #eee; color: #aaa;">
-            Chương 3: (Chờ đê...) 🔒
+            Chương 8: (Sắp ra mắt) 🔒
         </li>
     </ul>
 </div>
