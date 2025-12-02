@@ -23,6 +23,8 @@ genres: "Rom-Com, Hoàng gia, Enemies to lovers"
 <div class="epub-layout">
     <div class="epub-cover">
         <img src="./cover.jpg" alt="Red, White & Royal Blue Cover" onerror="this.src='https://placehold.co/400x600?text=RWRB+Cover'">
+        
+        <a href="./chap-01" class="read-now-btn">📖 Đọc Ngay</a>
     </div>
 
     <div class="epub-info">
@@ -153,6 +155,27 @@ genres: "Rom-Com, Hoàng gia, Enemies to lovers"
     .epub-layout { display: flex; gap: 30px; margin-bottom: 30px; align-items: flex-start; }
     .epub-cover { width: 30%; min-width: 200px; }
     .epub-cover img { width: 100%; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+    
+    /* Style cho nút Đọc Ngay */
+    .read-now-btn {
+        display: block;
+        margin-top: 15px;
+        padding: 12px 0;
+        background-color: #159957; /* Màu xanh của truyện */
+        color: white !important;
+        text-align: center;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none !important;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+        transition: all 0.2s ease;
+        font-size: 1.1rem;
+    }
+    .read-now-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(21, 153, 87, 0.4); /* Hiệu ứng phát sáng nhẹ */
+        background-color: #117a45;
+    }
     .epub-info { width: 70%; }
     .epub-title { margin-top: 0 !important; color: #159957 !important; line-height: 1.2; }
     .epub-meta { color: #666; font-size: 0.95rem; margin-bottom: 10px; }
@@ -174,6 +197,8 @@ genres: "Rom-Com, Hoàng gia, Enemies to lovers"
         .epub-cover, .epub-info { width: 100%; }
         .epub-cover { max-width: 200px; margin: 0 auto 20px auto; }
         .epub-title { text-align: center; }
+        /* Trên mobile nút đọc ngay sẽ to hơn cho dễ bấm */
+        .read-now-btn { padding: 15px 0; font-size: 1.2rem; }
     }
 </style>
 

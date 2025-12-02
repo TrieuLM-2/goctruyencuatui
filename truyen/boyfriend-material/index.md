@@ -119,25 +119,24 @@ genres: "Hài hước, Fake Dating, Oan gia ngõ hẹp"
     .epub-cover { width: 30%; min-width: 200px; display: flex; flex-direction: column; }
     .epub-cover img { width: 100%; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
     
-    /* NÚT ĐỌC NGAY (GỌN GÀNG HƠN) */
+    /* Style cho nút Đọc Ngay */
     .read-now-btn {
         display: block;
-        margin-top: 12px;
-        padding: 8px 0; /* Giảm độ cao */
-        background-color: #e74c3c;
+        margin-top: 15px;
+        padding: 12px 0;
+        background-color: #e74c3c; /* Màu đỏ cam của truyện */
         color: white !important;
         text-align: center;
-        border-radius: 6px;
+        border-radius: 8px;
         font-weight: bold;
         text-decoration: none !important;
-        box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.15);
         transition: all 0.2s ease;
-        font-size: 0.95rem; /* Giảm cỡ chữ */
-        line-height: 1.5; /* Căn giữa chữ */
+        font-size: 1.1rem;
     }
     .read-now-btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 5px 10px rgba(231, 76, 60, 0.4);
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(231, 76, 60, 0.4); /* Hiệu ứng phát sáng nhẹ */
         background-color: #c0392b;
     }
 
@@ -162,8 +161,8 @@ genres: "Hài hước, Fake Dating, Oan gia ngõ hẹp"
         .epub-cover, .epub-info { width: 100%; }
         .epub-cover { max-width: 100%; margin: 0 auto 20px auto; }
         .epub-title { text-align: center; }
-        /* Trên mobile nút vẫn to một chút để dễ bấm */
-        .read-now-btn { padding: 12px 0; font-size: 1rem; }
+        /* Trên mobile nút đọc ngay sẽ to hơn cho dễ bấm */
+        .read-now-btn { padding: 15px 0; font-size: 1.2rem; }
     }
 </style>
 
