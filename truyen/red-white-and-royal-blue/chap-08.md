@@ -21,7 +21,7 @@ nav_order: 9
 
 <div class="chapter-content" style="line-height: 2; font-size: 1.1rem; color: #333; max-width: 800px; margin: 0 auto;">
 
-<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Em là một phù thủy hắc ám</strong></p>
     <p><strong>Henry</strong> [wales@kensingtonemail.com] 8/6/20 3:23 PM<br>gửi A</p>
     <hr>
@@ -34,7 +34,7 @@ nav_order: 9
     <p>X<br>Henry</p>
 </div>
 
-<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Em là một phù thủy hắc ám</strong></p>
     <p><strong>A</strong> [agcd@eclare45.com] 8/6/20 5:02 PM<br>gửi Henry</p>
     <hr>
@@ -45,7 +45,7 @@ nav_order: 9
     <p>Xoxo<br>A</p>
 </div>
 
-<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Em là một phù thủy hắc ám</strong></p>
     <p><strong>Henry</strong> [hwales@kensingtonemail.com] 8/6/20 7:21 PM<br>gửi A</p>
     <hr>
@@ -366,7 +366,7 @@ Thế là, họ lén lút đi vòng ra sau lưng đám đông, được đội v
 
 <hr style="border: 0; border-top: 1px dashed #ccc; margin: 30px 0;">
 
-<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Paris?</strong></p>
     <p><strong>A</strong> [agcd@eclare45.com] 3/3/20 7:32 PM<br>gửi Henry</p>
     <hr>
@@ -376,7 +376,7 @@ Thế là, họ lén lút đi vòng ra sau lưng đám đông, được đội v
     <p>Alex<br>Con trai Tổng thống của thuộc địa cũ của anh</p>
 </div>
 
-<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Paris?</strong></p>
     <p><strong>Henry</strong> [hwales@kensingtonemail.com] 4/3/20 2:14 AM<br>gửi A</p>
     <hr>
@@ -386,7 +386,7 @@ Thế là, họ lén lút đi vòng ra sau lưng đám đông, được đội v
     <p>Trân trọng,<br>Hoàng tử Henry của xứ Wales</p>
 </div>
 
-<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Paris?</strong></p>
     <p><strong>A</strong> [agcd@eclare45.com] 4/3/20 2:27AM<br>gửi Henry</p>
     <hr>
@@ -396,7 +396,7 @@ Thế là, họ lén lút đi vòng ra sau lưng đám đông, được đội v
     <p>Alex<br>Con trai Tổng thống Ghét Các Buổi Gây Quỹ</p>
 </div>
 
-<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Paris?</strong></p>
     <p><strong>Henry</strong> [hwales@kensingtonemail.com] 4/3/20 2:32 AM<br>gửi A</p>
     <hr>
@@ -406,7 +406,7 @@ Thế là, họ lén lút đi vòng ra sau lưng đám đông, được đội v
     <p>Trân trọng,<br>Hoàng tử Hô Hào</p>
 </div>
 
-<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Paris?</strong></p>
     <p><strong>A</strong> [agcd@eclare45.com] 4/3/20 2:34 AM<br>gửi Henry</p>
     <hr>
@@ -415,7 +415,7 @@ Thế là, họ lén lút đi vòng ra sau lưng đám đông, được đội v
     <p>Alex<br>Con trai Tổng thống của Những Email Nửa Đêm Đáng Bàn Cãi</p>
 </div>
 
-<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Paris?</strong></p>
     <p><strong>Henry</strong> [wales@kensingtonemail.com] 4/3/20 2:37AM<br>gửi A</p>
     <hr>
@@ -424,7 +424,7 @@ Thế là, họ lén lút đi vòng ra sau lưng đám đông, được đội v
     <p>Trân trọng,<br>Hoàng Tộc Dị Giáo Đẹp Trai</p>
 </div>
 
-<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Paris?</strong></p>
     <p><strong>A</strong> [agcd@eclare45.com] 4/3/20 2:41 AM<br>gửi Henry</p>
     <hr>
@@ -435,7 +435,7 @@ Thế là, họ lén lút đi vòng ra sau lưng đám đông, được đội v
     <p>Alex<br>Con trai Tổng thống Mua Phô Mai</p>
 </div>
 
-<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Paris?</strong></p>
     <p><strong>Henry</strong> [hwales@kensingtonemail.com] 4/3/20 2:43 AM<br>gửi A</p>
     <hr>

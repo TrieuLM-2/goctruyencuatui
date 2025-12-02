@@ -147,7 +147,7 @@ Anh thò tay vào túi, rút thẻ ra. Vật kỷ niệm đầu tiên trong cả
 
 <p style="text-align: center; margin: 3rem 0; font-size: 1.5rem; color: #ccc;">* * *</p>
 
-<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Một đám ngu ngốc và đểu giả</strong></p>
     <p><strong>A</strong> [agcd@eclare45.com] 10/8/20 1:04 AM<br>gửi Henry</p>
     <hr>
@@ -163,7 +163,7 @@ Anh thò tay vào túi, rút thẻ ra. Vật kỷ niệm đầu tiên trong cả
     <p>Người thân thương của anh, đang dần hóa điên,<br>Alex, Con trai Tổng thống bất kính với nhà lập quốc</p>
 </div>
 
-<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Một đám ngu ngốc và đểu giả</strong></p>
     <p><strong>Henry</strong> [hwales@kensingtonemail.com] 10/8/20 4:18 AM<br>gửi A</p>
     <hr>
@@ -177,7 +177,7 @@ Anh thò tay vào túi, rút thẻ ra. Vật kỷ niệm đầu tiên trong cả
     <p>Trân trọng,<br>Hoàng tử Henry Lãng Mạn Bất Hạnh Vô Cùng Khinh Suất</p>
 </div>
 
-<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Một đám ngu ngốc và đểu giả</strong></p>
     <p><strong>A</strong> [agcd@eclare45.com] 10/8/20 5:36 AM<br>gửi Henry</p>
     <hr>
@@ -191,7 +191,7 @@ Anh thò tay vào túi, rút thẻ ra. Vật kỷ niệm đầu tiên trong cả
     <p>Tái bút: Allen Ginsberg gửi Peter Orlovsky - 1958:<br><em>Dù anh khao khát sự tiếp xúc như ánh mặt trời giữa đôi ta anh nhớ em như nhớ nhà. Hãy tỏa sáng và nghĩ đến anh nhé em yêu.</em></p>
 </div>
 
-<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Một đám ngu ngốc và đểu giả</strong></p>
     <p><strong>Henry</strong> [wales@kensingtonemail.com] 10/8/20 8:22 PM<br>gửi A</p>
     <hr>
@@ -453,7 +453,7 @@ Khi Alex tỉnh dậy, giường của anh ấy đã trống trơn, gọn gàng,
 Anh tìm được một tờ giấy nhắn trong bếp:
 </p>
 
-<blockquote style="border-left: 4px solid #555; background-color: #f9f9f9; padding: 15px; margin: 20px 0; font-family: 'Courier New', Courier, monospace; color: #333;">
+<blockquote style="border-left: 4px solid #555; background-color: #f9f9f9; padding: 15px; margin: 20px 0; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace; color: #333;">
     <p>Alex</p>
     <p>Anh phải về sớm vì chuyện gia đình.</p>
     <p>Đã về với đội vệ sĩ.</p>

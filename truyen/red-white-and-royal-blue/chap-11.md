@@ -21,7 +21,7 @@ nav_order: 12
 
 <div class="chapter-content" style="line-height: 2; font-size: 1.1rem; color: #333; max-width: 800px; margin: 0 auto;">
 
-<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Chuyện quê nhà</strong></p>
     <p><strong>A</strong> [agcd@eclare45.com] 2/9/20 5:12 PM<br>gửi Henry</p>
     <hr>
@@ -36,7 +36,7 @@ nav_order: 12
     <p>Tái bút: Vita Sackville-West gửi Virginia Woolf - 1927:<br><em>Với anh nó khá rõ rệt: Anh thậm chí còn nhớ em hơn cả anh dám tin và anh đã sẵn sàng để nhớ em rất nhiều.</em></p>
 </div>
 
-<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Chuyện quê nhà</strong></p>
     <p><strong>Henry</strong> [hwales@kensingtonemail.com] 3/9/20 2:49 AM<br>gửi A</p>
     <hr>
@@ -52,7 +52,7 @@ nav_order: 12
     <p>Tái bút: Radclyffe Hall gửi Evguenia Souline, 1934:<br><em>Em yêu - anh không biết em có nhận ra anh mong đợi em tới nước Anh đến thế nào không, và nó có ý nghĩa lớn lao thế nào đối với anh - nó là cả thế giới, và nhất định toàn bộ cơ thể anh sẽ là của em, cũng như toàn bộ cơ thể em sẽ là của anh, tình yêu… Và sẽ không còn gì quan trọng nữa ngoài hai ta, đôi tình nhân mong mỏi cuối cùng cũng đến được với nhau.</em></p>
 </div>
 
-<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Chuyện quê nhà</strong></p>
     <p><strong>A</strong> [agcd@eclare45.com] 3/9/20 6:20 AM<br>gửi Henry</p>
     <hr>
@@ -66,7 +66,7 @@ nav_order: 12
     <p>Tái bút: Eleanor Roosevelt gửi Lorena Hickock - 1933:<br><em>Tôi nhớ em khủng khiếp. Thời gian tuyệt vời nhất trong ngày là khi tôi viết thư cho em. Em gặp nhiều dông bão hơn tôi nhưng tôi cũng nhớ em tương đương, tôi nghĩ… Xin hãy dành phần lớn trái tim em ở Washington chừng nào tôi còn ở đây vì phần lớn trái tim tôi ở bên em!</em></p>
 </div>
 
-<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f0f4f8; padding: 20px; border-radius: 8px; border: 1px solid #d1d9e6; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Chuyện quê nhà</strong></p>
     <p><strong>Henry</strong> [hwales@kensingtonemail.com] 4/9/20 7:58 PM<br>gửi A</p>
     <hr>
@@ -93,7 +93,7 @@ nav_order: 12
     <p>Tái bút: Michelangelo gửi Tommaso Cavalieri, 1533:<br><em>Tôi biết rõ, ở cái giờ này, tôi có thể dễ dàng quên đi tên em như quên tên món ăn mà nhờ đó tôi sống qua ngày; không, quên món ăn thì dễ dàng hơn, nó chỉ nuôi dưỡng cơ thể tôi một cách khốn khổ, còn tên em, thứ nuôi dưỡng cả cơ thể lẫn tâm hồn tôi, lấp đầy chúng bằng sự ngọt ngào khiến tôi không còn cảm thấy mệt mỏi hay sợ chết nữa trong khi ký ức đưa em đến tâm trí tôi. Nghĩ, nếu đôi mắt cũng được tận hưởng sự sung sướng ấy, thì tôi nên chuẩn bị ra sao.</em></p>
 </div>
 
-<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace;">
+<div class="email-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;">
     <p><strong>Hồi âm: Chuyện quê nhà</strong></p>
     <p><strong>A</strong> [agcd@eclare45.com] 4/9/20 8:31 PM<br>gửi Henry</p>
     <hr>
