@@ -23,6 +23,8 @@ genres: "Hài hước, Fake Dating, Oan gia ngõ hẹp"
 <div class="epub-layout">
     <div class="epub-cover">
         <img src="./cover.jpg" alt="Boyfriend Material Cover" onerror="this.src='https://placehold.co/400x600/e74c3c/white?text=Boyfriend+Material'">
+        
+        <a href="./chap-01" class="read-now-btn">📖 Đọc Ngay</a>
     </div>
 
     <div class="epub-info">
@@ -114,8 +116,30 @@ genres: "Hài hước, Fake Dating, Oan gia ngõ hẹp"
 <style>
     /* Layout chia cột */
     .epub-layout { display: flex; gap: 30px; margin-bottom: 30px; align-items: flex-start; }
-    .epub-cover { width: 30%; min-width: 200px; }
+    .epub-cover { width: 30%; min-width: 200px; display: flex; flex-direction: column; }
     .epub-cover img { width: 100%; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+    
+    /* Style cho nút Đọc Ngay */
+    .read-now-btn {
+        display: block;
+        margin-top: 15px;
+        padding: 12px 0;
+        background-color: #e74c3c; /* Màu đỏ cam của truyện */
+        color: white !important;
+        text-align: center;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none !important;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+        transition: all 0.2s ease;
+        font-size: 1.1rem;
+    }
+    .read-now-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(231, 76, 60, 0.4); /* Hiệu ứng phát sáng nhẹ */
+        background-color: #c0392b;
+    }
+
     .epub-info { width: 70%; }
     .epub-title { margin-top: 0 !important; color: #e74c3c !important; line-height: 1.2; }
     .epub-meta { color: #666; font-size: 0.95rem; margin-bottom: 10px; }
@@ -135,8 +159,10 @@ genres: "Hài hước, Fake Dating, Oan gia ngõ hẹp"
     @media (max-width: 768px) {
         .epub-layout { flex-direction: column; }
         .epub-cover, .epub-info { width: 100%; }
-        .epub-cover { max-width: 200px; margin: 0 auto 20px auto; }
+        .epub-cover { max-width: 100%; margin: 0 auto 20px auto; }
         .epub-title { text-align: center; }
+        /* Trên mobile nút đọc ngay sẽ to hơn cho dễ bấm */
+        .read-now-btn { padding: 15px 0; font-size: 1.2rem; }
     }
 </style>
 
