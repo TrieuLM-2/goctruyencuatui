@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Chương 20
-description: "Đối Mặt Với Bố & Lời Thú Nhận Ngọt Ngào"
+description: "Cuộc Gặp Gỡ Tại Quán Rượu & Sự Cố Phòng Thay Đồ"
 parent: Boyfriend Material
 nav_order: 20
 ---
@@ -14,7 +14,7 @@ nav_order: 20
 
 <div style="text-align: center; margin-bottom: 40px;">
     <h1 style="color: #2c3e50; margin-bottom: 10px; font-size: 2rem;">CHƯƠNG 20</h1>
-    <h2 style="font-size: 1.2rem; color: #7f8c8d; font-weight: normal; margin-top: 0;">Đối Mặt Với Bố & Lời Thú Nhận Ngọt Ngào</h2>
+    <h2 style="font-size: 1.2rem; color: #7f8c8d; font-weight: normal; margin-top: 0;">Cuộc Gặp Gỡ Tại Quán Rượu & Sự Cố Phòng Thay Đồ</h2>
 </div>
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
@@ -33,39 +33,60 @@ Ngạc nhiên thay, Half Moon hóa ra lại là một trong những quán bia th
 Điện thoại của tôi đột nhiên rung lên. Thật vui khi biết rằng Oliver đang nghĩ đến mình lúc này, nhưng cũng chẳng hay ho chút nào khi anh quyết định nhớ tới tôi qua hình ảnh của một lão già da trắng và hói đầu.
 </p>
 
-<div class="chat-container" style="background-color: #f9f9f9; padding: 15px; border-radius: 10px; border: 1px solid #eee; margin-bottom: 1.5rem; font-family: sans-serif; font-size: 0.95rem;">
-    <p style="margin-bottom: 5px;"><strong>Luc:</strong> <i>Cái quái gì vậy? Em cho là một “cậu nhóc” nữa đúng không?</i></p>
-    <p style="margin-bottom: 5px;"><strong>Oliver:</strong> <i>Đúng thế.</i></p>
-    <p style="margin-bottom: 5px;"><strong>Luc:</strong> <i>Vậy em có nên biết đây là loại “cậu nhóc” nào không?</i></p>
-    <p style="margin-bottom: 5px;"><strong>Oliver:</strong> <i>Là loại chính trị đấy.</i></p>
-    <p style="margin-bottom: 5px;"><strong>Luc:</strong> <i>Em sẽ thích hơn nếu chuyện này chỉ dừng lại ở một trò tán tỉnh thay vì một trò chơi giải đố liên quan tới thường thức thực sự nhé.</i></p>
-    <p style="margin-bottom: 5px;"><strong>Oliver:</strong> <i>Anh xin lỗi. Đây là Dick Cheney.</i></p>
-</div>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">
+Luc: <i>Cái quái gì vậy? Em cho là một “cậu nhóc” nữa đúng không?</i><br>
+Oliver: <i>Đúng thế.</i>
+</p>
 
-<div style="background-color: #f0f0f0; padding: 10px 15px; border-left: 3px solid #999; font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; margin-left: 2em;">
-    <em>*Dick Cheney (Richard Bruce Cheney): Là phó tổng thống thứ 46 của Hoa Kỳ dưới thời tổng thống George W. Bush. (Tên "Dick" trong tiếng Anh cũng là tiếng lóng chỉ dương vật, Oliver đang chơi chữ).</em>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">
+Luc: <i>Vậy em có nên biết đây là loại “cậu nhóc” nào không?</i>
+</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">
+Oliver: <i>Là loại chính trị đấy.</i>
+</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">
+Luc: <i>Em sẽ thích hơn nếu chuyện này chỉ dừng lại ở một trò tán tỉnh thay vì một trò chơi giải đố liên quan tới thường thức thực sự nhé.</i>
+</p>
+
+<p style="margin-bottom: 1rem; text-indent: 2em;">
+Oliver: <i>Anh xin lỗi. Đây là Dick Cheney.</i>
+</p>
+
+<div style="background-color: #f9f9f9; padding: 10px 15px; border-left: 3px solid #ccc; font-size: 0.9rem; color: #666; margin-bottom: 1.5rem; margin-left: 2em;">
+    <em>*Richard Bruce Cheney (thường được gọi là Dick Cheney): Là phó tổng thống thứ 46 của Hoa Kỳ dưới thời tổng thống George W. Bush.</em>
 </div>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
 Chẳng hiểu sao Oliver thậm chí còn có thể khiến cho tin nhắn của anh thật sự toát lên vẻ ăn năn.
 </p>
 
-<div class="chat-container" style="background-color: #f9f9f9; padding: 15px; border-radius: 10px; border: 1px solid #eee; margin-bottom: 1.5rem; font-family: sans-serif; font-size: 0.95rem;">
-    <p style="margin-bottom: 5px;"><strong>Luc:</strong> <i>Sao em có thể đoán ra điều đó cơ chứ?</i></p>
-    <p style="margin-bottom: 5px;"><strong>Oliver:</strong> <i>Em hãy dùng manh mối theo ngữ cảnh. Anh đã bảo đây là loại chính trị rồi mà. Có bao nhiêu người tên Dick trong giới chính trị cơ chứ?</i></p>
-    <p style="margin-bottom: 5px;"><strong>Luc:</strong> <i>Anh làm vậy chỉ để bày ra một trò đùa thôi sao? Thế là quá nhiều đấy.</i></p>
-    <p style="margin-bottom: 5px; color: #888; font-style: italic;">[Một khoảng lặng xuất hiện]</p>
-    <p style="margin-bottom: 5px;"><strong>Oliver:</strong> <i>Đó cũng là một trò đùa để nói lên rằng anh rất nhớ em.</i></p>
-    <p style="margin-bottom: 5px;"><strong>Luc:</strong> <i>Quả là một kiểu nhớ nhung rất riêng nhỉ?</i></p>
-</div>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">
+Luc: <i>Sao em có thể đoán ra điều đó cơ chứ?</i>
+</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">
+Oliver: <i>Em hãy dùng manh mối theo ngữ cảnh. Anh đã bảo đây là loại chính trị rồi mà. Có bao nhiêu người tên Dick trong giới chính trị cơ chứ?</i><br>
+Luc: <i>Anh làm vậy chỉ để bày ra một trò đùa thôi sao? Thế là quá nhiều đấy.</i><br>
+Một khoảng lặng xuất hiện.
+</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">
+Oliver: <i>Đó cũng là một trò đùa để nói lên rằng anh rất nhớ em.</i>
+</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">
+Luc: <i>Quả là một kiểu nhớ nhung rất riêng nhỉ?</i>
+</p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
 “Con đây rồi.” Jon Fleming xuất hiện trước mặt tôi và nói: “Bố không dám chắc là con sẽ chịu đến.”
 </p>
 
-<div class="chat-container" style="background-color: #f9f9f9; padding: 10px 15px; border-radius: 10px; border: 1px solid #eee; margin-bottom: 1.5rem; font-family: sans-serif; font-size: 0.95rem;">
-    <p style="margin-bottom: 0;"><strong>Luc:</strong> <i>Bố em tới rồi.</i></p>
-</div>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">
+Luc: <i>Bố em tới rồi.</i>
+</p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
 Sau khi miễn cưỡng cất điện thoại vào túi, tôi chợt nhận ra mình chẳng có chuyện gì để nói với ông ta giống như mọi khi. “Phải rồi. Tôi đang ngồi ở đây.”
@@ -91,8 +112,8 @@ Chết tiệt, buổi tối hôm nay chắc sẽ dài lắm.
 “Con không tin được đâu, Mark Knopfler đã từng biểu diễn trên đó đấy.” Ông ta ngồi xuống đối diện tôi.
 </p>
 
-<div style="background-color: #f0f0f0; padding: 10px 15px; border-left: 3px solid #999; font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; margin-left: 2em;">
-    <em>*Mark Knopfler (Mark Freuder Knopfler OBE): Ca sĩ, nhạc sĩ, nghệ sĩ ghi-ta và nhà sản xuất thu âm người Anh.</em>
+<div style="background-color: #f9f9f9; padding: 10px 15px; border-left: 3px solid #ccc; font-size: 0.9rem; color: #666; margin-bottom: 1.5rem; margin-left: 2em;">
+    <em>*Mark Freuder Knopfler OBE: Là ca sĩ, nhạc sĩ, nghệ sĩ ghi-ta và nhà sản xuất thu âm người Anh.</em>
 </div>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
@@ -103,9 +124,9 @@ Chết tiệt, buổi tối hôm nay chắc sẽ dài lắm.
 Nhất định tôi đã đánh giá sai ông ta. Bởi vì, không chỉ biết tôi đang nói nhảm mà ông ta còn chẳng thèm cho phép chuyện đó ngăn cản ông ta thuyết giảng cho tôi một bài dài dằng dặc và tự mãn về lịch sử nền âm nhạc. “Năm 76, khi bố gặp Mark lần đầu tiên, cả anh ta lẫn anh trai anh ta đều phải sống dựa vào tiền trợ cấp thất nghiệp và đang cân nhắc ý định thành lập một ban nhạc. Bố đã đưa họ đến gặp Max Merritt và ban nhạc Meteors ở quán Half Moon này. Hồi đó, nó là một phần của cái mà bọn bố vẫn gọi là rạp hát nhà vệ sinh.”
 </p>
 
-<div style="background-color: #f0f0f0; padding: 10px 15px; border-left: 3px solid #999; font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; margin-left: 2em;">
-    <p style="margin-bottom: 5px;"><em>*Max Merritt (Maxwell James Merritt): Ca sĩ, nhạc sĩ và nghệ sĩ ghi-ta người New Zealand, nổi tiếng với tư cách là một diễn giả của nhạc soul và R&B.</em></p>
-    <p style="margin-bottom: 0;"><em>*Rạp hát nhà vệ sinh (toilet circuit): Mạng lưới các địa điểm âm nhạc nhỏ lẻ ở Vương quốc Anh, nơi các ban nhạc indie, rock và metal đang nổi thường ghé tới để quảng bá bản thân.</em></p>
+<div style="background-color: #f9f9f9; padding: 10px 15px; border-left: 3px solid #ccc; font-size: 0.9rem; color: #666; margin-bottom: 1.5rem; margin-left: 2em;">
+    <p style="margin-bottom: 5px;"><em>*Maxwell James Merritt (1941-2020): Là một ca sĩ, nhạc sĩ và nghệ sĩ ghi-ta người New Zealand, nổi tiếng với tư cách là một diễn giả của nhạc soul và R&B.</em></p>
+    <p style="margin-bottom: 0;"><em>*Rạp hát nhà vệ sinh (toilet circuit): Là mạng lưới các địa điểm âm nhạc nhỏ lẻ ở Vương quốc Anh, nơi các ban nhạc indie, rock và metal đang nổi thường ghé tới để quảng bá bản thân. Ý nghĩa của cái tên này có thể liên quan tới quy mô của đêm nhạc cũng như tình trạng vệ sinh của địa điểm, hoặc do thiếu phòng thay đồ khiến ban nhạc phải thay đồ trong nhà vệ sinh.</em></p>
 </div>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
@@ -173,7 +194,7 @@ Tất nhiên tôi có thể giả vờ mình thuộc phạm trù “quá khứ�
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Tôi đã đọc những bài phỏng vấn của Jon Fleming, nghe những bài hát của ông ta, xem các chương trình có ông ta trên ti vi, nên tôi biết đây chỉ là cách ông ta vẫn thường nói chuyện. Nhưng cảm giác sẽ rất khác khi đối tượng ông ta hướng đến chính là bạn. Đôi mắt màu xanh lục lam dữ dội đó nhìn thẳng vào bạn và khiến bạn cảm thấy ông ta đang kể cho bạn nghe những điều ông ta sẽ chẳng bao giờ kể với bất kỳ ai khác.
+Tôi đã đọc những bài phỏng vấn của Jon Fleming nghe những bài hát của ông ta, xem các chương trình có ông ta trên ti vi, nên tôi biết đây chỉ là cách ông ta vẫn thường nói chuyện. Nhưng cảm giác sẽ rất khác khi đối tượng ông ta hướng đến chính là bạn. Đôi mắt màu xanh lục lam dữ dội đó nhìn thẳng vào bạn và khiến bạn cảm thấy ông ta đang kể cho bạn nghe những điều ông ta sẽ chẳng bao giờ kể với bất kỳ ai khác.
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
@@ -212,8 +233,8 @@ Tôi không biết phải nói gì. Mà đáng lẽ tôi nên nhận ra rằng m
 “Kiểu như, gần ba mươi album phòng thu, vô số chuyến lưu diễn, một sự nghiệp kéo dài năm thập kỷ và một lần chôm mất giải Grammy của Alice Cooper ấy à?”
 </p>
 
-<div style="background-color: #f0f0f0; padding: 10px 15px; border-left: 3px solid #999; font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; margin-left: 2em;">
-    <em>*Alice Cooper: Ca sĩ, nhạc sĩ và diễn viên không chuyên người Mỹ.</em>
+<div style="background-color: #f9f9f9; padding: 10px 15px; border-left: 3px solid #ccc; font-size: 0.9rem; color: #666; margin-bottom: 1.5rem; margin-left: 2em;">
+    <em>*Alice Cooper: Là một ca sĩ, nhạc sĩ và diễn viên không chuyên người Mỹ.</em>
 </div>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
@@ -279,414 +300,271 @@ Vậy thì tại sao tôi lại không thử cơ chứ?
 <br/>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Hành trình quay trở về của hai chúng tôi chìm trong yên lặng.
+Ngày diễn ra sự kiện chương trình Ổ bọ cánh cứng, tôi đã có mặt tại văn phòng lúc mười một giờ và tới khách sạn lúc ba giờ. Các thiết bị bảo hiểm cùng đồ trang trí cho bàn tiệc đều đã được tôi xếp đặt xong xuôi, nhưng tôi lại chẳng nhớ gì tới khoản nhạc nhẽo cho sự kiện. Khi tôi đang tự nhủ sẽ không có ai bận tâm tới chuyện này, vì phần lớn những con người sang trọng thường chỉ thích lắng nghe thanh âm phát ra từ giọng nói của chính họ, thì Rhys Jones Bowen chợt ló đầu vào buồng vệ sinh đúng lúc tôi đang luống cuống mặc lễ phục.
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Anh có phiền nếu chúng ta ngừng nghe podcast <i>Thung lũng Bóng đêm</i> không?” Tôi nói.
+“Tôi nghe bảo cậu đang gặp chút vấn đề với bộ phận âm nhạc hả?” Anh ta hoàn toàn không chú ý đến việc tôi đang mặc độc chiếc quần lót.
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Hoàn toàn không.”
+“Không sao đâu. Chúng ta sẽ chạy chương trình mà không cần tới âm nhạc. Năm ngoái chúng ta cũng từng mời một nhóm tứ tấu đàn dây tới đây để biểu diễn đấy thôi, nhưng có ai thèm quan tâm đâu.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Và thế là chỉ còn tiếng động cơ vang vọng trong xe. Ẩn trong đó là những nhịp thở đều đặn của Oliver. Tôi tựa đầu vào cửa kính, dõi mắt ngắm nhìn con đường cao tốc đang vùn vụt lướt qua trong màn sương mù xám xịt.
+“Nếu cậu chắc chắn tới vậy thì tôi sẽ bảo với chú Alan rằng chúng ta hoàn toàn không cần tới chú ấy.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Em có...”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Tôi có thể bật chút nhạc được không?” Tôi hỏi.
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Dĩ nhiên rồi.”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Tôi đặt điện thoại của mình lên đế kết nối và bật ứng dụng Spotify. Đáng lẽ tôi nên chọn những ca từ nức nở để xoa dịu cõi lòng, nhưng chẳng hiểu sao tôi lại chọn nghe một trong những tuyển tập nhạc cũ của Jon Fleming. Trời đất quỷ thần ơi, bố tôi đã làm rất nhiều thứ tào lao trong suốt những năm qua. Chỉ riêng những bản phối lại cùng các tuyển tập kỷ niệm thôi cũng đã có khoảng ba mươi album khác nhau, bao gồm <i>Những ngọn đồi um tùm</i>, một trong những album ông ta từng thực hiện cùng mẹ tôi, cũng là album tôi chưa nghe bao giờ.
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Cuối cùng tôi quyết định mở album <i>Leviathan</i>. Có một khoảng dừng ngắn khi ca khúc chủ đề được lưu vào bộ nhớ đệm. Sau đó, hệ thống loa bắt đầu phát một thứ nhạc rock cấp tiến đầy giận dữ ở một mức độ mà chúng thực sự không hề được thiết kế để có thể đương đầu với nó. Thành thật mà nói, tôi cũng không dám chắc liệu mình có được thiết kế để đương đầu với nó hay không.
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Tôi đã bước qua cái thời kỳ mải mê nghe nhạc của Jon Fleming tới mức ám ảnh rồi. Nên chuyện tôi đang nghe nó bây giờ quả là một trải nghiệm cực kỳ quái đản. Bởi tôi vẫn còn nhớ như in - không chỉ về âm nhạc, mà còn cả những cảm giác nó mang lại cho mình, khi tôi mười ba tuổi và có một người bố có thể tiếp cận quá dễ dàng song lại chẳng bao giờ có mặt bên cạnh tôi. Lúc nào ông ta cũng chỉ chìm đắm trong thế giới âm nhạc của mình. Ngay cả bây giờ, khi tôi vừa mới dành một tiếng đồng hồ để quát thẳng vào mặt ông ta, ông ta vẫn không hề hiện diện trong cuộc sống của tôi.
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Oliver nhìn lướt qua ánh mắt của tôi, “Có phải đây là...”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Đúng vậy.”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Nó, ừm, đúng là ồn ào thật.”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Phải, ông ta đã từng rất ồn ào vào thập niên 80. Còn thập niên 70, nhạc của ông ta lúc nào cũng chỉ có cây cối và trống lục lạc thôi.”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Lại là một khúc nhạc dạo của những tiếng gầm gừ đầy nghi hoặc và tiếng ghi-ta nặng nề.
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Xin hãy tha thứ cho sự thiếu hiểu biết của tôi.” Oliver nói: “Nhưng nó nói về cái gì vậy?”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Theo lời mẹ tôi thì nó nói về một nước Anh ủng hộ thủ tướng Thatcher. Anh biết đấy, vì tất cả mọi thứ ở đất nước này thời thập niên 80 đều là về chủ đề đó mà.”
+“Có phải tôi vừa mới bỏ lỡ gì đó giữa cuộc trò chuyện của chúng ta không? Chú Alan là ai, và tại sao chúng ta lại cần hay không cần chú ấy?”
 </p>
 
 <p style="margin-bottom: 1rem; text-indent: 2em;">
-“Nhưng nó có liên quan gì đến cuốn <i>Leviathan</i> của Hobbes?”
+“Ồ, cậu biết rồi còn gì, tôi đang nói tới việc có người bảo rằng ban nhạc cậu muốn mời đã xin hủy lịch trình và cậu không tìm được ai thay thế. Nên tôi đã nghĩ tại sao mình không hỏi thử chú Alan. Tôi đã gọi điện cho chú ấy, chú ấy bảo rằng đúng lúc chú ấy và các thành viên trong ban nhạc đang có mặt ở thị trấn để tham gia chương trình <i>Khúc ca tự hào</i>, vì vậy họ rất sẵn lòng giúp đỡ chúng ta giải quyết vấn đề này.”
 </p>
 
-<div style="background-color: #f0f0f0; padding: 10px 15px; border-left: 3px solid #999; font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; margin-left: 2em;">
-    <em>*Thomas Hobbes (1588-1679): Nhà triết học người Anh, được coi là một trong những người sáng lập ra triết học chính trị hiện đại. Tác phẩm Leviathan của ông đã thiết lập nền tảng cho nền triết học chính trị phương Tây theo quan điểm lý thuyết về khế ước xã hội.</em>
-</div>
-
-<p style="margin-bottom: 1rem; text-indent: 2em;">
-“Chúng có liên quan với nhau à? Trừ phi chúng ta đang nói về con hổ trong bộ phim hoạt hình kia, mà nếu vậy thì có lẽ tôi vẫn không biết thật.”
-</p>
-
-<div style="background-color: #f0f0f0; padding: 10px 15px; border-left: 3px solid #999; font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; margin-left: 2em;">
-    <em>*Con hổ nhồi bông Hobbes: Trong bộ truyện tranh Calvin và Hobbes do họa sĩ Bill Watterson sáng tạo ra, con hổ được đặt tên theo nhà triết học Thomas Hobbes.</em>
+<div style="background-color: #f9f9f9; padding: 10px 15px; border-left: 3px solid #ccc; font-size: 0.9rem; color: #666; margin-bottom: 1.5rem; margin-left: 2em;">
+    <em>*Khúc ca tự hào (Songs of Praise): Là một chương trình tôn giáo của đài truyền hình BBC, trình bày các bài thánh ca của Cơ đốc giáo được hát trong các nhà thờ thuộc nhiều giáo phái khác nhau trên khắp Vương quốc Anh.</em>
 </div>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Oliver chợt bật cười khùng khục, “Ông ấy gọi ban nhạc của mình là “Rights of Man” nhỉ? Vậy thì tôi cho rằng ông ấy có chút quan tâm đến triết lý của thế kỷ XVII và XVIII đấy.”
+“Được rồi, Rhys. Hỏi lại lần nữa nhé, chú Alan là ai?”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Chết tiệt.” Tôi đập đầu đánh cộp vào đệm tựa đầu phía sau. “Có phải mọi người đều hiểu rõ bố tôi hơn tôi không?”
+“Cậu biết chú Alan là ai rồi còn gì. Tôi từng kể cho cậu nghe về chú ấy rồi. Lúc nào tôi chẳng nhắc đến chú Alan cơ chứ.”
 </p>
 
-<p style="margin-bottom: 1rem; text-indent: 2em;">
-“Sự hiểu biết của tôi cũng chẳng nhiều nhặn hơn đâu. Chỉ là tôi nghiên cứu sâu hơn về phong trào Khai sáng thôi.”
-</p>
-
-<div style="background-color: #f0f0f0; padding: 10px 15px; border-left: 3px solid #999; font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; margin-left: 2em;">
-    <em>*Phong trào Khai sáng (Age of Enlightenment): Còn gọi là phong trào Duy lý, là phong trào tri thức triết học chi phối tư tưởng châu Âu vào thế kỷ XVII và XVIII.</em>
-</div>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Tôi không chắc mình đang cảm thấy thực sự được an ủi đâu. Mà nó chỉ đồng nghĩa với việc anh am hiểu cả về lịch sử lẫn bố tôi hơn tôi thôi.”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Tôi không cố ý làm như vậy đâu.”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Tôi hiểu. Nhưng tôi vẫn thích chọc ngoáy cái mặc cảm tội lỗi tầng lớp trung lưu của anh đó.”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Nếu vậy, em nên vui mừng khi biết rằng ngay lúc này đây, tôi đang cố cảm thấy ít day dứt nhất có thể vì đã khuyến khích em liên lạc với ông ấy.”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Anh nói đúng. Chuyện này quả là một thảm họa và tất cả đều là lỗi của anh.”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Anh có vẻ nao núng, “Lucien, tôi...”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Tôi chỉ đùa thôi mà, Oliver. Anh không có lỗi gì cả. Tất thảy đều do lão khốn Jon Fleming mà ra. Và...” Sao anh cứ ép tôi phải thốt ra mấy lời này nhỉ, “Tôi rất vui vì anh đã ở đó. Mọi chuyện chắc hẳn đã tồi tệ hơn nhiều nếu như không có anh.”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Bản nhạc tiếp theo mang một giai điệu nhẹ nhàng và du dương tựa như tiếng sáo. <i>“Con đường Livingstone.”</i> Thật bực bội làm sao vì tôi vẫn còn nhớ được nó.
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Một lát sau, anh nói: “Xin lỗi em vì mọi chuyện đã không thể tốt đẹp hơn.”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Chuyện đó sẽ chẳng đời nào xảy ra đâu.”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Và em không... bị tổn thương quá chứ?”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Nếu là ai khác hỏi tôi câu này, hoặc giả là Oliver của hai tuần trước đó, thì chắc hẳn tôi đã thốt lên “Lâu lắm rồi, Jon Fleming chẳng còn làm tôi đau được nữa”. “Không quá đau nhưng... đúng vậy, tôi đã bị tổn thương.”
-</p>
-
-<p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Tôi thật sự không hiểu nổi tại sao ai cũng không muốn có em trong cuộc đời của họ.”
-</p>
-
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Tôi khịt mũi, “Anh đã từng gặp tôi chưa vậy?”
+“Nhưng tôi thực sự chưa bao giờ nghe anh nhắc tới chú ấy.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Em đừng cười trên nỗi đau của mình như vậy chứ. Tôi nói thật lòng đấy.”
+Anh ta trợn tròn mắt, “À, tôi quên mất chuyện cậu là một kẻ ngốc như thế nào. Chú Alan là giám đốc điều hành của dàn hợp xướng nam Skenfrith. Họ khá có tiếng trong giới hợp xướng nam đấy.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Tôi biết. Chỉ là, sẽ dễ dàng hơn nhiều khi đẩy mọi người tránh xa mình, so với việc phải nhìn họ rời đi.” Những câu từ đó cứ lởn vởn ở đó, tôi ước gì mình có thể nuốt ngược chúng lại. “Mà dù sao đi chăng nữa, anh đã nói đúng. Nếu không chịu cố gắng, chắc tôi sẽ phải sống cả đời với nỗi ô danh của một kẻ khốn nạn đã bỏ rơi người bố đang hấp hối của mình.”
+“Và tới tận lúc này anh mới đề cập đến vấn đề đó là bởi...”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Em sẽ không như vậy đâu. Có thể cảm giác vẫn sẽ chẳng khác gì, nhưng em sẽ không phải sống như thế cả đời đâu.” Anh dừng lại chốc lát, “Giờ thì, em sẽ làm gì tiếp theo đây?”
+“Tôi không muốn khiến cậu phải hy vọng nếu như chuyện chưa chắc đã thành công.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Tôi biết thế quái nào được? Cứ thử xem chuyện gì sẽ xảy ra khi ông ta gọi nhé.”
+Cuối cùng, tôi đành phải đầu hàng trước thế lực không thể ngăn trở được của Rhys Jones Bowen cũng như nguồn cung cấp nhân tài người Celt dường như là vô hạn của anh ta. “Được rồi. Anh có thể bảo họ hãy ổn định chỗ ngồi và cung cấp cho họ bất cứ thứ gì họ cần. Và...” Tôi bỗng thấp thỏm nhận ra rằng mình đang phải trải qua khoảnh khắc thực sự thấy biết ơn Rhys Jones Bowen thêm một lần nữa. “Cảm ơn anh. Cũng rất xin lỗi anh chuyện tôi đúng là một kẻ ngốc. Thật tình tôi rất cảm kích sự giúp đỡ của anh.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Em đã làm tất cả những việc mình cần phải làm rồi. Giờ quyết định thế nào nằm trọn trong tay ông ta. Mặc dù thành thật mà nói, tôi không nghĩ ông ta xứng đáng được làm bố của em.”
+“Tôi rất vui lòng được giúp cậu. Mà nhân tiện, quần lót đẹp đấy. Có phải là của hãng Markses không?”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Chết tiệt. Tôi thực sự cần anh ngừng đối xử tử tế với tôi. Hãy dừng lại đi hoặc đừng bao giờ dừng lại nữa.
-</p>
-
-<p style="margin-bottom: 1rem; text-indent: 2em;">
-Tôi mặc cho album <i>Leviathan</i> chạy đến những giai điệu cuối cùng sau đó Spotify tự ý quyết định rằng tôi muốn nghe nhạc của Uriah Heep. Sau một cuộc hành trình kéo dài bốn tiếng đồng hồ được tô điểm bằng thứ nhạc rock cấp tiến của thập niên 80, cuối cùng chúng tôi cũng đã về đến nhà của tôi.
+Tôi nheo mắt nhìn xuống dưới, “Tôi không chắc mình để tâm đến chuyện quần lót như vậy đâu.”
 </p>
 
-<div style="background-color: #f0f0f0; padding: 10px 15px; border-left: 3px solid #999; font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; margin-left: 2em;">
-    <em>*Uriah Heep: Là một ban nhạc rock của Anh được thành lập vào năm 1969.</em>
-</div>
-
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Anh...” Tôi cố hết sức để tỏ vẻ thờ ơ nhất có thể, “Anh có muốn ở lại không?”
+“Phải rồi, cậu đúng là người như thế mà.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Anh nhìn tôi, vẻ mặt khó hiểu ẩn hiện giữa những cái bóng hắt vào từ mấy ngọn đèn đường. “Em có muốn tôi ở lại hay không?”
+Cùng với câu nói đó, anh ta nhẹ nhàng bỏ đi mất, có lẽ là để cãi lộn với một dàn hợp xướng nào đó. Còn tôi lại quay về với chuyện mặc quần áo. Nhưng đúng lúc ấy, tới lượt Alex xộc vào trong.
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Lúc này tôi đã quá mệt mỏi để phải vật lộn với câu hỏi đó rồi, và cũng quá kiệt sức để có thể giả vờ thêm nữa. “Có.”
+“Vì Chúa...” Tôi hét lên: “Tôi có phải là phim người lớn cho mấy người rình xem trộm đâu.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Tôi sẽ tìm chỗ nào đó đậu xe và gặp lại em trên tầng nhé.”
+Alex chẳng hề tỏ ra nao núng, “Ừm, tôi chỉ hỏi một câu rất nhanh thôi. Cậu biết tôi đang phải đảm nhận một nhiệm vụ đúng không?”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Thường thì đây sẽ là cơ hội để tôi cố giấu nhẹm đi những bằng chứng tồi tệ nhất về lối sống khủng khiếp của mình, nhưng dạo gần đây tôi đã siêu cẩn thận cũng như nỗ lực hết mức để giữ căn hộ ở trạng thái chấp nhận được. Điều đó đồng nghĩa với việc bây giờ tôi chẳng có gì để làm, ngoại trừ gượng gạo đứng trước sofa và chờ Oliver. Khi anh nhìn thấy tôi lần nữa, tôi vẫn mặc nguyên áo khoác và kiệt quệ như một quả chanh trên tấm thảm mà Priya đã tặng cho tôi.
+“Ý anh muốn nói đến chuyện để mắt tới bá tước ấy hả?”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Ừm.” Tôi nói: “Ngạc nhiên chưa?”
+“Phải, chính là việc đó đấy. Nếu tôi không thể nỗ lực hết một trăm phần trăm khả năng của bản thân thì mọi chuyện sẽ phiền phức đến mức nào được nhỉ?”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Anh hết liếc nhìn tôi rồi lại nhìn sang cái khung cảnh thiếu vắng đống rác rưởi quen thuộc. “Em dọn nhà đấy à?”
+“Đừng bảo là anh thực sự đã để lạc bá tước rồi đấy nhé?”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Đúng vậy. Ý tôi là, tôi đã được giúp đỡ.”
+“Chỉ một chút chút thôi. Dù không biết chính xác ông ấy đang ở đâu, nhưng hiện tại tôi có một danh sách càng lúc càng đầy đủ về những nơi ông ấy không xuất hiện rồi.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Không phải em làm chuyện này vì tôi chứ?”
+“Làm ơn đi, Alex.” Tôi đang phải tập hít thở sao cho thật điềm tĩnh, “Anh đi tìm ông ấy đi. Ngay bây giờ.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Vì chính bản thân tôi và có đôi chút vì anh nữa.”
+“Nhất trí. Xin lỗi vì đã làm phiền cậu. Nhân tiện, quần lót đẹp đấy. Rất thanh lịch.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Trông anh có vẻ thực sự bị choáng ngợp, “Ôi, Lucien.”
+“Biến ngay.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Cũng... cũng đâu phải chuyện gì to tát.” Và rồi anh hôn tôi, một nụ hôn đầy ân cần rất đỗi Oliver, hai bàn tay anh ôm lấy gương mặt tôi rồi nhẹ nhàng kéo tôi về phía anh. Giống như cái cách bạn thưởng thức một loại socola thực sự đắt tiền, nhấm nháp và cảm nhận hương vị của nó bởi bạn thừa biết rằng có thể mình sẽ chẳng bao giờ được tận hưởng nó thêm lần nữa. Một mùi hương thân thuộc tỏa ra từ anh, mùi của sự chào đón trở về và của cái đêm mà tôi từng được bao bọc trong vòng tay anh. Oliver khiến tôi cảm thấy mình được quý trọng quá đỗi, đến nỗi tôi không dám chắc mình có thể gánh vác nó.
+Anh ta thật sự chuồn đi ngay lập tức. Còn tôi thì bắt đầu nhảy lò cò, cố gắng kéo chiếc quần dài bó sát tới mức bất tiện của mình nhích dần lên. Ấy thế mà cánh cửa lại một lần nữa bật mở sau lưng tôi.
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Ngoại trừ việc tôi không muốn nó kết thúc, thì đây chính là khoảnh khắc tôi tìm thấy cho mình thứ mà tôi đã ngừng tìm kiếm từ rất lâu. Thậm chí tôi còn ngừng tin rằng nó thực sự tồn tại. Một sự ngọt ngào đến không tưởng và rất đỗi hoang dại khi ai đó hôn bạn vì chính bản thân bạn. Đó là một nụ hôn khiến bạn trở nên bất khả chiến bại, nóng bỏng và chậm rãi, sâu lắng và hoàn hảo. Chỉ trong một khoảng thời gian ngắn ngủi thôi, tôi đã chẳng còn nhớ mình cần thêm bất cứ điều gì khác trên đời nữa. Tất cả những gì tôi có thể làm được lúc này là vô thức nắm chặt lấy vạt áo khoác của anh.
+“Alex.” Tôi gắt lên, “Anh có thể cút xéo đi khoảng năm phút không?”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Ch... chuyện gì đang xảy ra vậy?”
+“Ôi chao.” Một giọng nói già cả hơn Alex rất nhiều, nhưng lại không trịnh trọng hơn là mấy. “Ta vô cùng xin lỗi. Ta nghĩ chắc ổ khóa bị hỏng mất rồi. Mặc dù nghe cậu đề cập tới, ta chợt nhớ ra mình vừa bị lạc mất một anh chàng tên Alex. Cậu có biết anh ta đang ở đâu không?”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Tôi hy vọng rằng nó đã hiển hiện quá rõ ràng trong mắt em rồi.” Anh nở một nụ cười dịu dàng nhất.
+Tôi quay người lại, vẫn chưa kéo được quần lên là mấy, để đối mặt với người bảo trợ kiêm nhà tài trợ chính của CRAPP, bá tước Spitalhamstead. “Tôi rất xin lỗi thưa ngài. Tôi vừa mới nhầm ngài với người khác.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Đúng vậy, nhưng anh từng bảo rằng anh chỉ hôn người mình thích thôi mà.”
+“Ta cũng hiểu được là như vậy khi nghe cậu gọi ta bằng tên người khác rồi.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Gương mặt anh nhanh chóng ửng hồng, “Đó đúng là sự thật, nhưng tôi xin lỗi vì đã nói như vậy với em. Bởi tôi thật sự rất thích em. Và trên thực tế, từ trước tới giờ, tôi vẫn luôn thích em. Chỉ là tôi nghĩ em sẽ thấy tôi rất nực cười nếu như biết được tôi thích em nhiều đến nhường nào thôi.”
+“À, vâng. Ngài quả là sắc sảo.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Ôi, thôi nào.” Tâm trí tôi quay cuồng, “Chẳng lẽ tôi lại thấy anh nực cười khi tôi đang cần tới sự giúp đỡ của anh hay sao?”
+“Dù sao thì ta rất thích màn chửi thề đó đấy. Chính ta cũng rất thích được chửi thề đôi chút.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Em nói hay lắm.”
+“Chúng tôi đang cố gắng để làm ngài vừa ý. Nếu ngài cho tôi xin mười giây để mặc xong quần áo, tôi sẽ đưa ngài lên tầng và chúng ta sẽ cùng đi tìm Alex.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Vậy thì hãy hôn em thêm lần nữa đi.”
+“Cậu không cần phải làm thế đâu. Ta chắc chắn là mình có thể tự tìm ra cậu ta mà.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Mặc dù không quen được thấy Oliver làm những gì mà tôi bảo anh làm, nhưng tôi đoán đây là một dịp rất đặc biệt. Hoặc có lẽ là bởi việc tôi dọn dẹp nhà cửa đã khiến đầu óc anh trở nên mụ mị. Dù sao anh cũng không thể kiềm chế quá lâu. Kết cục là Oliver ghì chặt tay tối trên sofa. Những nụ hôn của anh chìm đắm và nồng nhiệt như thể thế giới sắp đến ngày tận thế và vì một lý do rất kỳ lạ nào đó, anh đã quyết định rằng tôi chính là điều cuối cùng anh muốn có trên đời.
+“Không không.” Tôi khăng khăng, “Tôi sẽ đi cùng ngài sau một phút nữa thôi.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Em cứ tưởng lúc này anh phải vào vai một cậu bé ngoan chứ.” Tôi thở hổn hển.
+Bá tước Spitalhamstead ít nhất cũng đã chín mươi tuổi và gàn dở theo một cách mà chỉ tầng lớp quý tộc mới được phép như vậy. Ông ấy thường có thói quen bận tâm tới những gì mà Alex mô tả là “bẩn thỉu”. Lần cuối cùng chúng tôi để ông ấy được tự do đi lang thang, không có người giám sát thì ông ấy đã rẽ nhầm vào quán bar của khách sạn, gọi một lượng sâm banh nhiều tới mức không thể chấp nhận được “chỉ vì lịch sự”, rồi bay thẳng qua Vienna cùng một người mà ông ấy hoàn toàn không nhận ra là một ả gái điếm. Rõ ràng hai người họ đã có một khoảng thời gian rất tuyệt vời, nhưng chuyện đó thực sự đã ảnh hưởng nghiêm trọng tới việc gây quỹ của chúng tôi.
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Anh nhìn xuống tôi, đôi mắt đen chất chứa đam mê kia quả thực trông rất hư hỏng. “Còn anh lại nghĩ rằng lúc này, em đang có ý thức xã hội hơi thái quá để quan tâm tới kiểu thành kiến tiêu cực về giới tính kia đấy.”
+Vậy là, chỉ sau mười giây đầy kinh hoàng, tôi đã mặc quần áo xong xuôi và dắt tay một ngài quý tộc đi về phía ông ấy cần phải tới trong khi ông ấy kể cho tôi nghe cả một câu chuyện dài về con voi nào đó, chiếc máy bay đua một lớp cánh và cái lần ông ấy lên giường cùng Marilyn Monroe. Chúng tôi bắt gặp Alex đang cẩn thận săm soi tìm kiếm gì đó trong một chậu cây nọ.
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Đúng vậy. Em đang có ý thức xã hội như điên đây. Rõ ràng đó không phải là một khía cạnh con người anh mà em từng nghĩ rằng mình sẽ được thấy.”
+“Anh đang làm gì vậy?” Tôi mở lời dù biết rất rõ mình sắp đặt ra một câu hỏi mà bản thân có lẽ không muốn phải nghe câu trả lời.
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Chà, em không nên nói như vậy đâu.” Vẻ mặt anh lập tức quay về với nét nghiêm nghị như thường lệ. “Chúng ta đã nhất trí... rằng đây chính là... những gì mà chúng ta sẽ làm. Chứ không phải là...”
+Alex nhìn tôi như thể tôi vừa thốt ra một điều gì đó cực ngu ngốc, “Tất nhiên là tôi đang tìm ngài bá tước rồi.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Tôi không chắc anh định nói gì tiếp theo, nhưng tôi biết mình không muốn nghe về nó. Bởi biết đâu ngày mai, chúng tôi sẽ lại quay về với cung cách hành xử như thể chuyện này chẳng là gì thì sao? Nhưng đêm nay... tôi đoán mình đã quá mệt mỏi vì những chuyện nhảm nhí của bản thân rồi. “Oliver, xin anh. Chúng ta hãy ngừng giả vờ có được không? Hôm nay anh thật sự rất tuyệt. Và anh vẫn luôn tuyệt vời như vậy trong suốt thời gian qua.”
+“Và anh nghĩ mình sẽ tìm thấy ngài ấy trong một chậu cây sao?”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Anh lại đang đỏ mặt, “Anh chỉ làm đúng những gì chúng ta thỏa thuận với nhau thôi. Tất cả chỉ có vậy.”
+“Tôi cho là cậu vừa mới tự biến bản thân thành một kẻ ngốc đấy, vì đó chính xác là nơi tôi tìm thấy ngài ấy.” Anh ta chỉ tay vào bá tước Spitalhamstead, người nãy giờ vẫn đứng bên cạnh tôi trong suốt cuộc trò chuyện. “Thấy chưa?”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Vậy thì, được thôi. Nhưng anh đã khiến em cảm thấy hạnh phúc hơn bất kỳ ai trên đời. Em sẽ cố không phá hỏng những gì chúng ta đã cùng có với nhau, hay bắt anh phải làm bất cứ điều gì anh không muốn. Chỉ là em... em đoán rằng mình muốn anh... biết vậy thôi?”
+“Chào cậu, Twaddle.” Ngài bá tước vui vẻ nói: “Mọi chuyện vẫn ổn chứ?”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Lucien...”
+“Cực kỳ không ổn thưa ngài. Ý tôi đang muốn nói tới chuyện trông nom ngài bá tước này. Tôi đã hoàn toàn lạc mất ngài ấy rồi.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Sau một khoảng im lặng rất dài, tôi hỏi: “Anh có định nói hết câu đó không?”
+“Đúng là số nhọ nhỉ. Có vẻ cậu sẽ phải tạm dùng ta thay cho ngài ấy thôi.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Anh bật cười, “Anh xin lỗi. Chẳng qua... đây không phải một khía cạnh con người em mà anh từng nghĩ mình sẽ được thấy thôi.”
+Trong một giây ngắn ngủi, dường như Alex đã thực sự cân nhắc về lời đề nghị đó. “Tôi đang phải làm nhiệm vụ nho nhỏ này cho Luc. Nhưng...” Anh ta nhìn tôi với vẻ bất lực, “Hilary là một người bạn già vui tính của gia đình chúng tôi, có lẽ tôi vẫn nên chăm sóc ngài ấy thì hơn, nếu như cậu thấy ổn?”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Đúng vậy. Em vẫn chưa quen với... bất kỳ chuyện gì trong số này. Được ở bên cạnh một ai đó, có thể dựa dẫm vào họ và hy vọng họ cũng có thể dựa vào mình.”
+Tôi vỗ vai anh ta, “Anh biết đấy, tôi lại nghĩ như thế là tốt nhất.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Nếu nói tới bất cứ một kiểu động viên, an ủi nào, thì anh cũng thực sự chưa quen với chuyện này.”
+“Hu rây. Lẽ thường luôn chiến thắng.” Alex nhẹ nhàng nắm lấy cánh tay của bá tước. “Đi thôi, ông bạn già. Tôi có cả tá bạn bè đang thèm được chuyện trò hàn huyên với ông đấy.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Chẳng phải anh từng có cả tá bạn trai rồi hay sao?”
+“Thật tuyệt vời.” Bá tước đáp: “Đúng là tôi hiếm khi được thảo luận về bọ phân với một khán giả biết thưởng thức. Cậu biết không, ở dinh thự bá tước, mọi người lúc nào cũng từ chối tôi. Quả là một lũ khốn thiển cận... “
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Đúng thế...” Ánh mắt anh lảng tránh, “Nhưng anh chưa bao giờ cảm thấy mình đủ cho bất kỳ ai trong số họ.”
+Tôi sụp người đứng dựa vào một cây cột khi họ đi khuất dạng vào trong phòng chức năng, nơi tôi có thể nghe thấy những thanh âm du dương của một dàn hợp xướng nam đang tập dượt bằng bài quốc ca của xứ Wales vọng ra từ đó. Ngoài tiền sảnh, khách khứa đã bắt đầu xuất hiện và “mệt lả trước cả khi bữa tiệc kịp bắt đầu”. Tôi biết tư thế hiện tại của mình không phải dáng vẻ đáng tin cậy của một nhà gây quỹ. Nhưng mọi chuyện về cơ bản vẫn ổn thỏa, tất cả đều đã đâu vào đấy. Nếu phải nói thật, thì được thấy cả đội cùng đoàn kết một lòng và hỗ trợ lẫn nhau vì sự nghiệp chung quả thực rất tuyệt vời. Ngoài ra chúng tôi sẽ nhận được một đãi ngộ thường niên nữa, đó là được thấy Rhys Jones Bowen mặc vest. Từ “đãi ngộ” mà tôi đang nhắc tới đồng nghĩa với từ “một trải nghiệm thú vị thoáng qua”, vì lúc nào anh ta chẳng cố khiến mình trông giống một tay trong theo chủ nghĩa Marx.
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Vô lý.”
+Ngoài ra, nhắc tới màn đãi ngộ của những bộ vest, bản thân tôi đã chẳng thể ngăn nổi mình trố mắt ra nhìn từng khối cơ bắp rắn chắc đang được bao bọc bởi bộ tuxedo trên cơ thể người đàn ông vừa mới bước vào và đang yêu cầu lễ tân chỉ đường tới buổi gây quỹ của CRAPP kia. Tôi khoát tay với anh như muốn bảo “Chắc chắn em không bị choáng ngợp bởi độ quyến rũ của anh đâu nhé”. Và rồi, Oliver lập tức sải bước tới chỗ tôi trong sự hòa quyện của hai màu đen, trắng cùng với sự tuyệt mỹ.
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Anh mỉm cười nói: “Em vẫn thường bảo rằng tiêu chuẩn của em rất thấp còn gì?”
+“Anh đẹp trai theo kiểu hơi lố đấy.” Tôi tấn công anh bằng đôi mắt của mình, “Anh biết điều đó chứ?”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Này, em tự ti thôi nhé. Từ khóa là “tự”, biết không hả?”
+Anh khẽ mỉm cười, “Nếu là bình thường, chắc hẳn anh cũng sẽ nói vậy với em, nhưng lúc này trông em như vừa thay đồ trong nhà vệ sinh ra ấy.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Anh lại sán tới và hôn tôi lần nữa. Thường thì, tôi không thích mấy trò ngọt ngào này cho lắm, nhưng với Oliver thì lại khác.
+“Đúng vậy, và em có một lý do khá rõ ràng cho chuyện đó.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Tôi có chút lo ngại rằng mình nói trước bước không qua, nhưng tôi vẫn phải hỏi: “Có phải những nụ hôn cũng đã trở thành một phần của thỏa thuận không?”
+“Đến đây nào.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Nếu nó... nếu em... không thấy phiền.”
+Tôi bước tới, Oliver nhanh chóng chỉnh trang lại quần áo cho tôi, khiến tôi cảm thấy hành động của anh gợi cảm đến lạ kỳ mặc dù chuyện này vốn rất đỗi bình thường.
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Tôi thở dài thườn thượt, “Là vì anh nài nỉ đấy nhé.”
+“Xong rồi đấy.” Anh xích lại gần và trìu mến hôn tôi. Chẳng hiểu bằng cách nào mà từ những kẻ cần phải tập dượt để có thể đụng chạm thân thể nơi công cộng, giờ đây chúng tôi đã thản nhiên âu yếm nhau ở chỗ làm mà chẳng gặp chút khó khăn nào. “Đẹp trai theo kiểu hơi lố.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Anh nói thật đó, Lucien.”
+Chắc hẳn lúc này tôi đang nhìn anh bằng một ánh mắt vô cùng cảm kích, “Không hề lố bịch chút nào nhé. Có thể trông em hơi ngớ ngẩn nhưng đủ tươm tất rồi.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-“Em biết mà, và chuyện đó mới đáng yêu làm sao. Em nghĩ chúng ta nên bổ sung thêm một điều khoản phụ về những nụ hôn vào hợp đồng bạn trai hờ của mình.”
+“Ngược lại là đằng khác, Lucien. Trông em lúc nào cũng quyến rũ.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Đôi môi anh rần rật, “Sáng mai anh sẽ soạn thảo nó ngay khi vừa thức giấc.”
+“Được rồi. Anh đang chơi trò mạo hiểm đấy. Vì nếu cứ tiếp tục thế này, em sẽ phải kiếm một buồng riêng gần nhất để được “ăn” anh, mà thực tế em vẫn còn việc phải làm ở đây.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Đáng lẽ tôi có thể chơi trò động chạm với Oliver trên sofa, nhưng chúng tôi đã phải lái xe cả chặng đường dài, hơn nữa cũng đến giờ đi ngủ rồi. Tôi chẳng có cuốn sách nào ở đây, nên Oliver sẽ buộc phải trông cậy vào tôi để kiếm trò tiêu khiển. Lúc này, khi chúng tôi cuối cùng đã đàm phán xong về chuyện hôn nhau, tôi bỗng nảy ra ý định rằng mình sẽ tỏ ra cực kỳ thú vị trong mắt anh.
+“Anh nghĩ là mình có thể giúp em hoàn thành công việc đấy.” Anh lại nở nụ cười quen thuộc theo kiểu “hãy khiến anh tan chảy đi nào”.
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Với tư cách là một quý ông, tôi đã ưu tiên cho Oliver sử dụng phòng tắm trước, sau đó mới lẻn vào đánh răng và đảm bảo rằng mình không cần phải tắm trước khi nỗ lực tìm kiếm một cơ hội gần gũi với anh chàng hấp dẫn mà tôi vừa mới dẫn về nhà. Trong lúc đó, tôi bất chợt nhận ra điện thoại của mình đang nhấp nháy liên tục, tôi bèn kiểm tra các thông báo mà chẳng hề nghĩ ngợi. Dạo gần đây, chuyên mục thông báo của tôi đã im ắng hơn hẳn. Chính vì vậy nên bài báo <i>Một cuộc đời giống như bao người bình thường khác: Những câu chuyện tào lao của Luc O'Donnell</i> do Cameron Spenser viết giống như một cú đá vào răng tôi.
+“Thú thực em chỉ mới làm được nửa vời vụ công chuyện này thôi.”
 </p>
-
-<div class="quote" style="border-left: 3px solid #ccc; padding-left: 10px; margin: 1.5rem 0; color: #555; font-style: italic;">
-    <p>Luc O'Donnell không phải người nổi tiếng. Ngay cả bố mẹ cậu ta - những người được gọi là “người nổi tiếng” cũng chỉ có cái tên gắn liền với phản ứng đáp lại “ Ai cơ” hay “Tôi tưởng ông ta chết rồi mà”, chứ chẳng phải kiểu được cả thế giới lập tức nhận ra. Một lần nọ, khi tôi bắt gặp cậu ta tại một bữa tiệc, một người bạn chung của chúng tôi đã kể cho tôi nghe rằng bố của cậu ta chính là cái gã xuất hiện trên chương trình truyền hình thực tế đó. Hôm ấy, mặc dù chẳng mấy hào hứng với cả gã đó lẫn cái chương trình kia, thì có vẻ cũng chẳng hề hấn gì nếu tôi bày ra một trò đùa giúp chúng tôi xích lại gần nhau hơn, vì vậy tôi đã bước tới chỗ cậu ta.</p>
-</div>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Được rồi, chuyện này nhằm nhò gì cơ chứ? Đây chỉ là một sự thật thôi mà. Những sự thật về một sự việc cụ thể đã xảy ra với tôi dạo gần đây và liên quan tới một gã từng thề thốt chắc nịch rằng anh ta sẽ không làm chuyện như thế này.
+“Em biết là không phải thế còn gì. Em đã rất nỗ lực cho sự kiện hôm nay mà.”
 </p>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-<i>“Xin chào.”</i> Tôi mở lời: <i>“Em là con của Jon Fleming đúng không?”</i>
+Tôi thở dài, “Vâng, cũng phải. Nhưng có lẽ anh vẫn nên hỗ trợ thêm cho em thì hơn.”
 </p>
 
-<div class="quote" style="border-left: 3px solid #ccc; padding-left: 10px; margin: 1.5rem 0; color: #555; font-style: italic;">
-    <p>Tôi sẽ không bao giờ quên được cái cách cậu ta nhìn tôi bằng đôi mắt màu lục lam rất đậm đó. Một đôi mắt gọi mời như cách người ta vẫn hay gọi cách đây khoảng một thập kỷ rưỡi, chan chứa hy vọng, sợ hãi và cả nỗi hoài nghi. Tôi đã nghĩ đây chính là người chưa từng một lần phải biết tới cảm giác mình không là ai cả. Và cũng phải đến tận lúc ấy, tôi mới nhận ra rằng điều đó đồng nghĩa với gánh nặng ra sao. Thật là sáo rỗng khi nói sự nổi tiếng đã thay thế vị trí của tôn giáo trong thế kỷ XXI này, những Beyoncé và Brangelina đã lấp đầy khoảng trống mà các vị thần và những anh hùng thời cổ đại để lại.</p>
-</div>
-
-<div style="background-color: #f0f0f0; padding: 10px 15px; border-left: 3px solid #999; font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; margin-left: 2em;">
-    <p style="margin-bottom: 5px;"><em>*Beyoncé: Là một nữ ca sĩ, nhạc sĩ, vũ công, nhà sản xuất âm nhạc và diễn viên người Mỹ.</em></p>
-    <p style="margin-bottom: 0;"><em>*Brangelina: Gia đình Brad Pitt và Angelina Jolie.</em></p>
-</div>
-
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Mọi chuyện vẫn ổn. Chỉ là gió thoảng mây bay thôi. Nó giống như việc tự lấy cho mình chiếc bánh quế mà không vì lý do gì cả. Nhưng đôi mắt anh ta đang nhắc tới lại chính là đôi mắt của tôi. Cái đôi mắt chết tiệt của tôi.
+“Chắc chắn là thế rồi.”
 </p>
-
-<div class="quote" style="border-left: 3px solid #ccc; padding-left: 10px; margin: 1.5rem 0; color: #555; font-style: italic;">
-    <p>Nếu là ở một kiếp khác, có lẽ tôi sẽ muốn nghĩ rằng Luc O'Donnell và tôi có thể đã nên duyên. Bởi chỉ trong một khoảng thời gian ngắn ngủi quen biết cậu ta thôi, tôi đã nhìn thấy được một con người với vô vàn những tiềm năng bất tận bị mắc kẹt trong một mê cung mà cậu ta thậm chí còn chẳng thể gọi thành tên. Thỉnh thoảng, tôi vẫn nghĩ chắc chắn phải có đến mấy chục nghìn người giống như cậu ta trên cõi đời này, những kẻ tầm thường trên một hành tinh có tới hàng tỷ người, nhưng lại là một con số quá đỗi kinh ngạc nếu xét về tổng thể. Tất cả bọn họ đều đang loạng choạng bước đi và bị lóa mắt trước thứ hào quang phản chiếu lên người mình. Họ không biết phải đi đâu hay tin tưởng điều gì, rằng họ đang được ban phước lành hay bị nguyền rủa bởi cái chạm tay của vua Midas vào thần lực kỷ nguyên kỹ thuật số của chúng ta.</p>
-
-    <p>Cho tới một ngày nọ, tôi bỗng đọc được tin tức rằng cậu ta đang hẹn hò với bạn trai mới, rằng cậu ta đang đưa cuộc sống của mình quay về đúng quỹ đạo. Nhưng càng nghĩ tới điều đó, tôi lại càng không thể tin cậu ta sẽ làm được. Hy vọng tôi đã sai. Hy vọng cậu ta được hạnh phúc. Nhưng mỗi lần nhìn thấy tên cậu ta xuất hiện trên mặt báo, tôi lại nghĩ tới đôi mắt lạ kỳ và đầy ám ảnh ấy, để rồi lại tự hỏi chính mình.</p>
-</div>
 
 <p style="margin-bottom: 1.5rem; text-indent: 2em;">
-Tôi cẩn thận đặt bàn chải đánh răng xuống cạnh bồn rửa rồi ngồi phịch xuống sàn phòng tắm lạnh lẽo, quay lưng về phía cửa và bất giác khom hai đầu gối lên trước ngực.
+Nói rồi, anh vòng tay qua eo tôi, cùng tôi bước vào trong.
 </p>
 
 </div>
@@ -695,7 +573,7 @@ Tôi cẩn thận đặt bàn chải đánh răng xuống cạnh bồn rửa r�
   <a href="./chap-19" style="text-decoration: none; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); border-radius: 8px; color: white; font-weight: 600; transition: transform 0.2s;">
     ← Chương trước
   </a>
-  <a href="./" style="text-decoration: none; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); border-radius: 8px; color: white; font-weight: 600; transition: transform 0.2s;">
-    Về Mục Lục
+  <a href="./chap-21" style="text-decoration: none; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); border-radius: 8px; color: white; font-weight: 600; transition: transform 0.2s;">
+    Chương tiếp →
   </a>
 </nav>
