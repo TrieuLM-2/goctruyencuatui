@@ -6,7 +6,7 @@ tags: [MM Romance, Comedy, DangRa]
 
 # --- DỮ LIỆU CHO TRANG CHỦ ---
 type: story
-last_updated: 2025-12-02 22:00
+last_updated: 2025-12-03 16:30
 author: Alexis Hall
 summary: "Luc (con trai huyền thoại rock, chuyên gặp rắc rối) cần tuyển gấp bạn trai FAKE để cứu vãn hình tượng. Đối tượng: Oliver (luật sư, ăn chay, hoàn hảo đến mức đáng ghét)."
 cover_image: /truyen/boyfriend-material/cover.jpg
@@ -31,7 +31,7 @@ genres: "Hài hước, Fake Dating, Oan gia ngõ hẹp"
         <h1 class="epub-title">Boyfriend Material</h1>
         
         <div class="epub-meta">
-            by <strong>Alexis Hall</strong> • Cập nhật: 02/12/2025
+            by <strong>Alexis Hall</strong> • Cập nhật: 03/12/2025
         </div>
 
         <div class="epub-rating">
@@ -50,7 +50,7 @@ genres: "Hài hước, Fake Dating, Oan gia ngõ hẹp"
 
 <div class="tab-container">
     <button class="tab-btn active" onclick="openTab('details', this)">Giới Thiệu</button>
-    <button class="tab-btn" onclick="openTab('toc', this)">Mục Lục (8 Chương)</button>
+    <button class="tab-btn" onclick="openTab('toc', this)">Mục Lục (20 Chương)</button>
 </div>
 
 <div id="tab-content-details" class="tab-content" style="display: block;">
@@ -104,11 +104,43 @@ genres: "Hài hước, Fake Dating, Oan gia ngõ hẹp"
         </li>
         <li style="padding: 10px; border-bottom: 1px solid #eee;">
             <a href="./chap-07" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
-                Chương 7: Luật Lệ Mới & Đêm Ngủ Chung Đầu Tiên <span style="float: right; color: #e74c3c; font-size: 0.8rem; border: 1px solid #e74c3c; padding: 2px 6px; border-radius: 4px;">Mới</span>
+                Chương 7: Luật Lệ Mới & Đêm Ngủ Chung Đầu Tiên
             </a>
         </li>
+        
+        <li style="padding: 10px; border-bottom: 1px solid #eee;">
+            <a href="./chap-15" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
+                Chương 15: Cuộc Gặp Gỡ Với Người Bố Huyền Thoại
+            </a>
+        </li>
+        <li style="padding: 10px; border-bottom: 1px solid #eee;">
+            <a href="./chap-16" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
+                Chương 16: Khủng Hoảng Phòng Tắm & Màn Làm Lành Dưới Mưa
+            </a>
+        </li>
+        <li style="padding: 10px; border-bottom: 1px solid #eee;">
+            <a href="./chap-17" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
+                Chương 17: Thú Nhận Trong Đêm & Lời Hứa Của Oliver
+            </a>
+        </li>
+        <li style="padding: 10px; border-bottom: 1px solid #eee;">
+            <a href="./chap-18" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
+                Chương 18: Triển Lãm Nghệ Thuật & Cuộc Gọi Từ Bố
+            </a>
+        </li>
+        <li style="padding: 10px; border-bottom: 1px solid #eee;">
+            <a href="./chap-19" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
+                Chương 19: Bữa Tiệc Sinh Nhật Hỗn Loạn & Đêm Đầu Tiên <span style="float: right; color: #e74c3c; font-size: 0.8rem; border: 1px solid #e74c3c; padding: 2px 6px; border-radius: 4px;">Mới</span>
+            </a>
+        </li>
+        <li style="padding: 10px; border-bottom: 1px solid #eee;">
+            <a href="./chap-20" style="text-decoration: none; color: #333; font-weight: bold; display: block;">
+                Chương 20: Buổi Sáng Sau Đêm Ấy & Cuộc Gọi Từ Jon Fleming <span style="float: right; color: #e74c3c; font-size: 0.8rem; border: 1px solid #e74c3c; padding: 2px 6px; border-radius: 4px;">Mới</span>
+            </a>
+        </li>
+
         <li style="padding: 10px; border-bottom: 1px solid #eee; color: #aaa;">
-            Chương 8: (Sắp ra mắt) 🔒
+            Chương 21: (Sắp ra mắt) 🔒
         </li>
     </ul>
 </div>
@@ -124,7 +156,7 @@ genres: "Hài hước, Fake Dating, Oan gia ngõ hẹp"
         display: block;
         margin-top: 15px;
         padding: 12px 0;
-        background-color: #e74c3c; /* Màu đỏ cam của truyện */
+        background-color: #e74c3c;
         color: white !important;
         text-align: center;
         border-radius: 8px;
@@ -136,7 +168,7 @@ genres: "Hài hước, Fake Dating, Oan gia ngõ hẹp"
     }
     .read-now-btn:hover {
         transform: translateY(-3px);
-        box-shadow: 0 6px 12px rgba(231, 76, 60, 0.4); /* Hiệu ứng phát sáng nhẹ */
+        box-shadow: 0 6px 12px rgba(231, 76, 60, 0.4);
         background-color: #c0392b;
     }
 
@@ -161,7 +193,6 @@ genres: "Hài hước, Fake Dating, Oan gia ngõ hẹp"
         .epub-cover, .epub-info { width: 100%; }
         .epub-cover { max-width: 100%; margin: 0 auto 20px auto; }
         .epub-title { text-align: center; }
-        /* Trên mobile nút đọc ngay sẽ to hơn cho dễ bấm */
         .read-now-btn { padding: 15px 0; font-size: 1.2rem; }
     }
 </style>
