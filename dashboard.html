@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Góc Truyện Của Tui</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slugify@1.6.6/slugify.min.js"></script>
+    <style>
+        .loading { opacity: 0.5; pointer-events: none; }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen p-6">
+
+    <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8">
+        <div class="flex justify-between items-center mb-8 border-b pb-4">
+            <h1 class="text-3xl font-bold text-gray-800">👑 Admin Dashboard</h1>
+            <button onclick="logout()" class="text-sm text-red-500 hover:underline">Đăng xuất</button>
+        </div>
+
+        <div id="config-section" class="mb-6 hidden">
+            <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200 mb-4">
+                <p class="text-sm text-yellow-800">💡 Bồ cần <strong>Personal Access Token</strong> (Quyền: <code>public_repo</code>) để Dashboard này có thể ghi file vào GitHub của bồ.</p>
+            </div>
+            <label class="block mb-2 font-bold">GitHub Username:</label>
+            <input type="text" id="gh-username" class="w-full p-2 border rounded mb-4" placeholder="Ví dụ: TrieuLM-2">
+            
+            <label class="block mb-2 font-bold">Repository Name:</label>
+            <input type="text" id="gh-repo" class="w-full p-2 border rounded mb-4" placeholder="Ví dụ: goctruyencuatui">
+            
+            <label class="block mb-2 font-bold">GitHub Token:</label>
+            <input type="password" id="gh-token" class="w-full p-2 border rounded mb-4" placeholder="ghp_xxxxxxxxxxxx">
+            
+            <button onclick="saveConfig()" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 w-full">Lưu Cấu Hình</button>
+        </div>
+
+        <div id="editor-section" class="hidden">
+            
+            <div class="grid grid-cols-2 gap-4 mb-4">
+                <div>
+                    <label class="block mb-1 font-semibold">Chọn Truyện:</label>
+                    <select id="story-folder" class="w-full p-2 border rounded bg-gray-50">
+                        <option value="boyfriend-material">Boyfriend Material</option>
+                        <option value="the-long-game">The Long Game</option>
+                        <option value="the-foxhole-court">The Foxhole Court</option>
+                        <option value="the-wolf-at-the-door">The Wolf at the Door</option>
+                        <option value="red-white-and-royal-blue">Red, White & Royal Blue</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block mb-1 font-semibold">Tên Truyện (Parent):</label>
+                    <input type="text" id="story-parent" class="w-full p-2 border rounded" placeholder="VD: Boyfriend Material">
+                </div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4 mb-4">
+                <div>
+                    <label class="block mb-1 font-semibold">Số Chương:</label>
+                    <input type="number" id="chap-num" class="w-full p-2 border rounded" placeholder="VD: 25">
+                </div>
+                <div class="col-span-2">
+                    <label class="block mb-1 font-semibold">Tên Chương:</label>
+                    <input type="text" id="chap-title" class="w-full p-2 border rounded" placeholder="VD: Sự Thật Về Bố">
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label class="inline-flex items-center cursor-pointer">
+                    <input type="checkbox" id="bilingual-mode" class="sr-only peer" checked>
+                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-green-600 relative"></div>
+                    <span class="ml-3 text-sm font-medium text-gray-900">Chế độ Song Ngữ (Tự trộn đoạn văn)</span>
+                </label>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4 mb-6">
+                <div>
+                    <label class="block mb-1 font-bold text-blue-700">🇻🇳 Nội dung Tiếng Việt:</label>
+                    <textarea id="content-vi" class="w-full h-96 p-3 border rounded text-sm font-mono" placeholder="Dán văn bản tiếng Việt vào đây... Các đoạn cách nhau 1 dòng trống."></textarea>
+                </div>
+                <div id="en-container">
+                    <label class="block mb-1 font-bold text-red-700">🇺🇸 Nội dung Tiếng Anh:</label>
+                    <textarea id="content-en" class="w-full h-96 p-3 border rounded text-sm font-mono" placeholder="Paste English text here... Paragraphs must match the Vietnamese side."></textarea>
+                </div>
+            </div>
+
+            <button id="btn-publish" onclick="publishChapter()" class="w-full bg-green-600 text-white font-bold text-xl py-4 rounded-lg shadow hover:bg-green-700 transition transform active:scale-95">
+                🚀 ĐĂNG CHƯƠNG LÊN GITHUB
+            </button>
+            <p id="status-msg" class="text-center mt-4 text-gray-600"></p>
+        </div>
+    </div>
+
+    <script>
+        // --- CẤU HÌNH ---
+        const CONFIG_KEY = 'my_gh_config';
+        let config = JSON.parse(localStorage.getItem(CONFIG_KEY)) || {};
+
+        function checkAuth() {
+            if (config.token && config.user && config.repo) {
+                document.getElementById('config-section').classList.add('hidden');
+                document.getElementById('editor-section').classList.remove('hidden');
+            } else {
+                document.getElementById('config-section').classList.remove('hidden');
+                document.getElementById('editor-section').classList.add('hidden');
+            }
+        }
+
+        function saveConfig() {
+            const user = document.getElementById('gh-username').value;
+            const repo = document.getElementById('gh-repo').value;
+            const token = document.getElementById('gh-token').value;
+            
+            if(!user || !repo || !token) return alert("Nhập đủ thông tin đi bồ tèo!");
+            
+            config = { user, repo, token };
+            localStorage.setItem(CONFIG_KEY, JSON.stringify(config));
+            checkAuth();
+        }
+
+        function logout() {
+            if(confirm("Xóa cấu hình & đăng xuất?")) {
+                localStorage.removeItem(CONFIG_KEY);
+                location.reload();
+            }
+        }
+
+        // --- XỬ LÝ SONG NGỮ ---
+        function mergeBilingual(viText, enText) {
+            // Tách đoạn văn theo dòng trống (2 lần xuống dòng)
+            const viParas = viText.split(/\n\s*\n/).filter(p => p.trim() !== "");
+            const enParas = enText.split(/\n\s*\n/).filter(p => p.trim() !== "");
+            
+            let html = "";
+            const maxLen = Math.max(viParas.length, enParas.length);
+
+            for (let i = 0; i < maxLen; i++) {
+                const vi = viParas[i] ? viParas[i].trim() : "";
+                const en = enParas[i] ? enParas[i].trim() : "";
+
+                if (vi) html += `<p class="lang-vi">${vi}</p>\n`;
+                if (en) html += `<p class="lang-en">${en}</p>\n`;
+                html += "\n"; // Dòng trống cho dễ nhìn
+            }
+            return html;
+        }
+
+        function simpleFormat(text) {
+            // Chỉ thêm thẻ p cho mỗi đoạn
+            return text.split(/\n\s*\n/).filter(p => p.trim()).map(p => `<p class="text-indent: 2em;">${p.trim()}</p>`).join('\n\n');
+        }
+
+        // --- GỬI API ---
+        async function publishChapter() {
+            const btn = document.getElementById('btn-publish');
+            const msg = document.getElementById('status-msg');
+            const folder = document.getElementById('story-folder').value;
+            const parentTitle = document.getElementById('story-parent').value;
+            const chapNum = document.getElementById('chap-num').value;
+            const chapTitle = document.getElementById('chap-title').value;
+            const viContent = document.getElementById('content-vi').value;
+            const enContent = document.getElementById('content-en').value;
+            const isBilingual = document.getElementById('bilingual-mode').checked;
+
+            if (!chapNum || !chapTitle) return alert("Thiếu số chương hoặc tên chương rồi!");
+
+            btn.classList.add('loading');
+            btn.innerText = "⏳ Đang đẩy lên mây...";
+            msg.innerText = "Đang xử lý văn bản...";
+
+            try {
+                // 1. Tạo nội dung Body
+                let bodyContent = "";
+                if (isBilingual) {
+                    bodyContent = mergeBilingual(viContent, enContent);
+                } else {
+                    bodyContent = simpleFormat(viContent);
+                }
+
+                // 2. Tạo File Markdown Hoàn chỉnh
+                const chapSlug = chapNum.toString().padStart(2, '0'); // 1 -> 01
+                const fileName = `chap-${chapSlug}.md`;
+                const filePath = `truyen/${folder}/${fileName}`;
+                
+                // Nút điều hướng thông minh
+                const prevSlug = (parseInt(chapNum) - 1).toString().padStart(2, '0');
+                const nextSlug = (parseInt(chapNum) + 1).toString().padStart(2, '0');
+
+                const fileContent = `---
+layout: default
+title: Chương ${chapNum}
+description: "${chapTitle}"
+parent: ${parentTitle}
+nav_order: ${chapNum}
+---
+
+<div style="font-size: 0.9rem; color: #888; margin-bottom: 30px;">
+  <a href="{{ site.baseurl }}/" style="text-decoration:none; color:#888;">Home</a> / 
+  <a href="./" style="text-decoration:none; color:#888;">${parentTitle}</a> / 
+  <span style="color:#2980b9;">Chương ${chapNum}</span>
+</div>
+
+<div style="text-align: center; margin-bottom: 40px;">
+    <h1 style="color: #2c3e50; margin-bottom: 10px; font-size: 2rem;">CHƯƠNG ${chapNum}</h1>
+    <h2 style="font-size: 1.2rem; color: #7f8c8d; font-weight: normal; margin-top: 0;">${chapTitle}</h2>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+
+<div class="chapter-content" style="line-height: 1.8; font-size: 1.1rem; color: #333; max-width: 800px; margin: 0 auto;">
+
+${bodyContent}
+
+</div>
+
+<nav style="display: flex; justify-content: space-between; align-items: center; padding: 2rem 0; margin-top: 3rem; border-top: 2px solid #eee;">
+  <a href="./chap-${prevSlug}" style="text-decoration: none; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; color: white; font-weight: 600; transition: transform 0.2s;">
+    ← Chương trước
+  </a>
+  <a href="./chap-${nextSlug}" style="text-decoration: none; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 8px; color: white; font-weight: 600; transition: transform 0.2s;">
+    Chương tiếp →
+  </a>
+</nav>
+`;
+
+                // 3. Gửi lên GitHub API
+                // Chuyển nội dung sang Base64 (yêu cầu của GitHub API)
+                // Lưu ý: btoa bị lỗi với ký tự Unicode (Tiếng Việt), phải dùng trick này:
+                const contentBase64 = btoa(unescape(encodeURIComponent(fileContent)));
+
+                const apiUrl = `https://api.github.com/repos/${config.user}/${config.repo}/contents/${filePath}`;
+                
+                // Kiểm tra xem file có tồn tại không để lấy SHA (nếu update)
+                let sha = null;
+                try {
+                    const checkRes = await fetch(apiUrl, {
+                        headers: { 'Authorization': `token ${config.token}` }
+                    });
+                    if (checkRes.ok) {
+                        const data = await checkRes.json();
+                        sha = data.sha; // Lấy SHA để ghi đè
+                    }
+                } catch(e) {}
+
+                // Gửi request PUT
+                const putRes = await fetch(apiUrl, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `token ${config.token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: `Dashboard: Tạo/Update ${fileName}`,
+                        content: contentBase64,
+                        sha: sha // Nếu null thì là tạo mới, nếu có thì là update
+                    })
+                });
+
+                if (putRes.ok) {
+                    msg.innerHTML = `✅ <strong>Thành công!</strong> File <a href="https://github.com/${config.user}/${config.repo}/blob/master/${filePath}" target="_blank" class="text-blue-600 underline">${fileName}</a> đã được tạo. Đợi 1-2p để Web cập nhật.`;
+                    // Reset form nhẹ
+                    document.getElementById('content-vi').value = "";
+                    document.getElementById('content-en').value = "";
+                    document.getElementById('chap-num').value = parseInt(chapNum) + 1; // Tự tăng số chương
+                } else {
+                    const err = await putRes.json();
+                    throw new Error(err.message);
+                }
+
+            } catch (err) {
+                alert("Lỗi rồi bồ ơi: " + err.message);
+                msg.innerText = "❌ Thất bại: " + err.message;
+            } finally {
+                btn.classList.remove('loading');
+                btn.innerText = "🚀 ĐĂNG CHƯƠNG LÊN GITHUB";
+            }
+        }
+
+        // Init
+        checkAuth();
+        
+        // Toggle Bilingual UI
+        document.getElementById('bilingual-mode').addEventListener('change', (e) => {
+            const enDiv = document.getElementById('en-container');
+            if (e.target.checked) enDiv.classList.remove('hidden');
+            else enDiv.classList.add('hidden');
+        });
+
+    </script>
+</body>
+</html>
