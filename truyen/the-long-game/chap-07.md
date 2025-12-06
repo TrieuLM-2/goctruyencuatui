@@ -22,27 +22,24 @@ nav_order: 7
 <div class="chapter-content" style="line-height: 1.8; font-size: 1.1rem; color: #333; max-width: 800px; margin: 0 auto;">
 
 <p class="lang-vi">**Một vương triều.**</p>
-<p class="lang-en">Chapter Seven</p>
-
-<p class="lang-vi">Đó là từ đang lảng vảng trong đầu Shane — cái từ người ta nhắc đi nhắc lại ở Montreal dạo gần đây — khi cậu ngước nhìn lá cờ Vô địch Cúp Stanley từ từ được kéo lên trần nhà thi đấu.</p>
 <p class="lang-en">Dynasty.</p>
 
-<p class="lang-vi">Đây là buổi lễ treo cờ thứ ba của cậu. Chiến thắng Cúp Stanley thứ ba. Sau quá nhiều năm chật vật mới lết được vào vòng playoffs, Montreal đã **khôi phục lại được vương triều của mình**. Và chẳng có lý do gì phải khiêm tốn cả—**vương triều** đó đã bắt đầu từ cậu.</p>
+<p class="lang-vi">Đó là từ đang lảng vảng trong đầu Shane — cái từ người ta nhắc đi nhắc lại ở Montreal dạo gần đây — khi cậu ngước nhìn lá cờ Vô địch Cúp Stanley từ từ được kéo lên trần nhà thi đấu.</p>
 <p class="lang-en">That was the word going through Shane’s head—the word that had been repeated again and again in Montreal lately—as he watched the Stanley Cup Champions banner rise to the rafters.</p>
 
-<p class="lang-vi">"Chẳng bao giờ thấy chán nhỉ?" J.J. nói.</p>
+<p class="lang-vi">Đây là buổi lễ treo cờ thứ ba của cậu. Chiến thắng Cúp Stanley thứ ba. Sau quá nhiều năm chật vật mới lết được vào vòng playoffs, Montreal đã **khôi phục lại được vương triều của mình**. Và chẳng có lý do gì phải khiêm tốn cả—**vương triều** đó đã bắt đầu từ cậu.</p>
 <p class="lang-en">It was his third banner ceremony. His third Stanley Cup win. After so many years of barely making the playoffs, Montreal had a dynasty hockey team again. And there was no reason to be modest—it had started with him.</p>
 
-<p class="lang-vi">Họ đang đứng cùng nhau trên mặt băng, cả đội vây quanh những chiếc cúp họ giành được mùa giải trước, bao gồm cả Cúp Stanley. Đám đông— không còn một chỗ trống như thường lệ — đang gầm vang đầy tự hào khi lá cờ được kéo lên.</p>
+<p class="lang-vi">"Chẳng bao giờ thấy chán nhỉ?" J.J. nói.</p>
 <p class="lang-en">“Doesn’t get boring, does it?” J.J. said.</p>
 
-<p class="lang-vi">"Không bao giờ," Shane nói.</p>
+<p class="lang-vi">Họ đang đứng cùng nhau trên mặt băng, cả đội vây quanh những chiếc cúp họ giành được mùa giải trước, bao gồm cả Cúp Stanley. Đám đông— không còn một chỗ trống như thường lệ — đang gầm vang đầy tự hào khi lá cờ được kéo lên.</p>
 <p class="lang-en">They were standing together on the ice, the whole team gathered around the trophies they’d won last season, including the Stanley Cup. The crowd—a packed house, as always—was roaring with pride as the banner ascended.</p>
 
-<p class="lang-vi">Cậu yêu việc được là một Montreal Voyageur. Cậu yêu những gì cậu và đồng đội đã đạt được ở đây, và cậu muốn tiếp tục làm điều đó cho đến hết sự nghiệp. **Hợp đồng của cậu sẽ đáo hạn vào cuối mùa giải này và cậu có toàn quyền quyết định bến đỗ mới**, nhưng cậu hoàn toàn mong đợi sẽ ký tiếp với Montreal. Cậu thậm chí chẳng muốn ngó ngàng đến các lựa chọn khác. Đây là đội của cậu. Đây là người hâm mộ của cậu.</p>
+<p class="lang-vi">"Không bao giờ," Shane nói.</p>
 <p class="lang-en">“Nope,” Shane said.</p>
 
-<p class="lang-vi">> *Chú thích: Voyageur (tiếng Pháp) nghĩa là "Lữ khách" hoặc "Người du hành". Đây là tên gọi biểu tượng của đội bóng Montreal.*</p>
+<p class="lang-vi">Cậu yêu việc được là một Montreal Voyageur. Cậu yêu những gì cậu và đồng đội đã đạt được ở đây, và cậu muốn tiếp tục làm điều đó cho đến hết sự nghiệp. **Hợp đồng của cậu sẽ đáo hạn vào cuối mùa giải này và cậu có toàn quyền quyết định bến đỗ mới**, nhưng cậu hoàn toàn mong đợi sẽ ký tiếp với Montreal. Cậu thậm chí chẳng muốn ngó ngàng đến các lựa chọn khác. Đây là đội của cậu. Đây là người hâm mộ của cậu.</p>
 <p class="lang-en">He loved being a Montreal Voyageur. He loved what he and his teammates had accomplished here, and he wanted to keep doing it for the rest of his career. He was an unrestricted free agent at the end of this season, but he fully expected to sign with Montreal again. He didn’t even want to look at options. This was his team. These were his fans.</p>
 
 <p class="lang-vi">Và kia là ba lá cờ Cúp Stanley chết tiệt của cậu.</p>
