@@ -21,268 +21,355 @@ nav_order: 11
 
 <div class="chapter-content" style="line-height: 1.8; font-size: 1.1rem; color: #333; max-width: 800px; margin: 0 auto;">
 
-<p class="lang-vi">**Một vương triều.**</p>
-<p class="lang-en">Dynasty.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Chapter Eleven</p>
 
-<p class="lang-vi">Đó là từ đang lảng vảng trong đầu Shane — cái từ người ta nhắc đi nhắc lại ở Montreal dạo gần đây — khi cậu ngước nhìn lá cờ Vô địch Cúp Stanley từ từ được kéo lên trần nhà thi đấu.</p>
-<p class="lang-en">That was the word going through Shane’s head—the word that had been repeated again and again in Montreal lately—as he watched the Stanley Cup Champions banner rise to the rafters.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya bent over the face-off circle in Montreal and smiled at the man across from him. “Hi.”</p>
 
-<p class="lang-vi">Đây là buổi lễ treo cờ thứ ba của cậu. Chiến thắng Cúp Stanley thứ ba. Sau quá nhiều năm chật vật mới lết được vào vòng playoffs, Montreal đã **khôi phục lại được vương triều của mình**. Và chẳng có lý do gì phải khiêm tốn cả—**vương triều** đó đã bắt đầu từ cậu.</p>
-<p class="lang-en">It was his third banner ceremony. His third Stanley Cup win. After so many years of barely making the playoffs, Montreal had a dynasty hockey team again. And there was no reason to be modest—it had started with him.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane’s lips quirked up. “Hi.”</p>
 
-<p class="lang-vi">"Chẳng bao giờ thấy chán nhỉ?" J.J. nói.</p>
-<p class="lang-en">“Doesn’t get boring, does it?” J.J. said.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">They’d done this dance so many times, but this time felt the hardest. Ilya hadn’t seen his boyfriend in three weeks, and now he was inches away from him, heart-stoppingly beautiful and completely forbidden.</p>
 
-<p class="lang-vi">Họ đang đứng cùng nhau trên mặt băng, cả đội vây quanh những chiếc cúp họ giành được mùa giải trước, bao gồm cả Cúp Stanley. Đám đông— không còn một chỗ trống như thường lệ — đang gầm vang đầy tự hào khi lá cờ được kéo lên.</p>
-<p class="lang-en">They were standing together on the ice, the whole team gathered around the trophies they’d won last season, including the Stanley Cup. The crowd—a packed house, as always—was roaring with pride as the banner ascended.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Do you have plans after the game?” Ilya asked casually.</p>
 
-<p class="lang-vi">"Không bao giờ," Shane nói.</p>
-<p class="lang-en">“Nope,” Shane said.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane’s smile grew. “I’m wide open.”</p>
 
-<p class="lang-vi">Cậu yêu việc được là một Montreal Voyageur. Cậu yêu những gì cậu và đồng đội đã đạt được ở đây, và cậu muốn tiếp tục làm điều đó cho đến hết sự nghiệp. **Hợp đồng của cậu sẽ đáo hạn vào cuối mùa giải này và cậu có toàn quyền quyết định bến đỗ mới**, nhưng cậu hoàn toàn mong đợi sẽ ký tiếp với Montreal. Cậu thậm chí chẳng muốn ngó ngàng đến các lựa chọn khác. Đây là đội của cậu. Đây là người hâm mộ của cậu.</p>
-<p class="lang-en">He loved being a Montreal Voyageur. He loved what he and his teammates had accomplished here, and he wanted to keep doing it for the rest of his career. He was an unrestricted free agent at the end of this season, but he fully expected to sign with Montreal again. He didn’t even want to look at options. This was his team. These were his fans.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya hoped his own eyes showed the promise he was trying to silently transmit: you will be. The way Shane licked his bottom lip suggested the message had been received.</p>
 
-<p class="lang-vi">Và kia là ba lá cờ Cúp Stanley chết tiệt của cậu.</p>
-<p class="lang-en">And those were his three fucking Stanley Cup banners.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">The puck dropped, Ilya won the face-off, and the game was on.</p>
 
-<p class="lang-vi">Một ngày nào đó số áo của cậu cũng sẽ được treo trên trần nhà kia. **Cậu không nghi ngờ gì về việc số áo của mình sẽ được vinh danh ở đây.** Cậu xứng đáng với điều đó. Kể cả giờ có nghỉ hưu luôn, cậu cũng đã làm đủ để xứng đáng với điều đó.</p>
-<p class="lang-en">Someday his number would hang from the rafters too. He had no doubt that it would be retired here. He’d earned that. Even if he quit right now, he’d done enough to earn that.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">During their fourth shift together, Ilya was battling Shane for the puck against the boards. Shane struggled against Ilya’s weight as they clashed their stick blades together. “You got any more tricks to show me?” Shane said.</p>
 
-<p class="lang-vi">"Cậu biết cái gì còn tuyệt hơn ba Cúp Stanley không?" J.J. hỏi.</p>
-<p class="lang-en">“You know what’s even better than three Stanley Cups?” J.J. asked.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">If he was trying to distract Ilya, it worked. Shane wasn’t usually the one to try to fluster Ilya with secret sexy messages on the ice. The surprise caused Ilya’s body to slacken long enough for Shane to skate away with the puck. Ilya smiled to himself as he chased after him.</p>
 
-<p class="lang-vi">Shane mỉm cười. "Bốn Cúp Stanley."</p>
-<p class="lang-en">Shane smiled. “Four Stanley Cups.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">The next time Ilya was pressed against him, later in the first period, Ilya answered Shane. “I don’t think I need tricks.”</p>
 
-<p class="lang-vi">"Chuẩn mẹ nó rồi. Triển thôi."</p>
-<p class="lang-en">“Fucking right. Let’s get it.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">For a split second, their eyes met. Shane’s were dark and full of promise, but then he said, “We’ll see,” and shoved Ilya off of him.</p>
 
-<p class="lang-vi">"Triển thôi," Shane đồng tình.</p>
-<p class="lang-en">“Let’s get it,” Shane agreed.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Honestly, Ilya wasn’t expecting anything too complicated to happen tonight. After three weeks of not touching each other, Ilya would be surprised if they even made it past the living room, or bothered to take their clothes off, before they were both spent and sleepy.</p>
 
-<p class="lang-vi">Trận mở màn trên sân nhà ở Ottawa lúc nào cũng cho cảm giác hơi lố bịch.</p>
-<p class="lang-en">Home openers in Ottawa always felt a bit ridiculous.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">But they did have tomorrow. And the next night.</p>
 
-<p class="lang-vi">Cũng giống như mọi đội NHL khác, có rất nhiều màn phô trương: video chiếu trên mặt băng, cả một show ánh sáng, khói lạnh mù mịt và nhạc xập xình. Từng cầu thủ được xướng tên khi bước ra từ thảm đỏ xuống sân băng.</p>
-<p class="lang-en">Like all NHL teams, there was a lot of fanfare: videos projected on the ice, a whole light show, lots of dry ice and loud exciting music. Each player was announced individually as they stepped off a red carpet and onto the ice.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">They hadn’t been able to see each other, before the game. The Centaurs had flown into Montreal in the afternoon, after practicing in Ottawa, and he and Shane had both been busy getting ready for the game. Ilya’s team was flying back to Ottawa directly after this game, but he wouldn’t be flying with them. He’d been nervous when he’d told Coach Wiebe his fabricated story about needing to meet with Shane about their charity tomorrow. He’d never skipped a team flight before, in all of their years of sneaking around, and he was worried it would seem strange now. And obvious.</p>
 
-<p class="lang-vi">Khi Ilya còn chơi cho Boston, năng lượng trong nhà thi đấu luôn rực lửa với niềm kiêu hãnh và triển vọng. Đội bóng như đang đưa ra lời hứa với người hâm mộ rằng sẽ làm tất cả để chiến thắng. Fan ở Boston có kỳ vọng; họ muốn những nhà vô địch.</p>
-<p class="lang-en">When Ilya had played for Boston, the energy in the building had crackled with pride and possibility. The team had been making a promise to the fans to do everything they could to win for them. The fans in Boston had expectations; they wanted champions.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">But Wiebe hadn’t even blinked at it. “It’s a day off tomorrow anyway,” he’d said easily. “Enjoy Montreal.”</p>
 
-<p class="lang-vi">Trận mở màn của Ottawa giống một lời xin lỗi gửi trước cho fan vậy. Chẳng có lời hứa nào được đưa ra ở đây tối nay cả, chỉ có rất nhiều ánh đèn màu mè để đánh lạc hướng khỏi sự thật rằng đội bóng này thực sự tệ hại và gần như chắc chắn sẽ thua trận này. Và cả trận sau nữa.</p>
-<p class="lang-en">Ottawa’s home openers were more like a pre-emptive apology. There were no promises being made here tonight, just a lot of fancy lights to distract from the fact that the team was truly terrible and would almost certainly lose this game. And the next one.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya loved his new coach.</p>
 
-<p class="lang-vi">Ilya ghét điều đó. Phần tồi tệ nhất là anh thấy nó **vô lý hết sức**. Ottawa có đủ yếu tố để trở thành một đội bóng mạnh, bao gồm cả anh. Huấn luyện viên mới của họ, Brandon Wiebe, dù còn trẻ và chưa được kiểm chứng năng lực, nhưng Ilya đã thấy thích ông ấy rồi. Wyatt là một thủ môn cừ khôi, thường xuyên cản phá được bốn mươi cú sút hoặc hơn để giữ cho họ không bị thua quá đậm. Ilya vẫn ghi bàn đều đặn, nhưng thế là chưa đủ. Anh không thể gánh cả một đội.</p>
-<p class="lang-en">Ilya hated it. The worst part was that it didn’t even make sense to him. Ottawa had the elements of a great team, himself included. Their new coach, Brandon Wiebe, was untested and very young, but Ilya liked him already. Wyatt was a great goalie, and was regularly stopping forty shots or more to keep them from losing too badly. Ilya was still scoring plenty of goals, but it wasn’t enough. He couldn’t be a whole team.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Hollander giving you trouble?” Evan Dykstra, Ottawa’s best defenseman, asked when Ilya returned to the bench.</p>
 
-<p class="lang-vi">Với tư cách đội trưởng, tên Ilya được xướng lên cuối cùng. Anh bước ra sân băng, và người hâm mộ hò reo điên cuồng. Họ thực sự yêu quý anh ở đây, tại Ottawa. Cũng an ủi phần nào.</p>
-<p class="lang-en">As the captain, Ilya’s name was called last. He stepped onto the ice, and the fans went wild. They truly did love him here in Ottawa. It was nice.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya’s lips curved up. “Always.”</p>
 
-<p class="lang-vi">Anh vào vị trí, hoàn thiện vòng tròn mà đồng đội đã tạo ra quanh logo ở giữa sân. Logo của Centaurs là một trong nhiều thứ khó hiểu về đội này: hình vẽ hoạt hình một con nhân mã đang chơi khúc côn cầu. Ilya không chắc con nhân mã thì chơi kiểu gì. Nhưng nó lại là hình ảnh đại diện hoàn hảo cho đội Ottawa: một mớ hỗn độn chắp vá chẳng có hy vọng thắng nổi trận nào.</p>
-<p class="lang-en">He took his place, completing the circle his teammates had made around the logo at center ice. The Centaurs logo was one of many baffling things about the team: a cartoon drawing of a centaur playing hockey. Ilya wasn’t sure how exactly that would work. It was sort of the perfect representation of Ottawa’s team, though: a bunch of things mashed together that had no hope of winning hockey games.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">By the second period, the score was two to one for Montreal, which wasn’t bad, considering. Wyatt had been making incredible saves to keep Ottawa in the game.</p>
 
-<p class="lang-vi">Centaur nghĩa là "Nhân mã" - sinh vật thần thoại nửa người nửa ngựa. Đây là tên của đội Ottawa.*</p>
-<p class="lang-en">Note: Centaur — a mythical half-man, half-horse creature. It is the name of the Ottawa team.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">After another highlight reel–worthy glove save, Ilya skated over to Wyatt to tap him on the pads.</p>
 
-<p class="lang-vi">"Mấy gã tội nghiệp," Zane Boodram, người chơi cùng hàng công với Ilya, lầm bầm khi nhìn đám đông qua làn khói lạnh và ánh sáng mờ ảo.</p>
-<p class="lang-en">“These poor bastards,” muttered Ilya’s linemate, Zane Boodram, as he gazed at the crowd through the dry ice and the dim lighting.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Is it supposed to rain tomorrow?” Wyatt asked, as if he wasn’t in the middle of a hockey game and hadn’t just done something amazing. “I was thinking about taking my bike out, hitting a trail.”</p>
 
-<p class="lang-vi">"Biết đâu mình thắng," Ilya nói.</p>
-<p class="lang-en">“Maybe we will win,” Ilya said.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya could only smile and shake his head. “I don’t know.”</p>
 
-<p class="lang-vi">"Chắc thế. Biết đâu đây là mùa giải chúng ta **treo được cái gì đó lên trần** cái chuồng này."</p>
-<p class="lang-en">“Sure. Maybe this will be the season we finally decorate the ceiling of this dump.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“I’ll check later. Hey, score a goal, would ya?”</p>
 
-<p class="lang-vi">Ilya ngước nhìn lên trần nhà thi đấu, nơi trống trơn, hoàn toàn không có lấy một lá cờ vô địch Cúp Stanley mào.</p>
-<p class="lang-en">Ilya glanced up at the rafters, where exactly zero Stanley Cup Champions banners hung.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“No problem.”</p>
 
-<p class="lang-vi">"Biết đâu đấy."</p>
-<p class="lang-en">“Maybe.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Three minutes later, Ilya scored a goal, tying the game. He waved to the Montreal crowd as they booed him.</p>
 
-<p class="lang-vi">"Mới có một trận chết tiệt thôi," Huấn luyện viên Theriault nói bằng cái giọng cục cằn, thiếu muối thường thấy. "Chúng ta còn cả một mùa giải dài phía trước, nên đừng có vội mà thủ dâm tinh thần với nhau sớm thế."</p>
-<p class="lang-en">“This was one fucking game,” Coach Theriault said in his usual gruff, humorless tone. “We’ve got a long season ahead of us, so let’s not start jerking each other off just yet.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Stop being an asshole,” Shane grumbled as he skated by him.</p>
 
-<p class="lang-vi">Có những tiếng lầm bầm đồng tình đầy nghiêm túc từ các cầu thủ trong phòng thay đồ. Shane cũng gật đầu theo, đồng ý với huấn luyện viên nhưng ước gì ông ta dùng từ ngữ bớt "kỳ thị" (homophobic) hơn một chút. Nhưng sau gần ba mươi năm lăn lộn với khúc côn cầu, Shane cũng chả biết **cái khỉ gì** mới được tính là homophobic nữa rồi.</p>
-<p class="lang-en">There were murmurs of solemn agreement from the players in the locker room. Shane nodded along with them, agreeing with his coach but wishing he could have used less homophobic wording. After nearly thirty years of a life in hockey, though, Shane barely knew what counted as homophobic anymore.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya blew him a kiss.</p>
 
-<p class="lang-vi">**Trận đấu đã diễn ra rất suôn sẻ.** Montreal đã áp đảo ngay từ phút đầu tiên, và thủ môn của họ, Patrice Drapeau, chỉ để lọt lưới một bàn. Gần như hoàn hảo.</p>
-<p class="lang-en">It had been a good game. Montreal had dominated from the very first minute, and their goalie, Patrice Drapeau, had only let in one goal. Nearly perfect, really.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Knock that shit off,” said a gruff voice beside Ilya. He turned to find one of the refs frowning at him. “I’ll give you an unsportsmanlike conduct penalty if you keep that up.”</p>
 
-<p class="lang-vi">"Ngày mai," Huấn luyện viên nói, "chúng ta sẽ nói về cái power play (đội hình lợi thế quân số) vì tối nay nó như một đống cứt. Họp video trước giờ tập. Chín giờ sáng."</p>
-<p class="lang-en">“Tomorrow,” Coach said, “we’re going to talk about the power play because it was a fucking mess tonight. Video meeting before practice. Nine A.M.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya rolled his eyes as he skated to his bench. If the ref only knew how much Ilya actually wanted to kiss Shane.</p>
 
-<p class="lang-vi">Có tiếng lầm bầm "Rõ, thưa thầy." Shane thú thực là không chắc vấn đề của power play nằm ở đâu, vì họ chỉ có ba lần power play và đã ghi bàn một lần, nhưng chắc mai cậu sẽ biết thôi. Đội bóng này luôn hướng tới sự hoàn hảo. **Làm một Voyageur** chẳng dễ dàng gì, nhưng ít nhất sự nỗ lực và hy sinh cũng được đền đáp. Chỉ có một đội trong giải đấu được treo cờ tối nay thôi.</p>
-<p class="lang-en">There were mutters of “Yes, coach.” Shane honestly wasn’t sure what power play problem was, since they’d only had three power plays and had scored on one of them, but he supposed he’d find out. This team strove for perfection, always. It wasn’t easy being a Voyageur, but at least the hard work and sacrifice paid off. Only one team in the league had raised a banner tonight.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">He enjoyed a brief fantasy as he sat on the bench of pressing Shane against the glass after scoring a goal and kissing him breathless. That would shut this fucking crowd up.</p>
 
-<p class="lang-vi">Cậu không thể tưởng tượng nổi việc ở trong một đội như Ottawa. Ilya hiếm khi than vãn về chuyện đó, nhưng Shane sẽ không thể chịu đựng được nỗi nhục nhã khi thua trận thường xuyên như thế. Nói thật lòng thì, cậu hơi thất vọng khi thấy Ilya không quan tâm nhiều hơn. Cậu nhớ cảm giác thực sự cạnh tranh với Ilya. Dạo này chẳng còn mấy thách thức nữa.</p>
-<p class="lang-en">He couldn’t imagine being on a team like Ottawa. Ilya rarely complained about it, but Shane wouldn’t be able to cope with the embarrassment of losing that often. It was a bit disappointing, if he was being honest, that Ilya didn’t care more. He missed actually competing against Ilya. These days there wasn’t much challenge.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Man,” Bood said as they skated to the bench, “this town hates you.”</p>
 
-<p class="lang-vi">"Huấn luyện viên chẳng vui lên tí nào sau mùa hè nhỉ?" Hayden nói với Shane sau khi Theriault rời phòng.</p>
-<p class="lang-en">“Coach didn’t cheer up any over the summer, huh?” Hayden said to Shane after Theriault left the room.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Nah. They wish I played for them.”</p>
 
-<p class="lang-vi">"Ông ấy là huấn luyện viên, không phải bạn bè," Shane đáp, gần như là một phản xạ tự động.</p>
-<p class="lang-en">“He’s our coach, not our friend,” Shane said, somewhat automatically.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Bood laughed. “Hollander would hate that.”</p>
 
-<p class="lang-vi">Hayden huých cậu. "Cậu cũng có vui lên tí nào sau mùa hè đâu."</p>
-<p class="lang-en">Hayden nudged him. “You didn’t cheer up any over the summer either.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“My good friend Shane Hollander, you mean?”</p>
 
-<p class="lang-vi">Shane hừ mũi, và cái tiếng đó cũng chẳng làm cậu nghe vui vẻ hơn chút nào.</p>
-<p class="lang-en">Shane scoffed, which didn’t make him sound any more cheerful.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“There’s no way he likes you that much.”</p>
 
-<p class="lang-vi">Hayden cười và quàng tay qua vai Shane. "Yêu cậu, bạn hiền. Mai tập xong đi ăn trưa không?"</p>
-<p class="lang-en">Hayden laughed and threw an arm around Shane’s shoulders. “Love you, pal. Wanna get lunch tomorrow after practice?”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“He loves me,” Ilya said plainly. Honestly.</p>
 
-<p class="lang-vi">Shane né người thoát khỏi cánh tay đẫm mồ hôi của Hayden. "Tôi lên thực đơn cho cả tuần rồi."</p>
-<p class="lang-en">Shane ducked out from under Hayden’s sweaty arm. “I have my meals pre-planned for the week.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Bood, of course, thought he was kidding. “Now you’re really dreaming.”</p>
 
-<p class="lang-vi">Hayden ném cho cậu cái nhìn chán chường. "Thế tôi mua đồ ăn mang về nhà cậu ăn được không? Tôi chỉ muốn đi chơi thôi mà, **thằng hâm** này."</p>
-<p class="lang-en">Hayden shot him a withering look. “Can I get takeout and eat at your house? I just want to hang out, you fucking doofus.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya chomped on his mouth guard to avoid smiling.</p>
 
-<p class="lang-vi">"Ồ." Chết tiệt. Shane có phải là một người bạn tồi không? Chắc là có. "Được chứ. Tất nhiên rồi."</p>
-<p class="lang-en">“Oh.” Shit. Was Shane a terrible friend? Probably. “Sure. Of course.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">A few seconds later, Luca Haas took a long pass and was on a breakaway. Most of the Ottawa bench stood up, Ilya included.</p>
 
-<p class="lang-vi">"Thật á?" Hayden hỏi. "Cậu chắc là không bận với... **vụ kia** chứ."</p>
-<p class="lang-en">“Yeah?” Hayden asked. “You sure you’re not busy with...you know.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Get it, Haasy!” Bood yelled.</p>
 
-<p class="lang-vi">"Không," Shane nói nhanh. "Tụi tôi sẽ không gặp nhau một thời gian đâu."</p>
-<p class="lang-en">“Nope,” Shane said quickly. “We won’t see each other for a while.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">They all watched as the puck sailed past the Montreal goalie’s arm and into the net. His second NHL goal. He jumped up after scoring, arms raised and an enormous grin stretching his boyish face. Then he was engulfed by his linemates.</p>
 
-<p class="lang-vi">Hayden trông không có vẻ gì là buồn bã về chuyện đó. "Cậu nghĩ tối nay Ottawa có thắng không?" Cậu ta đứng dậy và cầm lấy điện thoại trên kệ. "Để xem nào."</p>
-<p class="lang-en">Hayden didn’t look too sad about that. “Do you think Ottawa won tonight?” He stood and grabbed his phone off the shelf. “Let’s see.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“The damn kid’s got skills,” Bood said.</p>
 
-<p class="lang-vi">Chúa ơi, Shane hy vọng là có.</p>
-<p class="lang-en">God, Shane hoped so.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Good. We need them.” Ilya held his hand out for a high five as Haas reached the bench. Haas slapped Ilya’s glove, then was pulled into an awkward embrace by Bood that nearly hauled him over the boards and onto the bench.</p>
 
-<p class="lang-vi">Ottawa thua, tất nhiên rồi. Nhưng Luca Haas đã ghi bàn thắng NHL đầu tiên trong trận đấu NHL đầu tiên của cậu nhóc, nên cũng có lý do để ăn mừng.</p>
-<p class="lang-en">Ottawa lost, of course. But Luca Haas scored his first ever NHL goal in his first ever NHL game, so there was reason to celebrate.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Fucking beauty, kid!” Bood yelled in his ear. “Legendary.”</p>
 
-<p class="lang-vi">"Không phải kết quả chúng ta mong đợi," Huấn luyện viên Wiebe nói. Giọng ông gần như mang vẻ xin lỗi, cứ như thể việc họ thua là lỗi của ông vậy. Cứ làm như cái đội này không phải **"thua truyền kiếp"** từ hồi mới lập tới giờ vậy. "Nhưng tối nay tôi thấy rất nhiều điểm sáng trên sân. Wyatt, bắt hay lắm. Ilya, tôi phải nói là, được xem cậu thi đấu ở cự ly gần đúng là một vinh dự. Tuyệt vời. Còn Luca đâu rồi?"</p>
-<p class="lang-en">“Not the result we were hoping for,” Coach Wiebe said. His tone was almost apologetic, as if it was his fault they’d lost. As if this team hadn’t been losing all the time for basically its entire existence. “But I saw a lot that I liked out there tonight. Wyatt, amazing game. Ilya, can I just say, it’s a pleasure to watch you up close. Incredible. And where’s Luca?”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Less than two minutes later, Shane scored, making the Ottawa celebrations short-lived.</p>
 
-<p class="lang-vi">Từ phía bên kia phòng, Luca rụt rè giơ tay lên.</p>
-<p class="lang-en">Across the room from Ilya, Luca shyly raised his hand.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“That was rude,” Ilya said when they bent for the face-off after.</p>
 
-<p class="lang-vi">"Tương lai là đây chứ đâu," Bood tuyên bố to, vò mái tóc ngắn ướt đẫm mồ hôi của Luca. Cậu ta đưa cho Luca quả bóng ghi bàn và mọi người cùng hò reo.</p>
-<p class="lang-en">“The fucking future right here,” Bood announced loudly, ruffling Luca’s short, sweaty hair. He handed Luca the goal puck and everyone cheered.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“What? Trying to win?”</p>
 
-<p class="lang-vi">Không phải lần đầu tiên, Ilya tự hỏi tại sao Bood không phải là đội trưởng. Cậu ta về cơ bản là giám đốc xã giao, đội trưởng đội cổ vũ, và cậu ta đã khoác áo Centaur từ trận NHL đầu tiên sáu mùa giải trước.</p>
-<p class="lang-en">Not for the first time, Ilya wondered why the hell Bood wasn’t the team captain. He was basically the team’s social director, head cheerleader, and he’d been a Centaur since his first NHL game six seasons ago.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Couldn’t even let poor Haas enjoy that for a couple of minutes?”</p>
 
-<p class="lang-vi">Dạo này Ilya **làm đội trưởng như hạch**. Anh hiếm khi đi chơi với đồng đội, và cũng chẳng tìm hiểu mấy cầu thủ trẻ. Anh chỉ muốn xé phăng chữ C trên áo mình ra và đưa nó cho Bood ngay lập tức.</p>
-<p class="lang-en">Ilya was a shit captain these days. He barely went out with his teammates, and hadn’t gotten to know any of the younger players. He felt like ripping the C right off his own jersey and handing it to Bood right now.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Maybe I’ll explain to you how hockey works later,” Shane said dryly.</p>
 
-<p class="lang-vi">Ilya nhìn đồng đội cười đùa và trêu chọc nhau trong khi anh bắt đầu cởi bỏ đồ bảo hộ, cảm giác như mình đang ở cách xa họ cả triệu dặm. "Anh từng là tâm điểm của những trò vui này, nhảy múa giữa phòng để chọc cười đồng đội. Giờ đây, anh chỉ cảm thấy một sự kiệt quệ ăn sâu vào tận xương tủy mà không thể đổ lỗi hoàn toàn cho trận đấu vừa xong được.</p>
-<p class="lang-en">Ilya watched his teammates laughing and chirping each other as he began to remove his gear, feeling a million miles away. He used to be the center of this sort of thing, dancing in the middle of the room to make his teammates laugh. Now he only felt a bone-deep exhaustion that couldn’t entirely be blamed on the game he’d just played.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“If that’s what you want to do,” Ilya said, “later.”</p>
 
-<p class="lang-vi">Cánh báo chí vào phòng, và Ilya cố gắng trả lời vài câu cơ bản cho họ. Ừ thì, trận thua thật thất vọng, nhưng anh tin vào đội bóng này và tự tin họ sẽ lật ngược tình thế mùa này.</p>
-<p class="lang-en">The press entered the room, and Ilya managed a few basic statements for them. Yes, the loss was disappointing, but he believed in this team and was confident they would turn it around this season.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya won the face-off.</p>
 
-<p class="lang-vi">Chủ yếu phóng viên muốn nói chuyện với Luca, điều này làm anh nhẹ cả người. Khi họ rời khỏi chỗ Ilya, anh vui vẻ cởi cái áo đẫm mồ hôi ra và ném vào giỏ đồ giặt.</p>
-<p class="lang-en">Mostly the reporters wanted to talk to Luca, which was a relief. Once they’d left Ilya, he happily pulled his sweat-soaked shirt off and tossed it into one of the laundry hampers.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Twenty seconds later, Shane had the puck because Ilya’s linemate, Tanner Dillon, had fucked up a pass. Ilya really needed a better right wing player on his line.</p>
 
-<p class="lang-vi">"Hế lô đằng ấy," một giọng nói vui vẻ vang lên.</p>
-<p class="lang-en">“Howdy,” said a cheerful voice.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane charged into the Ottawa zone but couldn’t get a clean shot, so he went behind the net with the puck. Ilya chased after him, but couldn’t catch him before Shane passed the puck to J.J. at the blue line. Ilya moved to the front of the net, and found himself directly in the line of fire when J.J. unleashed his rocket of a slap shot at the net. The puck caught Ilya on the side of the knee, and he went down, swearing loudly.</p>
 
-<p class="lang-vi">"Harris," Ilya nói, nhận ra quản lý truyền thông xã hội của đội. "Cậu cần ảnh tôi cởi trần cho Instagram à?"</p>
-<p class="lang-en">“Harris,” Ilya said, acknowledging the team’s social media manager. “You need a shirtless picture of me for Instagram?”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Wyatt must have covered the puck because play stopped a second later. The same ref who’d gotten in Ilya’s face earlier skated over to check on him.</p>
 
-<p class="lang-vi">Harris cười lớn. "Ý tôi là, ảnh đó sẽ kiếm được khối like đấy, **nói thiệt đó**."</p>
-<p class="lang-en">Harris laughed. “I mean, it would get a few likes, I’m not gonna lie.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“You need the doctor?” he asked gruffly.</p>
 
-<p class="lang-vi">Ilya làm vài động tác gồng cơ bắp kiểu lực sĩ ngớ ngẩn, khoe chuột. Harris giả vờ lấy tay quạt lấy quạt để. "Chúa ơi, tôi phải ngồi xuống thôi," Harris nói, thả phịch người xuống cái ghế dài cạnh Ilya. "**Chắc tôi xỉu ngang luôn quá.**"</p>
-<p class="lang-en">Ilya did a couple of silly muscleman flex poses, showing off his biceps. Harris jokingly fanned himself. “Jesus, I need to sit down,” Harris said, plunking himself in the stall next to Ilya’s. “I’m about to swoon.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya glared up at him. “No. Give me a second.”</p>
 
-<p class="lang-vi">Ilya cười với cậu ấy. Nếu ai có thể làm tâm trạng anh khá lên nhanh chóng thì đó chính là Harris. Mọi người trong đội đều quý Harris, điều mà Ilya rất trân trọng vì Harris công khai là gay. Anh không chắc Harris sẽ được đón nhận nồng nhiệt như thế ở Boston đâu. Chắc chắn cậu ấy sẽ không được mời đi chơi cùng đội.</p>
-<p class="lang-en">Ilya grinned at him. If anyone could improve his mood in a hurry, it was Harris. Everyone on the team loved Harris, which Ilya appreciated because Harris was openly gay. He wasn’t sure Harris would have been as warmly accepted in Boston. He wouldn’t have been invited to team outings, that was for sure.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">He slowly pulled himself up until he was on one knee, the good one planted on the ice. The other one was bent in front of him and felt like a fiery ball of pain.</p>
 
-<p class="lang-vi">"Lát nữa mọi người đi Monk's đấy," Harris nói. "Anh đi không?"</p>
-<p class="lang-en">“Everyone’s going to Monk’s after,” Harris said. “You coming?”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“That’s my job, y’know,” Wyatt said. “I’ve got these big pads on my legs.” He tapped one with his stick. “So the puck doesn’t directly hit my fucking kneecap.”</p>
 
-<p class="lang-vi">"Tôi không biết," anh nói. "Chắc là có."</p>
-<p class="lang-en">“I don’t know,” he said. “Maybe.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Was not my kneecap,” Ilya said through gritted teeth. “Just the side. Is fine.”</p>
 
-<p class="lang-vi">Harris mỉm cười theo cái kiểu cho Ilya biết rằng cậu thừa biết anh sẽ không đến. Cậu đứng dậy và vỗ vai Ilya, hơi phải với một chút. Cậu ấy còn thấp hơn cả Shane. "Tôi phải biến khỏi đây trước khi anh cởi nốt quần đùi ra và làm tôi **bốc cháy** thật đấy."</p>
-<p class="lang-en">Harris smiled in a way that let Ilya know that he knew he wouldn’t be there. He stood and patted Ilya’s shoulder, which was a bit of a reach for him. He was even shorter than Shane. “I’d better get out of here before you take your shorts off and I actually combust.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Ah. Like, where you have no padding at all?”</p>
 
-<p class="lang-vi">Môi Ilya nhếch lên. "Cậu có thực sự làm việc cho đội này không, hay cậu chỉ lảng vảng trong phòng thay đồ thế?"</p>
-<p class="lang-en">Ilya’s lips quirked up. “Do you even work for this team, or do you just hang out in the locker room?”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya stood up with some effort. The crowd clapped for him, but he knew it was half-hearted. The Montreal fans would probably prefer to see a puck go clean through his torso.</p>
 
-<p class="lang-vi">Harris nháy mắt với anh. "Đừng nói với ai nhé."</p>
-<p class="lang-en">Harris winked at him. “Don’t tell anyone.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane approached him as Ilya made his way to the bench. “You okay?”</p>
 
-<p class="lang-vi">Cậu ấy băng qua phòng để nói chuyện với Wyatt, còn Ilya cởi nốt đồ và đi tắm.</p>
-<p class="lang-en">He crossed the room to talk to Wyatt, and Ilya removed the rest of his gear and headed for the showers.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Great.” He flexed his knee a few times, testing it, and winced.</p>
 
-<p class="lang-vi">Mười phút sau anh quay lại phòng thay đồ, lúc này đã yên tĩnh hơn lúc nãy. Anh thấy Haas đang ngồi ở chỗ của mình, vẫn mặc nguyên bộ đồ thi đấu, mỉm cười nhìn quả bóng puck của mình. Ilya quấn khăn quanh hông và đi tới chỗ cậu nhóc.</p>
-<p class="lang-en">Ten minutes later he returned to the locker room, which was quieter than it had been when he’d left. He spotted Haas sitting in his stall, still wearing most of his gear, smiling at his puck. Ilya secured the towel around his waist and walked over to him.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Wyatt probably woulda stopped that without your help.”</p>
 
-<p class="lang-vi">"Chúng ta có thể mang cái đó đi, ừm..." Ilya không nhớ ra từ đó. "Làm thành cúp ấy."</p>
-<p class="lang-en">“We can get that, um...” Ilya couldn’t remember the right word. “Made like a trophy.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Yes. Thank you.”</p>
 
-<p class="lang-vi">Luca vội vàng đặt quả bóng xuống băng ghế bên cạnh, như thể cậu bé xấu hổ về nó. "Chỉ là một bàn thắng thôi mà anh," cậu nói.</p>
-<p class="lang-en">Luca quickly set the puck on the bench beside him, as if he were embarrassed about it. “It is just one goal,” he said.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane frowned at him with obvious concern in his eyes. “You sure you’re okay?”</p>
 
-<p class="lang-vi">Ilya ngồi xuống cạnh cậu. "Anh vẫn giữ quả của anh đấy, trong phòng trưng cúp ở nhà."</p>
-<p class="lang-en">Ilya sat next to him. “I have mine still, in my trophy room at home.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya gave him a quick smile that probably looked more like a grimace. “Maybe no kneeling for a few days.”</p>
 
-<p class="lang-vi">"Phòng đó chắc đầy lắm nhỉ," Luca nói đầy ngưỡng mộ.</p>
-<p class="lang-en">“That room must be very full,” Luca said earnestly.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane bumped right up against him. “I’ll have to make new plans, then.”</p>
 
-<p class="lang-vi">Ilya cười. "Rất đầy. Nhưng quả bóng ghi bàn đầu tiên là thứ anh thích nhất."</p>
-<p class="lang-en">Ilya grinned. “Very. But the first goal puck is my favorite.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">He skated away quickly, leaving Ilya grinning and shaking his head as he finished his slow journey to the bench.</p>
 
-<p class="lang-vi">Má Luca ửng hồng, khiến cậu trông càng trẻ con hơn. "Thật ạ?"</p>
-<p class="lang-en">Luca’s cheeks pinked, making him look even younger than he was. “Really?”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: Where the fuck are you?</p>
 
-<p class="lang-vi">"Ừ. Vì nó là sự khởi đầu, em biết không? Chẳng mấy chốc nữa em sẽ có một phòng đầy cúp và bóng NHL, nhưng—" Ilya cầm quả bóng lên "—tất cả đều bắt đầu từ cái này."</p>
-<p class="lang-en">“Yes. Because it was the beginning, you know? Soon you will have a room full of NHL pucks and trophies, but—” Ilya picked up the puck “—it all started with this one.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya huffed at his phone in the back seat of a taxi that was taking him—slowly—to Shane’s house.</p>
 
-<p class="lang-vi">Luca cúi đầu. "Em ước gì mình thắng trận này."</p>
-<p class="lang-en">Luca ducked his head. “I wish we had won the game.”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya: In traffic.</p>
 
-<p class="lang-vi">Ilya suýt nữa thì buông một câu đùa rằng Luca sẽ sớm quen với việc thua trận thôi, nhưng đó không phải là thông điệp anh muốn gửi đến tân binh của mình. "Anh cũng thế." Anh chọc vào tay Luca. "Em có đi Monk's không?"</p>
-<p class="lang-en">Ilya almost made a joke about how Luca would get used to losing soon, but that wasn’t the message he wanted to send to his rookie. “Me too.” He poked Luca’s arm. “Are you going to Monk’s?”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: Fuck. Where?</p>
 
-<p class="lang-vi">Mắt Luca mở to. "Anh có đi không?"</p>
-<p class="lang-en">Luca’s eyes went wide. “Are you?”</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya: Montreal? I don’t fucking know.</p>
 
-<p class="lang-vi">Tim Ilya nhói lên khi thấy thằng bé muốn anh đi chơi cùng cả đội đến mức nào. Nó sẽ có ý nghĩa lớn đến thế nào với cậu bé. Anh biết Luca đã thần tượng anh từ nhỏ; anh đã đọc các bài phỏng vấn.</p>
-<p class="lang-en">It hurt Ilya’s heart how badly this kid wanted him to come out with the team. How much it would mean to him. He knew Luca had idolized him growing up; he’d read the interviews.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: Hurry up.</p>
 
-<p class="lang-vi">Nhưng Ilya chỉ là... không thể. Không phải tối nay. Anh không còn năng lượng để mà giả vờ tối nay nữa.</p>
-<p class="lang-en">But Ilya just...couldn’t. Not tonight. He didn’t have the energy to even fake it tonight.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya: Ok. I will ask the driver to make the car fly.</p>
 
-<p class="lang-vi">"Lần sau nhé," anh nói với một nụ cười gượng gạo.</p>
-<p class="lang-en">“Next time,” he said with a weak attempt at a smile.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">For a full minute, Shane didn’t reply. Then he wrote, Are you over the bridge yet at least?</p>
 
-<p class="lang-vi">Sau đó, khi nằm trên giường, Ilya không thể nào bắt cái não mình im mồm được. Thật xui xẻo vì não anh chẳng có lời nào tốt đẹp để nói về anh cả.</p>
-<p class="lang-en">Later, in bed, Ilya couldn’t get his brain to shut up. It was unfortunate because his brain had nothing nice to say about him.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya chuckled and wrote, You seem a bit horny.</p>
 
-<p class="lang-vi">Về mặt lý trí, anh biết mình không phải kẻ vô dụng. Anh là ngôi sao NHL, đội trưởng, được người hâm mộ yêu mến. Anh có một người bạn trai tuyệt vời yêu anh đến mức sẵn sàng chịu đựng bao nhiêu căng thẳng và lén lút chỉ để được ở bên anh. Anh được yêu.</p>
-<p class="lang-en">He knew, rationally, that he wasn’t worthless. He was an NHL all-star, the captain of his team, and was beloved by fans. He had a wonderful boyfriend who loved him so much he was willing to endure a lot of stress and sneaking around just to be with him. He was loved.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: I’m fucking dying.</p>
 
-<p class="lang-vi">Nhưng anh không chắc mình xứng đáng với điều đó. Anh không thể khiến bản thân tin vào điều đó. Không phải lúc này.</p>
-<p class="lang-en">But he wasn’t sure he deserved to be. He couldn’t make himself believe that. Not right now.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">The blunt admission made Ilya’s cock twitch. He wrote, Get yourself ready for me then.</p>
 
-<p class="lang-vi">Anh ước Shane ở đây với mình. Họ mới xa nhau có hai ngày, nhưng Ilya sẵn sàng đánh đổi tất cả để có Shane trong vòng tay ngay lúc này.</p>
-<p class="lang-en">He wished Shane was with him. They’d only been apart for two days, but Ilya would give anything to have Shane in his arms right now.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: What do you think I’ve been doing for the past twenty minutes?</p>
 
-<p class="lang-vi">Đồ bất tài. Bộ não anh phán xét bằng giọng của bố anh. Ghê tởm và tàn nhẫn.</p>
-<p class="lang-en">Weak. His brain said it in his father’s voice. Disgusted and cruel.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Oh. Fuck.</p>
 
-<p class="lang-vi">Ilya vơ lấy điện thoại trên tủ đầu giường. Có lẽ anh đúng là yếu đuối thật, nhưng anh cần bất cứ thứ gì anh có thể nhận được từ Shane lúc này. Một tấm selfie ngái ngủ. Một tin nhắn chúc ngủ ngon. Một icon trái tim. Bất cứ thứ gì.</p>
-<p class="lang-en">Ilya grabbed his phone off the nightstand. Maybe he was weak, but he needed whatever he could get from Shane right now. A sleepy selfie. A good-night text. A heart emoji. Anything.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya: You better not come without me.</p>
 
-<p class="lang-vi">Sáng sớm hôm sau, Shane tỉnh dậy và thấy một tin nhắn nhỡ trên điện thoại, gửi lúc hơn một giờ sáng.</p>
-<p class="lang-en">Early the next morning, Shane woke to find a missed text on his phone, sent after one A.M.</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: Then you’d better hurry up.</p>
 
-<p class="lang-vi">Ilya: *Em còn thức không?*</p>
-<p class="lang-en">Ilya: Are you awake?</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya was getting way too aroused in this unmoving taxi. He should put his phone in his pocket, take some cooling breaths, and think about something else. But instead he asked, Where are you?</p>
 
-<p class="lang-vi">Shane hừ mũi và lắc đầu. Bộ lúc nào anh ta cũng "**nứng**" được hay sao?</p>
-<p class="lang-en">Shane huffed and shook his head. Was Ilya ever not horny?</p>
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: Bed.</p>
 
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya: Fingering yourself?</p>
 
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: Yes.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya: How many?</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: 3</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya sucked in a breath, then wrote, You need something bigger.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: I know! That’s why you need turmeric.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: Need to hurry, I mean. Fucking voice-to-text.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya: Get yourself close. Right to the edge. But don’t come.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: I already got to the edge once by accident.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Jesus fuck. Ilya could see it so vividly: Shane trying so hard to be good and productive, getting himself ready so Ilya could slide right into him when they were finally together. Working himself open, trying not to touch his cock. Probably giving it a few strokes anyway, until suddenly he’d found himself on the brink of orgasm. Ilya could imagine his panicked expression, the desperate way he’d squeeze the base of his cock, teeth clenched, breathing hard through his nose.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya: But you didn’t come?</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: No.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya: Good boy.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane didn’t always like that kind of praise, and, admittedly, Ilya was usually teasing him when he used it. But not tonight. Tonight, Ilya was proud of him.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya: Can you do it again? For me?</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Nothing for a few seconds, and then, Yeah.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya palmed his right knee, pressing his fingertips into the fresh bruise there, trying to calm his dick down. He wasn’t even sure how this weird thing he’d asked for was supposed to work.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya poked his bruise, and waited.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">He loved playing these games with Shane. Even though they’d been an exclusive couple for over three years, and secret lovers for years before that, their sex life was far from stale. Every kind of sex they had was exciting: the frantic, heated, almost aggressive sex they sometimes had after a game, or after an argument; the unhurried, exploratory sex they indulged in when they had plenty of time and privacy; the playful, competitive sex they enjoyed when one of them challenged the other.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">And this. The times when Shane wanted to prove something to Ilya—wanted to be good for him. And rewarded for it after. Ilya fucking loved this sex.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">He wondered what Shane was doing at that moment, as the taxi finally crawled past the accident near the entrance to the bridge. Was he still fingering himself, or was he jerking himself off while he played with his balls? Was he reaching for a toy from the drawer that had gone from housing a solitary dildo to an impressive array of sex toys over the past couple of years? Ilya was fond of buying Shane presents.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Three minutes passed between Shane’s last text and the next one.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: Fuck.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya: Did you do it?</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: Yes. Fuck you. That was torture.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya glanced out the window, then wrote, I will be there in five minutes. One more before I get there, ok?</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Obviously, Shane could refuse. Tell Ilya to get fucked. Or lie about it. Ilya knew he wouldn’t do any of those things.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane: Ok. You have your key, right?</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya: Yes.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">He smiled at the thought of making Shane answer the door like this.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Five and a half minutes later, Ilya was thrusting a wad of cash at the driver, thanking him quickly, and exiting the car. He slung his backpack over his shoulder and jogged up to Shane’s front door, past the hedges that secluded the house from the street. He’d given up trying to chill his dick out after the last near-orgasm confirmation text from Shane. Now he was rock hard, and desperate to get his hands on his boyfriend.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Ilya?” Shane called out from upstairs as soon as Ilya opened the door.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Yes.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Fucking hell. Get up here.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya practically flew up the stairs, and found Shane sprawled on the bed, naked and flushed and beautiful.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Chert voz’mi,” Ilya muttered. He dropped his backpack on the floor and immediately began tearing off his clothes.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“The last one was a close call,” Shane said. “I haven’t touched myself since.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">He was on his back, legs akimbo, one hand resting on the pillow above his head, the other gently stroking his stomach. There was a bottle of lube on the bed beside him, and Ilya grabbed it once he was fully undressed.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Is your knee okay?”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Good enough,” Ilya said impatiently as he slicked himself up. “How do you want it?”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Now,” Shane said.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya grunted. “Condom?” They rarely used them anymore, but sometimes Shane preferred them for easy cleanup.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Fuck no. Come on.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya kneeled on the bed between Shane’s thighs, wincing at the pain that shot through him as his bruised knee pressed into the mattress. He forced himself to ignore it, and leaned down to kiss Shane roughly. Fuck, he’d been wanting to do this for so long. He missed kissing Shane possibly more than anything else.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane chased his mouth when Ilya pulled away, but Ilya only smiled. Then he gripped Shane’s thighs and hauled his hips up off the bed. Shane rested his ankles on Ilya’s shoulders as Ilya lined up and drove into him in one smooth thrust.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">They both swore loudly, then Ilya made eye contact with Shane, checking to make sure he was good. Shane nodded, and Ilya nodded back. Then, Ilya started pounding into him in a steady, powerful rhythm that had Shane panting and clawing at the bed sheets in seconds.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“My impatient slut,” Ilya growled as he fucked him. “Could not even wait for me.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Just,” Shane gasped, “being efficient.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“So good,” Ilya said, punctuating his words with thrusts. “At time. Management.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Wanted your dick.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“You have it. Is it good?”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Fuck yes. Love it. Harder.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">There was a padded leather bench at the end of Shane’s bed that Ilya was ninety percent sure could hold his weight. He shuffled toward it, dragging Shane with him, then planted one foot on the bench.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“You want it harder?” Ilya asked.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane nodded, his eyes glazed and blissed out. Ilya hauled Shane up until only his upper back, shoulders, and head were on the mattress, then started a steady, ruthless rhythm, driving into Shane hard enough to make them both lose their minds.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“How many days?” Ilya gritted out. “How long has it been?”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Three, I think? Four? When was the last time we had phone sex?”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Four days ago,” Ilya answered quickly. He didn’t need to do the math. He knew. The difference was he’d jerked off at least once a day since. Twice most days.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Can you come like this?” Ilya asked, because he sure as fuck was going to.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Fuck, maybe. You’re so deep. Jesus.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya wrapped his hand behind Shane’s left knee and bent his leg forward, adjusting the angle of his dick inside him. He gave a few quick thrusts and Shane let out a noise that was almost a sob.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Right there. Like that. Holy fuck. Let me just...” He wrapped a hand around his own dick and started stroking. “Keep going. Don’t stop. Don’t—”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya never wanted to stop. He jackhammered into Shane, while Shane stared up at him, eyes wide and lips parted as his hand flew over his cock.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Saved it all for me?” Ilya asked, his voice shaky and strained.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane nodded and bit his bottom lip.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Let me see it,” Ilya commanded.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane’s gaze went to the head of his cock. “Fuck. Fuck! I’m going to—oh shit.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane probably realized the same moment that Ilya did that his face was directly in the line of fire. It was a moment too late, if he wanted to do anything about it. His cock spurted ribbon after ribbon of come over his cheeks, chin, and lips. One stripe landed across his eyebrow.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">It was all too much for Ilya. He made a last-second decision, pulled out, and gently lowered Shane to the mattress just in time for Ilya to shoot his load all over Shane’s chest.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">For a long moment, neither man said anything. They panted together, Ilya looming over Shane on his knees. Shane was absolutely covered in come, which Ilya was sure he’d be grossed out by in about half a second.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Ugh,” Shane said, half a second later. “I’m a mess.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Sorry.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Are you kidding? That was hot as fuck. Holy shit.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya watched Shane’s glistening chest heave as he waited for his own breathing to steady. “You are okay?”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane stretched his arms out in a T shape on the mattress. “I’m fucking great.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya brushed his fingers over Shane’s hole, and Shane jerked his hip off the bed. “Not hurt?” Ilya asked.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Shane exhaled slowly. “Not hurt. Feels nice, actually. You touching me there after.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Yes?”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Mm. But I need a shower. Or at least a cloth.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">After a few more lazy minutes, Ilya went to the bathroom and returned with several warm, damp facecloths. He carefully wiped Shane’s face first, then kissed his nose, each eyebrow, and then his mouth. Shane tangled his fingers in Ilya’s hair as they kissed, and Ilya sighed into his mouth. It was so fucking unfair that they had to endure so many days without this.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">They kissed for a while, then Ilya continued cleaning his boyfriend. He used a new cloth for his chest and throat, then another for his dick, thighs, and ass. He took his time with Shane’s ass, since Shane seemed to find the attention to his sensitive flesh soothing. Ilya gently swiped the warm cloth over his slightly swollen entrance more times than was necessary, watching his boyfriend smile and shiver happily.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“You are so beautiful,” Ilya said.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Not bad yourself.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“We can shower in the morning, yes?”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Yeah. Come here.”</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">Ilya stretched out beside Shane, then rolled him so he could spoon him from behind. Shane curled against him easily—automatically—holding Ilya’s hand where it lay in front of Shane’s belly.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Hi,” Shane said sleepily.</p>
+
+<p style="margin-bottom: 1.5rem; text-indent: 2em;">“Hi.”</p>
 
 </div>
 
